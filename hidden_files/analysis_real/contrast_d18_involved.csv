@@ -1,0 +1,5 @@
+contrast,group,n,mean_abn_cents,sd_cents
+H1c-D18,unsched_sports_involved_get,11,1.7918,1.7194
+H1c-D18,unsched_macro_event,8,4.554,3.6466
+H1c-D18,welch_t,-1.9878,p,0.077125
+H1c-D18,gap_ci95_lo,-5.891,gap_ci95_hi,0.367

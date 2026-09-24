@@ -1,0 +1,6 @@
+cell,tier,n_events,n_pairs,tested,mean_abn,mean_abn_logodds,ci95_lo,ci95_hi,t_abn,p_abn,median_t50h,note
+sched_macro,M3,1,47,False,0.09233448417431933,0.9298563322943305,,,,,10.0,descriptive only (n<5 unique events)
+sched_sports,S1,2,62,False,-0.000755659075224293,-0.056874102009779506,,,,,6.266666666666667,descriptive only (n<5 unique events)
+unsched_macro,M3,4,180,False,0.02809798528633093,0.340562223628539,,,,,4.0,descriptive only (n<5 unique events)
+unsched_macro,M?,4,256,False,0.04762750773717185,0.6165372840722062,,,,,4.0,descriptive only (n<5 unique events)
+unsched_sports,S1,15,455,True,-0.00147749482624206,-0.01702398885615913,-0.002780707068482835,-0.00017428258400128483,-2.431615612619937,0.029052655052064297,10.683333333333334,

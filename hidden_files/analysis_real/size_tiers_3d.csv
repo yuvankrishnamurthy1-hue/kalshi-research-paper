@@ -1,0 +1,4 @@
+size_tier,n_events,mean_abn_event_c,ci95_lo_c,ci95_hi_c,mean_max_pair_abn_c,events
+Big,8,-0.182,-0.393,0.03,3.895,aaron_donald_comeback; aj_brown_to_patriots; donovan_mitchell_extension; giannis_to_heat; jaylen_brown_to_76ers; kawhi_to_raptors; lebron_to_76ers; myles_garrett_to_rams
+Medium,3,-0.124,-0.711,0.462,3.69,brian_oneill_extension; dlo_six_team_trade; mitchell_robinson_to_celtics
+Small,4,-0.097,-0.503,0.309,5.087,jordan_walsh_extension; mike_conley_to_celtics; neemias_queta_extension; von_miller_to_cowboys

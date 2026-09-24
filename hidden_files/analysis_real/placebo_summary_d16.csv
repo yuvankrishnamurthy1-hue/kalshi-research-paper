@@ -1,0 +1,3 @@
+market_kind,n,mean_abn,t,p,verdict
+macro_bucket,50,-0.02788748305910027,-2.16461672260617,0.03601347878556696,FAIL (method fires on noise)
+sports_future,50,-0.0010374201098208656,-0.06078285646538026,0.9518012993560871,PASS (no effect)

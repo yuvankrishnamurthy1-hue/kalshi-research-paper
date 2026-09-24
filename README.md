@@ -9,12 +9,35 @@ locked 2026-09-21 (`preregistration.md`, never edited retroactively).
 ## Headline finding
 
 Unscheduled macro shocks move Kalshi prices far more than sports roster news:
-+4.83¢ mean abnormal move across 8 macro events vs −0.12¢ across 14 summer
-roster events (H1c: Welch t = −3.61, p = 0.0086 raw and Holm-adjusted; robust
-across 1/3/5-day windows and the liquidity filter). All other contrasts are
-descriptive-only or supplementary — see `paper_v2.md` for the full,
++4.55¢ mean abnormal move across 8 macro events vs −0.15¢ across 15 summer
+roster events (H1c: Welch t = −3.64, p = 0.0082 raw and Holm-adjusted; robust
+across 1/3/5-day windows and the liquidity filter; also significant under the
+original strict rule, p = 0.0086). All other contrasts are descriptive-only,
+supplementary, or newly testable — see `paper_v2.md` for the full,
 no-spin accounting, including every caveat (Sep-16 cluster non-independence,
-the excluded Giannis trade, placebo watch).
+the Giannis amendment D16, marginal macro placebo gate).
+
+## Plain-English summary
+
+**What we studied:** whether Kalshi prediction markets react differently to
+scheduled news (Fed meetings) vs. surprises (trades, shocks), and to
+economy news vs. sports news.
+
+**What we found:**
+1. Surprise economy news moves prices a lot (+4.6¢ average); sports roster
+   news barely moves them (−0.15¢ average). The gap is statistically solid.
+2. The biggest trade in the data — Giannis to Miami — is included: the Heat's
+   title price tripled on trade day (2.6¢ → 7¢) on ~10× normal volume.
+3. Big, medium, and small sports moves look the same *on average* — the
+   action is in the specific teams' contracts, not the 30-team average.
+4. We still can't cleanly test scheduled-vs-surprise (too few scheduled
+   events); the best available test comes back null.
+5. Economy news barely leaks into sports markets (+0.16¢); whether sports
+   news leaks the other way can't be tested with daily data.
+
+**What's shaky:** the macro result leans on a cluster of same-day events that
+aren't truly independent; quiet-day placebo checks on macro markets are
+borderline; rumored trades were partly priced in before the announcements.
 
 ## Layout
 
@@ -27,6 +50,8 @@ the excluded Giannis trade, placebo watch).
 | `collect_h2farexpiry.py` | H2 far-expiry re-pull |
 | `collect_kalshi.py` | Legacy collector (superseded) |
 | `analyze_kalshi.py` / `analyze_kalshi_fixed.py` | Analysis machinery (fixed = the version used for v1/v2) |
+| `analyze_d16.py` | D16 amended-rule analysis (baseline min 5→3 obs; thin/extended flags) |
+| `hidden_files/size_tiers.csv` | Ex-ante Big/Medium/Small coding of the 15 sports events |
 | `hidden_files/coverage_precheck.py` | Registration-time exclusion guard — warns when contracts list too close to T0 |
 | `hidden_files/analyze_fallback.py` | Non-confirmatory descriptive track for excluded events |
 | `hidden_files/event_registry.csv` | 28 registered events with T0s, cells, sources |

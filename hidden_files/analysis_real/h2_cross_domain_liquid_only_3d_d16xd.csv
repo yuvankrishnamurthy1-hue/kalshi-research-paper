@@ -1,0 +1,3 @@
+h2_cell,direction,n_events,n_pairs,tested,mean_abn,mean_abn_logodds,ci95_lo,ci95_hi,t,p,prediction
+cross_macro_on_sports,macro news -> sports markets,8,125,True,0.0016283202952233516,0.05884408790071141,0.0007462954707740562,0.002510345119672647,4.3653710777374295,0.0032925665995779682,indistinguishable from zero
+cross_sports_on_macro,sports news -> macro markets,14,32,True,-0.099869241686209,-0.28602711853371166,-0.17920500877960943,-0.020533474592808576,-2.7195095905408233,0.01752930597908775,indistinguishable from zero

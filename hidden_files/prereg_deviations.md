@@ -325,3 +325,167 @@ CHANGE CODE, with rationale. No code changes made in this pass.
   `h2_farexpiry_sensitivity.csv`, `h2_farexpiry_placebo.csv`,
   `h2_farexpiry_pairs.csv`, `h2_farexpiry_exclusions.csv`,
   `hidden_files/h2_farexpiry_verdict.md`.
+
+## D16 — Baseline rule amendment: Giannis-type events admitted (2026-09-24, POST-PREREG, at Yuvan's explicit direction)
+
+- **The uncomfortable origin, stated plainly:** this amendment exists because
+  the prereg's ≥5-observation baseline rule excluded the sample's single most
+  informative event. Giannis-to-Miami — the biggest trade in the sample —
+  produced the biggest single-contract repricing in the sample (Heat title
+  contract 2.6c→7c on trade day, ~10x volume), and the confirmatory machinery
+  threw it out because its contracts were listed 8 days before T0, one or two
+  baseline observations short of an arbitrary cutoff. Reporting an average
+  "roster news barely moves markets" without the biggest roster move is
+  defensible as prereg compliance and indefensible as science. Yuvan ordered
+  the rule changed so this can never happen again. The 5-observation minimum
+  was never derived from anything; discarding the most informative events
+  over a 1–2 observation shortfall is worse than including them transparently.
+- **The amended rule (D16):** the baseline window stays [T−30, T−5], but the
+  minimum in-window observation count drops 5→3; pairs with 3–4 obs are
+  flagged `thin_baseline`. Events with <3 in-window obs but ≥5 total pre-T0
+  trading days use the full [T−30, T−1] pre-window as baseline, flagged
+  `extended_baseline` (nearer-event days can carry rumor run-up — the flag
+  is the disclosure). Events with <5 total pre-T0 obs remain
+  descriptive-only. D16 supersedes FIX 7's [T−45, T−5] retry.
+- **Admission rule:** D16 admits events *regardless of their measured move* —
+  the rule is mechanical (observation counts), never conditioned on outcomes.
+- **What changes:** in the confirmatory summer sample, `giannis_to_heat`
+  enters with 26 pairs under `thin_d16` (baseline 4 obs); every other event
+  stays `strict`. unsched_sports goes 14→15 events. In the extended sample,
+  `nba_draft_2026` enters with 26 pairs under `thin_d16`, taking
+  sched_sports to 5 events — which makes H1b testable there for the first
+  time (still descriptive in the pure confirmatory sample, n=2).
+- **Headline contrast under BOTH rules (reported, not chosen):**
+  - H1c strict (14 vs 8): −0.12c vs +4.83c, t=−3.61, p=0.00858 (raw & Holm).
+  - H1c D16 (15 vs 8): −0.15c vs +4.55c, t=−3.64, p=0.00819 (raw & Holm).
+  - The headline survives. Giannis's *event-level* abnormal move is −0.58c —
+    the event average dilutes MIA's +4.67c across 26 contracts (unaffected
+    teams, as expected). The prereg's event-level averaging is doing exactly
+    what it was designed to do; it just means the "big showing" lives at the
+    contract level, which is why it is reported there too.
+  - H1b extended+D16 (15 vs 5): −0.15c vs +0.38c, t=−0.92, p=0.409 — tested,
+    null. First testable scheduleness-within-sports result; does not confirm
+    H1b. (Confirmatory-sample H1b remains descriptive-only.)
+- **New analysis:** size tiers for the 15 unsched_sports events, coded
+  EX-ANTE from pre-event facts only (Big/Medium/Small; never from measured
+  moves): `hidden_files/size_tiers.csv`. 3-day event-level means: Big (n=8)
+  −0.18c [−0.39, +0.03]; Medium (n=3) −0.12c [−0.71, +0.46]; Small (n=4)
+  −0.10c [−0.50, +0.31]. No event-level size gradient — the averaging
+  dilutes; the involved-team contract moves (MIA +4.7c for Giannis) are
+  reported at contract level. Tier table:
+  `hidden_files/analysis_real/size_tiers_3d.csv`.
+- **Outputs:** `hidden_files/analysis_real/*_d16.csv` (confirmatory sample
+  under D16), `*_d16xd.csv` (extended sample under D16); machinery
+  `analyze_d16.py`; run logs `run_log_d16.txt`, `run_log_d16xd.txt`.
+- **Guard update:** `coverage_precheck.py` thresholds should be re-tuned to
+  D16 (3-obs minimum) — logged as a to-do, not yet done.
+
+### D16 addendum — placebo validity gate under D16 (2026-09-24)
+
+- **The D16 run trips the prereg's placebo gate on macro buckets, and the
+  reason is NOT thin baselines.** D16 placebo: macro_bucket mean −2.79c,
+  p=0.036 → FAIL by the prereg's binary gate (|mean|<1c or p>0.05). The v2
+  strict run had passed (mean −2.35c, p=0.062). Diagnosis: restricting the
+  D16 placebo pairs to strict-baseline only still fails (n=43, mean −2.77c,
+  p=0.042) — the admitted thin-baseline pairs are not the driver. The driver
+  is a stable background drift: macro placebo means sit at −2.4c to −2.8c
+  across draw sets and rules, with p hovering 0.036–0.062. "Quiet" macro
+  days are not quiet — bucket markets drift (likely pull-to-par / regime
+  drift over the window), and 50 draws are too few to stabilize a binary
+  gate sitting exactly on the boundary.
+- **Consequence, stated without spin:** the prereg's literal gate
+  ("results are not reported as findings") was written for the strict
+  method, under which it passes. Under D16 it marginally fails. The drift
+  is NEGATIVE while the headline macro effect is POSITIVE (+4.8c) — it
+  works against the finding, not for it — and H1c is a cross-market-kind
+  contrast, but the honest reading is: macro absolute magnitudes carry a
+  ±2–3c background-noise band, and the method's validity on macro buckets
+  is marginal. Both rules' results are reported; nothing is hidden.
+  Follow-up: larger placebo sample (prereg says 50; changing n would be a
+  further deviation) and intraday placebo days.
+
+## D17 — Involved-teams supplementary estimand (2026-09-24, post-prereg, at Yuvan's direction)
+
+Prompt: Yuvan challenged the sports-side headline ("you think Myles Garrett didn't
+affect how people bet on the Rams at all?"). He was right to. The prereg's
+event-level aggregation averages ~30 team contracts per sports event, but a trade
+mechanically reprices ~2 teams — so the sports cell mean is structurally diluted in
+a way the macro cell (all FED contracts bet on the same decision) is not.
+
+What was done: supplementary (NOT confirmatory) analysis of involved teams'
+contracts only. Teams picked ex-ante from registry descriptions before any
+computation: acquiring team + team trading away (trades), signing team + old team
+(signings), extending team (extensions), team (comeback). Same 3-day abnormal-move
+machinery, strict baseline rule. Four Boston observations dropped as contaminated:
+Mitchell Robinson / Conley signings and Queta / Walsh extensions all read off the
+Celtics' post-2026-07-01 Jaylen Brown trade collapse (same team, overlapping
+windows) rather than their own news. Kawhi kept with a note: TOR repriced 0.5c ->
+4.5c on the 2026-06-30 framework agreement; the 2026-09-14 T0 completion shows
+~0 because the market priced it 2.5 months early (anticipation, not indifference).
+
+Result (hidden_files/analysis_real/involved_teams_3d.csv): acquiring/keeping teams
++1.79c mean (n=11); teams giving up the player -1.01c mean (n=6; muted by the
+0.5c price floor — MIL/CLE/LAC were already near zero and cannot fall further).
+Blockbuster moves: MIA +4.25c, PHI +3.21c / +3.94c (Jaylen, LeBron), LAR +3.36c
+(Garrett; T+1 print 16.5c vs 10.5c flat baseline — daily candle stamped midnight
+ET, news broke mid-day), BOS -4.21c (gave Jaylen).
+
+Interpretation: the H1c headline (-0.15c vs +4.55c) compares a diluted sports
+number against an undiluted macro number. The fairer sports number is +1.8c for
+acquirers. Macro still wins; the margin is narrower than the headline suggests.
+Paper §4 and "What's shaky" §7 state this plainly.
+
+## D18 — Involved-teams becomes the H1c estimand (2026-09-24, at Yuvan's direction)
+
+Yuvan's objection, sustained: averaging all ~30 team contracts per sports event is
+the wrong aggregation, not a defensible alternative. A trade mechanically reprices
+~2 teams, so the prereg's sports cell mean is biased toward zero BY CONSTRUCTION
+in a way the macro cell (every FED contract bets on the same decision) is not.
+The original H1c significance (p=0.008) was partly purchased by this choice.
+
+New primary estimand for H1c: the D17 involved-teams sample, acquiring/keeping
+side, one observation per event (n=11). Both sides remain reported (give side
+-1.01c, n=6, floor-muted); they are not averaged together, per Yuvan's "observe
+that it was both." Same 3-day abnormal-move machinery, strict baseline rule.
+
+Result (hidden_files/analysis_real/contrast_d18_involved.csv): sports +1.79c
+(sd 1.72) vs macro +4.55c (sd 3.65), Welch t=-1.99, p=0.077, 95% CI for the gap
+[-5.89c, +0.37c]. NOT significant at 5%. The direction favors macro, but with
+11 vs 8 events the fair test is underpowered and cannot separate the two.
+
+Paper verdict follows the fair aggregation: "sports trades move the involved
+teams materially (+1.8c, blockbusters +2.3c); macro shocks move markets more on
+average; the difference is not statistically decisive." The original p=0.008
+result is still shown (it answers "did the average contract move?") with the
+aggregation dependence stated explicitly. All three aggregations side by side
+in paper §1. The team-level size gradient also appears under D18 (Big +2.34c,
+n=8; Medium 0.00c, n=2; Small +1.00c, n=1 — descriptive, tiny n below Big).
+
+## D19 — Market-time anchoring / jump detection (2026-09-24, at Yuvan's direction)
+
+Prompt: Yuvan — "find when the price jumps up for the news, that's more important
+than the technical day it happened." Reported T0s are news-report times; the
+market often moves earlier (leaks) or a day later (midnight-ET candle artifact).
+
+Method: for each involved team (D17/D18 sample, contaminated Boston obs excluded),
+jump day = largest single-day midpoint move in [T0-10, T0+5]. Kawhi handled
+manually: true jump was the 2026-06-30 framework agreement (0.5c -> 2.5c that day,
+4.5c by Jul-02, 570x volume), 76 days before the "official" 2026-09-14 completion
+T0 — outside any mechanical window; flagged in the data file. Detection threshold:
+max |daily| < 0.75c within the window = "no clear jump" (MIL/CLE-give/MEM/LAC/MIN).
+
+Results (hidden_files/analysis_real/jump_timing_3d.csv): 7 of 11 acquiring-team
+jumps within ±2d of report — MIA +0d (+4.5c, 7x vol), PHI(JB) +1d (+4.0c, 963x),
+LAR(Garrett) +1d (+6.0c, 206x), NE +1d (+1.0c, 160x), PHI(LBJ) +1d (+6.0c, 290x),
+DAL -2d (+1.0c, 1x — weak, possible leak), LAR(Donald) +2d (+1.0c, 6x). Leaks:
+BOS -7d (-3.0c), LAL -1d (-1.0c), CLE(Mitchell ext) -6d (+3.0c, 194x — priced at
+free-agency open, not the announcement). The +1d lag on the big ones is the
+midnight-candle artifact (news breaks mid-day ET, candle stamped midnight).
+
+Jump-anchored abnormal moves (baseline [J-30,J-5], window [J,J+2]) reported as a
+LABELED SENSITIVITY only, e.g. Garrett +5.06c vs T0-anchored +3.36c, Kawhi +3.48c
+vs -0.04c. They are UPPER BOUNDS by construction (anchoring on the observed
+maximum selects the largest move); T0-anchored are lower bounds (stale candles,
+missed leaks). The formal H1c test stays T0-anchored — re-testing on selected
+maxima would be circular. Paper §4 carries the timing table; "What's shaky" §4
+updated with measured lead/lag.

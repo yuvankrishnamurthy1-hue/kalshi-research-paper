@@ -13,24 +13,26 @@ Per-(event, market) partial exclusions (4,641 rows, overwhelmingly
 `hidden_files/analysis_real/exclusions.csv` — this file covers only
 *fully* excluded events.
 
-## 1. giannis_to_heat — EXCLUDED from confirmatory, MATERIAL descriptive result
+## 1. giannis_to_heat — INCLUDED under D16 (was excluded; thin_d16)
 
+- **Status change (D16, 2026-09-24):** this event now enters the confirmatory
+  analysis. Under the amended baseline rule (≥3 obs in [T−30, T−5], flagged
+  thin), its 26 KXNBA-27 pairs have 4 baseline obs each → `thin_d16`.
+  unsched_sports goes 14→15 events.
 - **T0:** 2026-06-23T03:50Z. Cell: unscheduled_sports (trade).
-- **Reason:** all 38 tickers failed the ≥5 baseline-obs rule. The KXNBA-27
-  2027-championship contracts were listed 2026-06-15 — 8 days before T0 —
-  so the prereg baseline (T−30..T−5, fallback T−45..T−5) could not be built.
-  The KXNBA-26 (2026-championship) contracts had settled when the Finals
-  ended ~06-14. The trade fell exactly in the dead zone between contract
-  generations: old contracts dead, new contracts newborn.
-- **Fallback descriptive** (`hidden_files/analyze_fallback.py`, 8-day
-  pre-window, max available): 30 tickers computed; 8 KXNBA-26 tickers
-  excluded even from fallback (<3 pre-T0 obs — contracts settled pre-T0).
-- **Result:** KXNBA-27-MIA (Heat title): baseline 2.63c flat (bid 2c/ask 3c
-  every day 06-15→06-22) → day-0 midpoint 7.0c (bid 6c/ask 8c, last 8c):
-  **abn_day0 +4.38c, abn_win_end +4.88c**, volume 186,326 vs 18,928/day
-  pre-mean (**9.8x**; ~4.2x vs prior day). KXNBA-27-MIL (Bucks): flat 1c,
-  0.00c move (thin book, never left the 1c tick). Mean abn_day0 across all 30
-  tickers: −0.11c (unaffected teams, as expected).
+- **Original exclusion reason (strict rule):** all 38 tickers failed the ≥5
+  baseline-obs rule. The KXNBA-27 2027-championship contracts were listed
+  2026-06-15 — 8 days before T0. The KXNBA-26 contracts had settled when the
+  Finals ended ~06-14. Dead zone between contract generations.
+- **D16 result (3-day):** event-level abnormal move **−0.58c** across 26 pairs
+  — the prereg's event-level averaging dilutes MIA's move across unaffected
+  teams, exactly as designed. Contract level tells the real story:
+  KXNBA-27-MIA (Heat title) baseline 2.63c flat → day-0 7.0c (bid 6c/ask 8c):
+  **abn_day0 +4.38c** (+4.67c over the 3-day window), volume 186,326 vs
+  18,928/day pre-mean (**9.8x**). KXNBA-27-MIL (Bucks): flat 1c, 0.00c (thin
+  book). Mean abn_day0 across all 30 tickers: −0.11c (unaffected teams).
+- **H1c under both rules:** strict (14 vs 8) p=0.00858; D16 (15 vs 8)
+  p=0.00819. Headline survives.
 - **Full per-ticker table:** `hidden_files/giannis_descriptive.csv`;
   writeup: `hidden_files/giannis_descriptive.md`.
 - **Lesson encoded in the guard:** `coverage_precheck.py` flags this exact
@@ -55,15 +57,26 @@ Per-(event, market) partial exclusions (4,641 rows, overwhelmingly
   cutoff. Nothing to analyze — confirmatory or descriptive.
 - **Action:** same as (2): pull after T0, re-run precheck.
 
-## Coverage note
+## Coverage note (updated D16, 2026-09-24)
 
-The remaining 25 registered events all have ≥1 confirmatory pair. The
-confirmatory sports-cell headline (14 events, mean −0.12c) does NOT include
-giannis_to_heat — the sample's largest trade and its largest single-contract
-repricing (+4.38c on MIA, ~10x volume) — and any paper text reporting that
-headline must say so, pointing here.
+Under the strict rule, the confirmatory sports-cell headline (14 events, mean
+−0.12c) did NOT include giannis_to_heat — the sample's largest trade. Under
+D16 it enters (15 events, mean −0.15c, flagged thin_d16); the H1c headline
+survives under both rules (p=0.00858 strict; p=0.00819 D16). Giannis's big
+showing lives at the contract level (MIA +4.67c over the 3-day window, ~10x
+volume); the event-level average (−0.58c) dilutes it across 26 contracts.
+nba_draft_2026 would likewise enter under D16 (29/38 tickers, thin_d16,
+event abn −0.54c) in the extended sample, taking sched_sports to 5 events
+and making H1b testable there (p=0.409, null).
 
-## 4. nba_draft_2026 — EXCLUDED from confirmatory (extended batch C)
+## 4. nba_draft_2026 — INCLUDED under D16 in the extended sample (thin_d16)
+
+- **Status change (D16, 2026-09-24):** under the amended rule, 29/38 tickers
+  pass (≥3 in-window obs) → 26 pairs enter, flagged thin_d16, event abn
+  −0.54c (3-day). This takes sched_sports to 5 events in the extended
+  sample, making H1b testable there for the first time (15 vs 5, p=0.409,
+  null). In the pure confirmatory sample it remains out of scope (batch C
+  is an extended-sample addition, not prereg).
 
 - **T0:** 2026-06-24 (per brief; exact draft dates unverified — web search
   was down at pull time). Cell: scheduled_sports.

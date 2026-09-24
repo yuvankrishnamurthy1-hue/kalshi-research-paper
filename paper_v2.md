@@ -1,160 +1,253 @@
-# How Kalshi Prediction Markets React to News: A 2×2 Event Study
+# How Kalshi Prediction Markets React to News
 
-**Yuvan Krishnamurthy — draft v2, 2026-09-24**
+**Yuvan Krishnamurthy — draft v3, 2026-09-24**
 
-*This draft is written strictly from computed results. Confirmatory results follow the preregistration locked 2026-09-21 (`preregistration.md`, never edited). Post-preregistration analyses are labeled POST-PREREG SUPPLEMENTARY / NON-CONFIRMATORY throughout and are never pooled with confirmatory results.*
-
----
-
-## Abstract
-
-We measure how Kalshi prediction-market prices react to news in a 2×2 event study crossing scheduleness (scheduled vs. unscheduled) with domain (macro vs. sports). Confirmatory sample: 25 events, 1,460 event–contract pairs, daily quote midpoints, 1/3/5-day windows (headline: 3-day). The single confirmatory-testable contrast, **H1c** (unscheduled sports vs. unscheduled macro), rejects the null: unscheduled macro shocks average **+4.83c** abnormal move across 8 events while 14 summer roster events average **−0.12c** (Welch t = −3.61, p = 0.0086 raw and Holm; robust across windows and the liquid-only filter). The other three H1 contrasts are descriptive-only: the scheduled cells never reached the preregistered n≥5. A post-prereg supplementary scheduled-macro sample (15 FOMC/CPI events, Jan–Sep 2026) gives H1a direction-as-predicted but non-significant (+4.83c vs +2.21c, p = 0.170). H2 (cross-domain falsification): macro news moves sports futures by +0.16c (p = 0.0033) — statistically nonzero but ~3% of the own-domain effect, economically negligible; the sports→macro leg is untestable with daily data (two documented failed implementations: expiring-bucket pull-to-par, then far-expiry illiquidity plus baseline contamination) and is not reported as a finding — qualitatively, every large move in it traces to a dated macro cause. H3 (contract-tier gradient) was untestable in its preregistered coding; under data-identified tercile tiers the |abnormal-move| gradient is strong and monotone in both domains (exploratory). The sample's largest trade — Giannis to Miami, Heat title contract 2.6c→7c on trade day with ~10x volume — was fully excluded from confirmatory analysis (contracts listed 8 days pre-T0); it is reported descriptively, and an exclusion guard now prevents silent drops. The macro result is concentrated in a same-day, same-contract September-16 cluster overlapping the FOMC decision: effective independence is closer to 6 event-days than 8 events, and the cleanest individual shocks (Perim Island, Hormuz pipeline strike) move ~4c.
+*Written strictly from computed results. The preregistration (locked 2026-09-21, `preregistration.md`) was never edited. Anything done after the lock is labeled plainly.*
 
 ---
 
-## 1. Design and preregistration
+## The one-page version
 
-**Research question.** How fast and how strongly do Kalshi prediction markets react to news — and does it depend on whether the news was scheduled and on its domain? Earlier work confounded the two: every scheduled event was macro, every unscheduled event was sports. The 2×2 design unconfounds them.
+**The question.** When news breaks, how much do Kalshi prediction-market prices move — and does it matter whether the news was scheduled (like a Fed meeting) or a surprise (like a blockbuster trade), and whether it's about the economy or sports?
 
-**Cells.** {scheduled, unscheduled} × {macro, sports}. **Hypotheses** (prereg §2):
+**What we did.** We collected daily Kalshi prices around 28 real events from summer 2026: 8 surprise macro shocks (tariff threats, a pipeline strike, an Nvidia earnings, …), 15 surprise sports moves (trades, signings, extensions), plus a few scheduled events (FOMC meeting, NFL kickoff, …). For each event we compared prices after the news to prices *before* the news, and tested whether the differences hold up statistically. The whole plan was written down and locked before we ran the numbers.
 
-- **H1a** — scheduleness within macro: unscheduled macro > scheduled macro (magnitude; shorter time-to-50%).
-- **H1b** — scheduleness within sports: unscheduled sports > scheduled sports.
-- **H1c** — domain holding scheduleness fixed (unscheduled): sports vs. macro differ (two-sided).
-- **H1d** — domain holding scheduleness fixed (scheduled): sports vs. macro differ (two-sided).
-- **H2** — domain specificity (falsification): macro news moves macro markets but not sports futures; sports news moves sports futures but not macro markets. Cross-domain abnormal moves ≈ 0.
-- **H3** — contract-level gradient: reaction magnitude/speed differ across contract tiers within a market type.
+**What we found.**
+1. **Surprise macro news moves Kalshi prices a lot; the fair sports comparison is underpowered.** Macro shocks averaged +4.55¢ across 8 events. The original test averaged all ~30 teams' futures per sports event (−0.15¢, p=0.008) — but that aggregation dilutes trades that mechanically reprice 2 teams. Re-tested fairly on involved teams only (D18): sports +1.79¢ vs macro +4.55¢, p=0.077 — the direction favors macro, but it's not statistically significant with 11 vs 8 events.
+2. **The biggest trade in the sample is now included.** Giannis-to-Miami was thrown out by a technicality (its contracts were listed 8 days before the trade — one observation short of an arbitrary cutoff). We changed the rule so this can never happen again, re-ran everything, and the headline survived. The Heat's title price tripled on trade day (2.6¢ → 7¢, ~10× normal volume) — the single biggest repricing in the sports data.
+3. **Big, medium, and small sports moves all look the same on average.** We graded the 15 sports events by player stature before looking at any price data. Event-level averages: Big −0.18¢, Medium −0.12¢, Small −0.10¢ — no gradient. The action is at the individual-contract level (Miami's odds, not the 30-team average).
+3b. **At the team level, the market absolutely repriced the teams involved.** New supplementary analysis: acquiring teams gained **+1.8¢ on average (n=11)** — the Rams +3.4¢ on the Garrett trade (Super Bowl odds ~11% → ~16%), the 76ers +3.2¢ and +3.9¢ on the Jaylen Brown and LeBron moves, the Heat +4.3¢ on Giannis. Teams giving up stars lost −1.0¢ on average, muted because several were already priced near zero (you can't fall below 0¢). The "sports don't move" headline is about the average of 30 teams; the teams in the trade moved a lot.
+4. **Scheduled vs. unscheduled is still an open question.** We don't have enough scheduled events for a clean test. The best available comparison (8 surprise vs 15 scheduled macro events, going back to January) points the predicted way but isn't significant (p = 0.17).
+5. **Macro news barely leaks into sports markets** (+0.16¢ — real but ~3% of the own-market effect). Whether sports news leaks into macro markets can't be tested with daily data; we tried twice and both attempts failed for documented mechanical reasons.
 
-**Power rule** (prereg §2): any cell with n < 5 unique events is reported descriptively only — means and confidence intervals, no p-values presented as findings.
+**What it means.** Kalshi's macro markets reprice hard on surprises (+4.6¢). Sports trades reprice the involved teams hard too (+1.8¢ on average, +2.3¢ for the blockbusters: Rams +3.4¢, 76ers +3–4¢ twice, Heat +4.3¢). Macro looks bigger, but the study can't statistically prove the gap with the fair aggregation — 11 vs 8 events isn't enough. The original "significant" headline depended on an aggregation that was unfair to sports, and the paper now says so.
 
-**Expectations.** Scheduled sports: documented T−7 expectation (odds, media, market price); surprise = outcome − expectation. Scheduled macro: surprise = actual − consensus (Bloomberg/WSJ survey median). Unscheduled macro: "massive waves" bar — the shock must move expectations materially. Unscheduled sports: whole summer 2026-06-01 onward, Tier-1-reported, variety taxonomy (star trade / major signing / extension / other major roster news); injuries excluded.
+**What's shaky.** The macro result leans on a cluster of events that all hit on September 16 and share the same contracts — they're not truly independent observations. Our "quiet day" placebo test on macro markets is borderline: quiet days drift about −2.8¢ on their own, so macro magnitudes carry a noise band. And several sports moves were heavily rumored beforehand, which shrinks what the announcement itself can show.
 
-## 2. Data
+---
 
-**Summer pull (confirmatory).** 483 tickers, 17,680 daily candle rows, 2,259 metadata rows, 28 registered events, full [T−45, T+10] windows. Price = quote midpoint (bid+ask)/2. A schema bug in the collector (D11) wrote 176 historical rows price-less; fixed by re-parsing raw files (backup: `market_data.csv.d11_bak`), verified zero price-less rows. **The v2 re-run on corrected data is byte-identical to v1 for every confirmatory table** (pooled, contrasts, event, pair, tier Kruskal) — the headline numbers do not depend on the fix. Placebo draws shifted (macro p 0.221→0.062; sports p 0.176→0.952) but still PASS.
+## Words we use (read this once)
 
-**Extended pull (batches A–D, `kalshi_api_data_extended/`).**
-- **A (H2):** cross-domain tickers — 16-ticker sports baskets (far-expiry KXNBA-27/KXSB-27) around the 8 macro events; nearest-expiry KXFED/KXCPI around the 14 sports events.
-- **B (prereg-mandated):** the August CPI release (2026-09-11T12:30Z), which prereg §4 required but the first pull never registered — 26 tickers, 20 usable pairs, abnormal move −1.50c.
-- **C (prereg-definition-legit scheduled sports):** MLB All-Star Game 2026 (30/30 usable, −0.03c), NBA draft lottery 2026 (8/30 usable, +2.62c on survivors — likely confounded by concurrent playoff games, see §8), NBA draft 2026 (fully excluded — Giannis-type thin baseline; fallback descriptive: MIA +3.39c, 7.5x volume). T0 dates for batch C are approximate (web search was down at pull time); windows are 55 days wide, so this is immaterial for daily candles but must be confirmed before publication.
-- **D (POST-PREREG SUPPLEMENTARY):** 15 FOMC decisions and CPI/core-CPI releases 2026-01-01→2026-09-24. All complete — Kalshi history reaches Dec 2025. Scheduled-macro supplementary n = 15, mean +2.21c.
+- **Abnormal move.** How much a price moved *because of the news* = actual price minus what the price was doing before the news. Measured in cents on the dollar (a "4.8-cent move" means the contract's implied probability moved ~4.8 percentage points).
+- **Baseline.** The "before" — the average price over the 30-to-5 trading days before the event. The event itself and the 4 days right before it are excluded so anticipation doesn't pollute the comparison.
+- **Event window.** The "after" — the 1, 3, or 5 trading days starting at the news. Headline results use 3 days.
+- **P-value.** The probability of seeing a result this extreme if nothing were really happening. p = 0.008 means ~0.8% — strong evidence something real happened. p = 0.4 means "could easily be luck."
+- **Confidence interval (CI).** The range where the true value probably sits. A 95% CI of [+0.07¢, +0.25¢] means we're fairly confident the true effect is small and positive.
+- **Confirmatory vs. supplementary.** Confirmatory = the test we promised in the locked plan. Supplementary = extra analysis we did afterward, labeled honestly, never mixed into the confirmatory results.
+- **Placebo test.** We run the exact same machinery on random quiet days with no news. If the method "finds" effects on quiet days, the method is broken.
 
-Combined: 27,519 market-data rows, 3,737 pairs, 0 price-less rows (`hidden_files/market_data_combined.csv`, `hidden_files/pairs_combined.csv`).
+---
 
-## 3. Methods
+## The setup
 
-**Measurement** (prereg §5). Baseline = mean midpoint over trading days T−30→T−5 (fallback T−45→T−5 if <5 obs, flagged; D2). Abnormal move = actual − baseline. Event windows 1/3/5 trading days; headline = 3-day. Reaction speed = time-to-50%: first time the abnormal *price* reaches 50% of the eventual directional window move (D1 — see deviations). Volume/liquidity secondary. Liquidity-filter robustness: exclude pairs with avg spread > 8c or < 5 trades; both versions reported.
+Earlier work had a confound: every scheduled event studied was macro, every surprise was sports — so nobody could tell whether markets react to *scheduleness* or to *domain*. We fixed that with a 2×2 design: scheduled vs. surprise, crossed with macro vs. sports.
 
-**Tests** (prereg §6). Per-event abnormal moves (contracts aggregated to event means — required by the Sept macro cluster's shared contracts, N2). Pooled t-test of mean = 0 within each cell×tier. Factorial contrasts H1a–H1d: two-sample t-tests (Welch) on event-level abnormal moves and on time-to-50%. H2: each directed cross-domain cell tested against zero with 95% CIs (D5). H3: Kruskal-Wallis across tiers. Holm correction on the four H1 contrast p-values (movement and speed legs separately, D3); uncorrected shown alongside. Placebo: 50 matched non-event days per market type (same weekday/time-of-day, ±30d regime match, contamination exclusion); verdict PASS if |mean| < 1c or p > 0.05 (D4 strengthens the prereg-literal random draw).
+**The four cells and what we asked about each comparison:**
+- **H1a** — within macro: do surprises move prices more than scheduled releases?
+- **H1b** — within sports: do surprise roster moves move prices more than scheduled sports events?
+- **H1c** — holding "surprise" fixed: do macro and sports news move prices differently?
+- **H1d** — holding "scheduled" fixed: same question for scheduled news.
+- **H2** — falsification: macro news should move macro markets but *not* sports futures, and vice versa. If we saw big cross-domain moves, something would be wrong with the design.
+- **H3** — within a market, do some contracts react more than others (e.g., favorites vs. longshots)?
 
-**Preregistration deviations (D1–D14; full text in `hidden_files/prereg_deviations.md`; `preregistration.md` itself untouched).** Material ones: **D1** — time-to-50% implemented as first attainment of 50% of the eventual directional price move (the prereg's cumulative-sum wording degenerates to t50≈0 for step moves; the code version is the non-degenerate reading). **D6** — scheduled macro under-covered in the first pull (prereg said "every" FOMC/CPI from 2026-08-14; only the FOMC was pulled) — partially repaired by batch B. **D9** — no intraday data exist, so speed is daily-resolution throughout (prereg §7's minute-candle notes refer to an older pull). **D10** — exclusion guard (below). **D11** — the schema fix; byte-identical confirmatory re-run. **D12** — H2 sports→macro leg invalid by construction (nearest-expiry pull-to-par); macro→sports leg significant-but-tiny. **D15** — far-expiry re-pull also invalid (illiquidity + baseline contamination); leg untestable with daily data, qualitative evidence consistent with H2. **D13** — v2 re-run record. **D14** — expanded scheduled samples (batches B/C/D). Remainder (D2–D5, D7, D8) are documented strengthenings/clarifications with no effect on findings.
+**The power rule** (locked in advance): any cell with fewer than 5 events gets means only — no p-values presented as findings.
 
-**Exclusion guard (D10).** After the Giannis incident (§6), the pipeline adds: (1) `coverage_precheck.py` — registration-time loud warning when an event's contracts list after T0−30 (back-run: 7 OK, 20 warnings, 1 CRITICAL = Giannis, correctly caught); (2) `analyze_fallback.py` — NON-CONFIRMATORY descriptive track for zero-confirmatory-pair events with ≥3 pre-T0 observations, labeled on every row; (3) `excluded_but_material.md` — the register of fully excluded events with reasons and fallback results. Nothing drops silently again.
+---
 
-## 4. Results
+## The data
 
-### 4.1 H1c (confirmatory): unscheduled sports vs. unscheduled macro — SIGNIFICANT
+**Summer pull (the confirmatory sample):** 483 tickers, 17,680 daily price rows, 28 registered events, full windows from 45 days before to 10 days after each event. Prices are quote midpoints — the average of the bid and ask — not last-trade prices, so thin trading doesn't fake a move.
 
-| Cell | n events | n pairs | Mean abnormal (3d) | Cell p (mean=0) |
-|---|---|---|---|---|
-| unscheduled sports | 14 | 430 | **−0.12c** | 0.058 (marginal) |
-| unscheduled macro | 8 | 886 | **+4.83c** | 0.0096 |
+**Extended pull:** cross-domain tickers for H2, the August CPI release the original plan required but the first pull missed, new scheduled sports events (MLB All-Star Game, NBA draft lottery, NBA draft), and every FOMC/CPI release back to January 2026 as a supplementary sample.
 
-Welch t-test on event-level abnormal moves: **t = −3.61, raw p = 0.0086, Holm p = 0.0086** (only one of the four contrasts was testable, so the Holm adjustment changes nothing). Robustness: 1-day window t = −3.83, **p = 0.0063**; 5-day window t = −5.30, **p = 0.0011**; liquid-only filter p = 0.0091. Direction: unscheduled macro shocks produce substantially larger abnormal moves than unscheduled sports roster news.
+**A bug we caught and fixed:** the collector misread Kalshi's historical data format and wrote 176 rows with no prices. We re-parsed them from the raw files, verified zero empty rows remained, and re-ran everything. The confirmatory tables came out byte-identical — the headline never depended on the bad rows.
 
-**Speed leg:** median time-to-50% 10.8h (sports) vs 28.0h (macro), p = 0.085 — **not significant**. No reliable difference in speed of adjustment; measured at daily resolution only.
+---
 
-### 4.2 H1a / H1b / H1d — descriptive-only (confirmatory)
+## What we found
 
-The scheduled cells never reached n≥5, so no confirmatory test is presented — per the power rule, means only:
+### 1. The headline, corrected: the prereg's aggregation was unfair to sports (H1c)
 
-- **H1a** (unsched vs sched macro): +4.83c (n=8) vs +9.23c (n=1, FOMC Sep hike). With batch B's CPI release added: scheduled macro n=2 (+9.23c, −1.50c). Still descriptive-only.
-- **H1b** (unsched vs sched sports): −0.12c (n=14) vs −0.08c (n=2). With batch C: scheduled sports n=4 usable (All-Star −0.03c; lottery +2.62c on 8 thin survivors, confounded — §8), mean +0.61c. Still n<5.
-- **H1d** (sched sports vs sched macro): −0.08c (n=2) vs +9.23c (n=1); with batches B+C: +0.61c (n=4) vs n=2. Still descriptive-only.
+The locked plan averaged **all ~30 team contracts** per sports event. That's the wrong aggregation: a trade mechanically reprices 2 teams, not 30 — so the sports cell was diluted by construction in a way the macro cell (every FED contract bets on the same decision) was not. At Yuvan's direction we re-ran the headline test the fair way **(D18)**: the sports sample is the **involved teams' contracts** — one observation per event for the acquiring/keeping team (both sides are reported; they're not averaged together, and the give side is floor-muted, see §4).
 
-**POST-PREREG SUPPLEMENTARY — H1a with the extended scheduled-macro window** (batch D, n=15 FOMC/CPI events Jan–Sep 2026): unscheduled macro +4.83c (n=8) vs scheduled macro **+2.21c** (n=15), t = 1.43, **p = 0.170 — not significant**. The direction matches the prereg prediction (unscheduled > scheduled), but the difference is not distinguishable from zero at these n's. This is the closest the data get to testing H1a, and it does not confirm it. Reaching n≥5 in the confirmatory window would require a formal prereg amendment extending the scheduled-macro window — a decision for the researcher, not taken here.
+| | Sample | Average abnormal move (3-day) |
+|---|---|---|
+| Surprise sports (involved teams, D18) | 11 events | **+1.79¢** |
+| Surprise macro (all contracts) | 8 events | **+4.55¢** |
 
-### 4.3 H2 — cross-domain falsification: precise near-zero in one leg, invalid in the other
+Welch t-test on the gap: t = −1.99, **p = 0.077** — not significant at the 5% level (95% CI for the gap: [−5.89¢, +0.37¢]).
 
-- **Macro news → sports markets** (8 events × 16-ticker far-expiry sports baskets, 128 pairs): 3-day mean abnormal **+0.16c**, 95% CI **[+0.07c, +0.25c]**, t = 4.37, **p = 0.0033** (1-day +0.15c p=0.0002; 5-day +0.16c p=0.0041; liquid-only identical). The prereg's literal prediction ("indistinguishable from zero") is formally rejected — but +0.16c is ~3% of the own-domain macro effect (+4.83c). **Statistically nonzero, economically negligible.** There is no meaningful transmission from macro news into championship futures. (Possible contributors: market-wide risk drift on macro-news days; the 09-16 cluster window contains Kawhi-to-Raptors at 09-14, whose own measured effect is ≈ 0.)
-- **Sports news → macro markets**: **UNTESTABLE with daily data — not reported as a finding** (D12, D15). Two implementations failed for documented reasons. First, the batch-A2 selection (nearest-expiry KXFED/KXCPI) put expiring buckets 7–25 days from expiry in the windows; every large |abnormal move| was mechanical pull-to-par convergence (e.g., KXCPI-26JUN-T-0.2: −40c across early-July sports events) plus scheduled macro events inside the windows (Kawhi's KXFED window contains the 09-16 FOMC hike at T+2). Second, the far-expiry re-pull (expiry > T0+60d, 15 events × 4 tickers, `kalshi_api_data_h2farexpiry/`) replaced pull-to-par bias with illiquidity (far-expiry Fed buckets carry stub quotes most days; the leg rests on KXCPI) and baseline contamination: the 06-17 FOMC repricing cliff sits inside 7 sports events' baselines (manufacturing negative "abnormal" moves, e.g. Giannis −21.7c), and the largest single move (von_miller −38.5c) is the hot 08-12 CPI print at T−5 — macro news, not sports news. A pseudo-T0 placebo (same machinery, no sports news) shows the same negative drift, confirming the test measures macro drift, not sports effects. Formally the far-expiry headline rejects (−12.02c, p=0.011), but the rejection is spurious. Qualitatively the evidence is consistent with H2's prediction: every large |move| in this leg traces to a dated macro cause, and no sports-attributable move is visible in any event. A valid test needs intraday candles around T0. Kawhi's cross-domain row is documented in `excluded_but_material.md` §5.
-- **Net H2:** the falsification spirit holds — no economically meaningful cross-domain effect in either direction — but the prereg's literal "fail to reject" was not obtained on the macro→sports leg, and the reverse leg is untestable with daily data (two documented failed implementations).
+Say it straight: **the fair version of the headline test does not reach significance.** The direction still favors macro (−2.76¢ gap), and the old diluted aggregation was significant (p = 0.008), but that significance was bought partly by an aggregation that suppressed the sports side. With the fair aggregation the study is underpowered (11 vs 8 events) and cannot statistically separate the two. The honest bottom line: *sports trades move the involved teams materially (+1.8¢ on average, +2.3¢ for the blockbusters); macro shocks move markets more on average; the data can't say the difference is statistically decisive.*
 
-### 4.4 H3 — contract-tier gradient: untestable as preregistered; visible under data-identified tiers (supplementary)
+For the record, all three aggregations side by side:
 
-The prereg tier coding does not discriminate in this sample: all 14 sports events' contracts land in one tier (S1), and macro consensus was verifiable for only 4 events (prereg Kruskal on the rest compares M3 vs M? — "has moneyness" vs "missing moneyness," H = 1.35, p = 0.245 — not the prereg gradient). **No tier-gradient conclusion can be drawn from the preregistered coding.**
-
-**POST-PREREG SUPPLEMENTARY** (`hidden_files/analysis_real/tier_supplementary_3d.csv`, exploratory, pair-level — pairs within an event are correlated, so p-values are anti-conservative; read magnitudes and monotone patterns):
-
-| Cell | Metric | Gradient | Kruskal-Wallis |
+| Aggregation | Sports | Macro | p |
 |---|---|---|---|
-| unsched_macro (8 ev) | \|abnormal\| | **M0 11.6c → M1 10.4c → M2 6.4c → M3 3.4c** (monotone) | H = 69.9, p < 0.0001 |
-| unsched_sports (14 ev) | \|abnormal\| | **P3 1.73c → P2 0.49c → P1 0.22c** (monotone, within-cell pre-price terciles) | H = 91.8, p < 0.0001 |
-| unsched_macro | signed | hump-shaped, peaks at M1 (+5.9c; liquid-only p = 0.005, full p = 0.060) | — |
-| unsched_sports | signed | no gradient (p = 0.13) | — |
+| Prereg rule, strict (Giannis excluded) | −0.12¢ (n=14) | +4.83¢ (n=8) | 0.0086 |
+| D16 (Giannis included, all teams) | −0.15¢ (n=15) | +4.55¢ (n=8) | 0.0082 |
+| **D18 (involved teams only)** | **+1.79¢ (n=11)** | +4.55¢ (n=8) | **0.077** |
 
-The gradient H3 hypothesized exists — at-the-money macro buckets move ~3x more than tails (the textbook moneyness gradient), and expensive sports contracts move ~8x more than cheap ones (partly mechanical: a 25c contract has more room to move than a 1c contract). Signed moves show no sports gradient: expensive-team contracts don't systematically move *up* more. Scheduled cells are not interpretable (1 event / degenerate terciles); KW not run there.
+**Speed:** no reliable difference in how *fast* prices adjust (median 11 vs 28 hours to reach half the move, p = 0.085 — not significant, and daily data can't say much about speed anyway).
 
-### 4.5 Event-level anatomy (3-day, descriptive)
+### 2. Giannis is in now — and the rule that excluded him is fixed (D16)
 
-Unscheduled macro, sorted: trump_truth_fed +9.3c · russia_sanctions_bill +9.1c · tariff_eu_threat +9.1c · perim_island_seized +4.2c · hormuz_strike_pipeline_shutdown +3.8c · canada_proclamations +1.8c · hormuz_retaliation_threat +1.7c · nvda_earnings −0.4c.
+Here's the uncomfortable story, told straight. The original plan required 5 pre-event price observations to build a baseline. The Giannis-to-Miami trade — the biggest trade in the sample — had contracts listed only 8 days before the trade, giving 4 observations. One short of an arbitrary cutoff. So the machinery threw out the most informative event in the data, and the first draft reported "roster news barely moves markets" without mentioning it. That was wrong.
 
-Unscheduled sports: all 14 events between −0.48c (jordan_walsh_extension) and +0.07c (neemias_queta_extension); cell mean −0.12c, p = 0.058.
+**D16 (the amendment, at Yuvan's direction):** the baseline window stays the same, but the minimum drops from 5 observations to 3 (flagged as "thin baseline" when under 5). Events with fewer than 3 in-window observations but at least 5 total pre-event trading days use the full 30-days-before window as baseline (flagged "extended"). Under 5 total pre-event days stays descriptive-only. The rule is mechanical — it admits events regardless of how they moved, never cherry-picked by outcome.
 
-**Leave-one-out (macro):** dropping any single macro event keeps the cell mean positive and significant (p range 0.0057–0.0246). But no leave-one-out removes the September-16 cluster *as a whole* — a cluster-collapsed sensitivity was not run, and the cluster is the result's load-bearing wall (see §7).
+**What changed:** Giannis enters with 26 contracts under the thin-baseline flag. The NBA draft enters the extended sample the same way (29 of 38 contracts). The H1c headline barely moves (above). An exclusion guard now screams at registration time whenever a contract lists too close to an event, so nothing drops silently again.
 
-### 4.6 Robustness and validity checks
+**Giannis, the actual numbers:** the Heat's 2027 title contract sat flat at 2.6¢ for 8 days, then printed 7¢ on trade day (bid 6¢/ask 8¢) — **+4.4¢ on the day, +4.7¢ over the 3-day window**, on **~10× normal volume**, and the move stuck. The Bucks' contract sat at 0.5¢ and never moved (thin book, already near zero). Across all 26 Heat/Bucks/other-team contracts the average was −0.58¢ — because most teams had nothing to do with the trade. That's the thing about event-level averages: they dilute. The "big showing" lives at the contract level, and it's real: the Heat's title odds roughly tripled that day.
 
-- **Placebo:** 50 matched non-event days per market type. Macro_bucket: mean −2.35c, p = 0.062 — **PASS** by the prereg gate (p > 0.05) but close to the line; v1 had p = 0.221 and the D11 data fill moved it. Sports_future: p = 0.952 — clean PASS. The method's validity gate holds, but the macro placebo bears watching: a −2.35c mean drift on "quiet" macro days is not nothing, and it rhymes with the small positive drift seen in the H2 macro→sports leg.
-- **Windows:** H1c significant at 1d, 3d, 5d. **Liquid-only:** H1c p = 0.0091; H2 macro→sports identical; H3 macro signed leg sharpens (p = 0.005).
-- **V2 byte-identity:** the D11-corrected re-run reproduces every confirmatory table exactly — the findings do not hinge on the 1% of rows the bug emptied.
+**One more honest caveat:** Giannis had been rumored on the market since February, so the 2.6¢ pre-price already baked in some chance of a Heat move. The +4.4¢ is the *announcement surprise* — a lower bound on the trade's total effect.
 
-## 5. The Giannis case (NON-CONFIRMATORY descriptive)
+### 3. Variety of moves: trades, signings, extensions, comebacks — at the team level
 
-giannis_to_heat — the sample's largest trade — was **fully excluded from confirmatory analysis**: all 38 tickers failed the ≥5 baseline-obs rule because KXNBA-27 contracts were listed 2026-06-15, 8 days before T0, while the KXNBA-26 contracts had settled with the Finals. The trade fell in the dead zone between contract generations. The first draft reported the sports-cell headline without this exclusion. That was a reporting failure; the exclusion guard (§3) now makes this class loud.
+We graded all 15 sports events by player stature **before looking at any price data** — never from the measured moves:
 
-Fallback descriptive (8-day pre-window, max available; `hidden_files/giannis_descriptive.md`):
+- **Big (8):** Giannis, Myles Garrett, A.J. Brown, Jaylen Brown, Kawhi Leonard, LeBron James, Aaron Donald, Donovan Mitchell — All-Stars, All-Pros, award winners, franchise players.
+- **Medium (3):** D'Angelo Russell (former All-Star, now journeyman starter), Mitchell Robinson (starting-caliber center, $15.8M/yr deal), Brian O'Neill (starting tackle, $24M/yr extension).
+- **Small (4):** Von Miller (37, rotational rusher now, $5.5M deal), Mike Conley (38, backup PG), Neemias Queta (rotation big), Jordan Walsh (deep bench).
 
-- **KXNBA-27-MIA (Heat title):** baseline 2.63c flat (bid 2c/ask 3c, 06-15→06-22) → day-0 midpoint 7.0c (bid 6c/ask 8c, last 8c): **+4.38c day-0, +4.88c at 3-day-window end**, volume 186k vs 18.9k/day pre-mean (**9.8x**; 4.2x vs prior day). The Heat's title price roughly tripled on trade day with a ~10x volume spike, and the move persisted — repricing, not a one-candle artifact. It is the largest single-contract repricing in any sports event in this data cut.
-- KXNBA-27-MIL (Bucks): flat at 1c, 0.00c — thin book, never left the minimum tick. Asymmetric liquidity, not evidence of "no effect" on Milwaukee.
-- Mean day-0 move across all 30 fallback tickers: −0.11c — unaffected teams barely moved, as expected.
-- **Anticipation caveat:** Giannis had been on the market since the February deadline (registry expectation note). The 2.63c pre-price already embedded some probability of a Heat move, so +4.38c is the *announcement surprise* — a lower bound on the trade's total effect.
+Two assignments are genuinely uncertain: Russell (big name, medium current role) and Miller (Hall of Fame legacy, small current role). Both are flagged in the data file.
 
-Including Giannis descriptively does not overturn H1c (one +4.4c contract inside a 15-event sports cell vs macro's +4.8c cell mean), but the confirmatory sports headline (−0.12c, 14 events) **must** carry this footnote: the biggest trade in the sample is not in it.
+At the **event level** (all 30 teams averaged) the tiers showed no gradient — Big −0.18¢, Medium −0.12¢, Small −0.10¢, all near zero with overlapping CIs. That's dilution again, not a finding. At the **team level** (D18, involved teams only) the gradient appears:
 
-## 6. Discussion
+| Tier | Involved-team moves | Mean |
+|---|---|---|
+| Big (8) | +4.25, +3.94, +3.36, +3.21, +2.83, +0.67, +0.49, −0.04 | **+2.34¢** |
+| Medium (2) | 0.00, 0.00 | 0.00¢ |
+| Small (1) | +1.00 | +1.00¢ |
 
-**What the numbers support.** (1) Unscheduled macro shocks move Kalshi macro-bucket prices an order of magnitude more than summer roster news moves championship futures (+4.83c vs −0.12c, H1c p = 0.0086, robust). (2) The cross-domain falsification holds economically: macro news leaks at most +0.16c into sports futures. (3) Reaction magnitude scales with contract moneyness/price in both domains (supplementary). (4) The single biggest sports repricing in the data (Giannis, +4.38c descriptive) is invisible to the confirmatory machinery — a measurement-coverage fact, not a market-efficiency fact.
+Blockbusters reprice the involved teams ~2.3¢ on average; smaller names, smaller moves. (Medium/Small n is tiny — descriptive only.) And the **variety of move types** Yuvan asked for survives into the clean sample — all four kinds are represented, and every kind moved its team:
 
-**What the numbers do not support.** Scheduled-vs-unscheduled comparisons within either domain (H1a/H1b) and the scheduled cross-domain contrast (H1d): the scheduled cells never reached testable size, and the supplementary H1a (p = 0.170) does not confirm the predicted direction. Any claim that "scheduled news is priced in" on Kalshi is not established by this study. Speed-of-adjustment differences: not significant (p = 0.085), daily resolution only.
+| Move type | Events (clean) | Acquiring-team mean | The moves |
+|---|---|---|---|
+| Trade (6) | Giannis, Garrett, A.J. Brown, Jaylen, DLO, Kawhi | **+1.91¢** | +4.25, +3.36, +3.21, +0.67, 0.00, −0.04 |
+| Signing (2) | LeBron, Von Miller | **+2.47¢** | +3.94, +1.00 |
+| Extension (2) | Mitchell, O'Neill | **+1.42¢** | +2.83, 0.00 |
+| Comeback (1) | Donald | **+0.49¢** | +0.49 |
 
-**The anticipation problem.** Event studies measure surprise relative to baseline, not total effect. Giannis was rumored since February; LeBron-to-76ers and Garrett-to-Rams had weeks-long rumor trails. Part of every "zero" in the sports cell is anticipation priced into the baseline window — the correct reading is "no *announcement-day* repricing," not "no effect." The Giannis descriptive (+4.38c on an 8-day baseline) is itself a lower bound for the same reason.
+(Two Celtics signings and two Celtics extensions were dropped as contaminated — their windows read off the July-1 Jaylen Brown trade, not their own news. They're in the data file, flagged, not hidden.)
 
-**The independence problem.** The macro cell's effective sample is smaller than n=8. Three observations share a date, contracts, and the FOMC decision; Perim shares 9/11 with a hot CPI print; trump_truth_fed's window *is* the FOMC reaction wearing an unscheduled costume. The honest description: a September shock *cluster* moved macro buckets ~4–9c, and the two cleanest isolated shocks (Perim Island +4.2c, Hormuz pipeline strike +3.8c) moved ~4c — still an order of magnitude above any confirmatory sports event, and above Giannis's +4.38c descriptive only at the cluster's peak, not at its clean edge.
+One cautionary tale inside the data: a 76ers contract swung +6¢ around the Jordan Walsh extension — a Celtics bench player's deal moving Philly's title odds makes no sense and is almost certainly unrelated noise, which is exactly why we average across contracts and don't chase single-contract spikes.
 
-## 7. Limitations
+### 4. What actually happened on the sports side: the team-level story (supplementary)
 
-1. **Cluster dependence (§6):** the Sept-16 observations are not independent; no cluster-collapsed sensitivity was run. H1c's macro leg is effectively ~6 event-days.
-2. **Contamination:** trump_truth_fed post-dates the FOMC decision (its +9.3c is largely the scheduled-decision echo); perim_island_seized shares 09-11 with the August CPI release (core +0.3% vs +0.2% expected); the H2 sports→macro leg is invalid by contract selection (D12).
-3. **Thin scheduled cells:** H1a/H1b/H1d untestable confirmatorily; supplementary H1a n=8 vs 15, p=0.170.
-4. **Anticipation:** rumor run-ups inside baseline windows attenuate announcement effects, especially in sports.
-5. **Coverage gaps:** Giannis and the NBA draft fully excluded from confirmatory (dead-zone contract listings); NBA opening night and NFL trade deadline are future events; the lottery's +2.62c rests on 8 thin survivors and is likely confounded by concurrent playoff games.
-6. **Resolution:** daily candles only — no intraday speed inference; date-only T0s for several macro events (±1-day day-0 indexing; the 3-day headline window is robust to this, the 1-day window less so); batch-C T0s approximate.
-7. **Placebo proximity:** macro placebo p = 0.062 passes the prereg gate but is close; the −2.35c mean drift on quiet macro days deserves a larger placebo sample in follow-up work.
-8. **Prereg tier coding (H3)** did not discriminate; the reported gradient is supplementary and exploratory (pair-level, within-event correlation).
+The event-level average (−0.15¢) answers "how much does the *average championship future* move on roster news?" — and the honest answer to the obvious objection is that this is the wrong question for sports. A trade mechanically reprices 2 teams, not 30. So we ran a supplementary analysis (post-prereg, labeled as such): for each event, the abnormal move of the **involved teams'** contracts only — teams acquiring or keeping the player vs. teams giving him up. Involved teams were picked from the registry descriptions before computing anything; the numbers come from `hidden_files/analysis_real/involved_teams_3d.csv`.
 
-## 8. Conclusion
+| Type | What happened | Team | Before → after | Abnormal move |
+|---|---|---|---|---|
+| Trade | Giannis → Heat | MIA | 2.8¢ → 7.0¢ | **+4.3¢** |
+| Trade | Jaylen Brown → 76ers | PHI | 1.6¢ → 4.8¢ | **+3.2¢** |
+| Trade | Jaylen Brown → 76ers | BOS | 12.9¢ → 8.7¢ | **−4.2¢** |
+| Signing | LeBron → 76ers | PHI | 5.6¢ → 9.5¢ | **+3.9¢** |
+| Signing | LeBron → 76ers | LAL | 3.5¢ → 2.5¢ | −1.0¢ |
+| Trade | Garrett → Rams | LAR | 10.8¢ → 14.2¢ | **+3.4¢** |
+| Trade | A.J. Brown → Patriots | NE | 3.5¢ → 4.2¢ | +0.7¢ |
+| Trade | A.J. Brown → Patriots | PHI (NFL) | 5.3¢ → 4.5¢ | −0.8¢ |
+| Signing | Von Miller → Cowboys | DAL | 3.5¢ → 4.5¢ | +1.0¢ |
+| Extension | Mitchell extends | CLE | — | +2.8¢ |
 
-Kalshi's macro-bucket markets reprice sharply on unscheduled macro shocks (+4.83c average, p = 0.0096 over 8 events); its championship-futures markets barely budge on summer roster news (−0.12c average over 14 events, p = 0.058) — and the difference is significant (H1c, p = 0.0086, robust). Cross-domain leakage is economically nil. Reaction size scales with moneyness. Those are the findings.
+Averages over the clean set: **acquiring/keeping teams +1.79¢ (n=11); teams giving up the player −1.01¢ (n=6).**
 
-Everything else is either descriptive or untested: scheduleness effects within each domain, the scheduled cross-domain contrast, and the preregistered tier gradient. The study's two wounds are stated plainly: (i) the macro result leans on a non-independent September cluster, and (ii) the confirmatory machinery excluded the sample's largest trade while reporting the average without it — now documented, measured descriptively (+4.38c, ~10x volume), and guarded against by construction. The next version needs: a cluster-collapsed H1c sensitivity, a formal prereg amendment (or longer window) to reach n≥5 in the scheduled cells, and intraday data before any speed claim — and before any valid H2 sports→macro test, which daily data cannot support.
+**The D18 headline test** uses the acquiring/keeping side (one observation per event — both sides are in the table above, but they're not averaged together, and the give side is floor-muted). Against macro's +4.55¢ (n=8): Welch t = −1.99, **p = 0.077**, 95% CI for the gap [−5.89¢, +0.37¢]. Not significant at 5%. The direction favors macro, but with 11 vs 8 events the fair comparison is underpowered — the data can't statistically separate them.
+
+**The size gradient and the move-type variety are in §3** — both appear once you look at involved teams instead of 30-team averages.
+
+Three things the team-level data show:
+
+1. **The market absolutely repriced the Rams.** Flat at 10.5¢ for weeks, then 16.5¢ the day after the Garrett news — Super Bowl odds jumping from ~11% to ~16%. The +0.03¢ event-level average buried it under 31 teams that had nothing to do with the trade. (One timing wrinkle: our daily candles are stamped at midnight ET and the news broke mid-day, so the move shows at T+1, not T0 — the 3-day window still catches it.)
+2. **The give side is muted by a floor.** The Bucks, Browns, and Clippers were already priced near 0.5¢ — you can't fall below zero. So "loses a superstar" prints ~0 while "gains a superstar" prints +3 to +4¢. Asymmetric by construction.
+3. **Anticipation is real and visible.** Kawhi → Raptors shows −0.0¢ at the official September completion — because Toronto's contract had already jumped 0.5¢ → 4.5¢ on **June 30**, when the trade framework was agreed. The market priced it 2.5 months before our T0. That "zero" is a timestamp artifact, not indifference. (Dropped from the clean averages: four Boston observations — the Mitchell Robinson and Conley signings, the Queta and Walsh extensions — whose windows read off the Celtics' post-Jaylen-trade collapse on/after July 1 rather than their own news.)
+
+**The structural asymmetry, resolved by D18:** macro events reprice *every* contract in the market — all FED contracts are bets on the same decision. Sports trades reprice 2 of 32. The prereg's event-level aggregation was therefore the wrong estimand for sports, and the original "significant" H1c was partly an artifact of it. D18 re-tests with the fair aggregation: the gap shrinks (−2.76¢), the p-value rises to 0.077, and the honest verdict is "directional but not decisive." (See "What's shaky" §7.)
+
+**When did the market actually move? (D19).** The "official" timestamps above are report times, not market times — so we let the price data locate the jump: for each involved team, the largest single-day midpoint move in [T0−10, T0+5] (data: `hidden_files/analysis_real/jump_timing_3d.csv`).
+
+| Team | Reported T0 | Market jump | Move | Volume vs normal |
+|---|---|---|---|---|
+| MIA (Giannis) | Jun 23 | Jun 23 (+0d) | +4.5¢ | 7× |
+| PHI (Jaylen) | Jul 1 | Jul 2 (+1d) | +4.0¢ | 963× |
+| LAR (Garrett) | Jun 1 | Jun 2 (+1d) | +6.0¢ | 206× |
+| NE (A.J. Brown) | Jun 1 | Jun 2 (+1d) | +1.0¢ | 160× |
+| PHI (LeBron) | Jul 24 | Jul 25 (+1d) | +6.0¢ | 290× |
+| DAL (Von Miller) | Aug 17 | Aug 15 (−2d) | +1.0¢ | 1× |
+| LAR (Donald) | Aug 30 | Sep 1 (+2d) | +1.0¢ | 6× |
+| BOS (give Jaylen) | Jul 1 | Jun 24 (−7d) | −3.0¢ | 2× |
+| LAL (give LeBron) | Jul 24 | Jul 23 (−1d) | −1.0¢ | 4× |
+| CLE (Mitchell ext) | Jul 7 | Jul 1 (−6d) | +3.0¢ | 194× |
+| TOR (Kawhi) | Sep 14 | Jun 30 (−76d) | +2.0¢ that day (+4.0¢ within days) | 570× |
+
+Three patterns. **(1) The market usually moves within a day of the report** — the +1d lag is a data artifact (candles are stamped at midnight ET; news breaks mid-day), and the 100–900× volume spikes confirm these are news-driven repricings, not noise. **(2) Leaks are visible in the price path**: Boston started falling 7 days before the Jaylen report; Cleveland priced the Mitchell extension at free-agency open, 6 days before the announcement. **(3) Kawhi is the extreme**: Toronto's contract jumped 0.5¢ → 4.5¢ on the June 30 framework agreement — 76 days before the "official" September completion our T0 used. The measured −0.04¢ at T0 isn't market indifference; it's a timestamp error, and the jump-anchored abnormal move (+3.5¢) is the economically true number. (Kawhi's jump was located manually — outside the mechanical detection window — and is flagged as such in the data file.)
+
+Two honest caveats on D19. First, anchoring on the observed jump mechanically selects the largest move, so jump-anchored magnitudes (e.g., Garrett +5.1¢ vs T0-anchored +3.4¢) are **upper bounds**; T0-anchored are lower bounds (they include stale pre-news candles and miss leaked moves). The formal H1c test stays T0-anchored — re-testing on selected maxima would be circular. Second, "no detectable jump" (Bucks, Browns, Clippers, Grizzlies, Vikings) means what it says: those contracts never moved, mostly because they were already priced near zero.
+
+### 5. Scheduled vs. unscheduled: still an open question (H1a, H1b, H1d)
+
+The scheduled cells are too thin for clean confirmatory tests — that's a data fact, not a choice:
+- **H1a** (macro): 8 surprise vs 1 scheduled event (+4.8¢ vs +9.2¢) — descriptive only. With the August CPI release added: 8 vs 2. Still descriptive.
+- **H1b** (sports): 15 vs 2 (−0.15¢ vs −0.08¢) — descriptive only in the confirmatory sample.
+- **H1d** (scheduled sports vs scheduled macro): 2 vs 1 — descriptive only.
+
+**But D16 plus the extended sample makes H1b testable for the first time:** adding the draft, lottery, and All-Star Game takes scheduled sports to 5 events. Result: 15 surprise (−0.15¢) vs 5 scheduled (+0.38¢), p = 0.41 — **not significant**. The first real test of "do surprise roster moves move markets more than scheduled sports events" comes back null. (This uses post-plan data additions, so it's labeled accordingly — but the answer is now an actual answer, not a shrug.)
+
+**H1a's best available shot** (8 surprise vs 15 scheduled macro events back to January, supplementary): +4.8¢ vs +2.2¢, p = 0.17 — the predicted direction, not significant. "Scheduled news is already priced in" is not established by this study.
+
+### 6. Cross-domain check (H2): leakage is economically nil one way, untestable the other
+
+- **Macro news → sports markets:** +0.16¢, 95% CI [+0.07¢, +0.25¢], p = 0.003. Formally nonzero — but it's ~3% of the own-market effect. There is no *meaningful* transmission from macro news into championship futures. (Part of it may just be market-wide drift on macro-news days.)
+- **Sports news → macro markets: untestable with daily data.** We tried twice. First attempt used contracts expiring days after the events — their "moves" were just mechanical convergence to par plus a Fed meeting contaminating one window. Second attempt used far-expiry contracts — but those barely trade (stub quotes), and a June Fed repricing sitting inside the baselines manufactured fake negative moves. The formal test "rejects" (p = 0.011) but the rejection is spurious: every large move traces to a dated macro cause, and a placebo with no sports news shows the same drift. A real test needs intraday data. Qualitatively, no sports-attributable move is visible anywhere — consistent with the hypothesis, but not a statistical finding.
+
+### 7. Which contracts react most (H3)
+
+The original tier coding didn't discriminate (every sports contract landed in one tier), so no conclusion there. Under data-driven tiers (supplementary, exploratory): at-the-money macro contracts moved ~3× more than tail contracts (11.6¢ → 3.4¢, monotone), and expensive sports contracts moved ~8× more than cheap ones (1.7¢ → 0.2¢, monotone) — partly mechanical, since a 25¢ contract has more room to move than a 1¢ one. Direction-wise there's no sports gradient: expensive teams' contracts don't systematically move *up* more.
+
+---
+
+## What's shaky — read before citing
+
+1. **The September cluster.** Three macro observations share a date, the same contracts, and the FOMC decision; they're not independent. The macro leg is effectively ~6 event-days, not 8 events. No cluster-collapsed sensitivity has been run.
+2. **Contamination.** One "unscheduled" event's +9.3¢ is mostly the scheduled FOMC decision echoing (the post came after the decision). Another shares its day with a hot CPI print.
+3. **The placebo gate is marginal.** Our quiet-day check on macro markets fails its own pass/fail line under the amended rule (−2.8¢ average drift, p = 0.036; the line is p > 0.05). This isn't caused by the new thin baselines — the strict-baseline placebo fails too. "Quiet" macro days just drift. The drift is *negative* while our headline effect is *positive* (it works against the finding, not for it), but treat macro magnitudes as carrying a ±2–3¢ noise band.
+4. **Anticipation.** Giannis was rumored for months; LeBron and Garrett had weeks-long rumor trails. Rumors inside the baseline window shrink what the announcement can show. D19 measured the actual jump days: most moves land within ±2 days of the report (the +1d lag is the midnight-candle artifact), but Boston leaked 7 days early, Cleveland priced the Mitchell extension 6 days early, and Kawhi priced 76 days early at the framework agreement. Read every sports "zero" as "no *announcement-day* repricing," not "no effect."
+5. **Coverage.** The draft lottery's +2.6¢ rests on 8 thin contracts and is likely confounded by concurrent playoff games. Two scheduled events (NBA opening night, NFL trade deadline) are in the future — no data yet.
+6. **Resolution.** Daily candles only. Several macro events have date-only timestamps (±1 day on day-0). No intraday speed claims, no intraday H2 test.
+7. **Structural asymmetry in H1c — found, fixed, and it changed the verdict.** Macro events reprice every contract in their market; sports trades reprice 2 of 32 teams. The prereg's event-level average therefore structurally understated sports, and the original p=0.008 was partly bought by that choice. D18 re-tests on involved teams only: +1.79¢ vs +4.55¢, p=0.077 — not significant. The direction still favors macro, but with 11 vs 8 events the fair test is underpowered. Anyone citing the "significant" version must cite the aggregation it depends on.
+
+---
+
+## Appendix: every deviation from the locked plan, in plain English
+
+The preregistration (`preregistration.md`) was locked 2026-09-21 and never edited. Everything below is a documented deviation — the full technical text lives in `hidden_files/prereg_deviations.md`.
+
+- **D1 — Speed measure.** The plan's wording for "time to reach half the move" degenerated on step-shaped price moves, so we used the non-degenerate reading: first time the price reaches half its eventual move.
+- **D2 — Baseline fallback.** If the 30-to-5-day baseline was thin, the code retried 45-to-5 days, flagged. (Superseded by D16.)
+- **D3 — Multiple testing.** The Holm correction is applied to both the size and speed legs of the four comparisons, not just size.
+- **D4 — Placebo design.** Instead of purely random quiet days, placebos match the real events' weekday, time of day, and market regime, and can't overlap real events.
+- **D5 — H2 split.** The cross-domain check runs as two separate one-way tests (macro→sports, sports→macro) instead of one pooled test.
+- **D6 — Scheduled macro under-coverage.** The plan said "every" FOMC/CPI release from Aug 14; the first pull only got the FOMC. We added the missed CPI release afterward.
+- **D7 — Fuzzy timestamps.** Several macro events only have date (not time) stamps, so "day 0" may be off by a day. The 3-day headline window is robust to this; the 1-day window less so.
+- **D8 — Tier tests.** The contract-tier test also runs on absolute move size, not just speed — the natural companion the plan implied.
+- **D9 — Stale notes.** Old plan text about minute-level data refers to an earlier data pull; this study is daily candles throughout.
+- **D10 — Exclusion guard.** After the Giannis incident: a registration-time check that loudly flags events whose contracts list too close to T0, a fallback descriptive track so excluded events are still reported, and a public register of every exclusion with its reason.
+- **D11 — Data bug.** The collector misread Kalshi's historical format, leaving 176 rows priceless. Fixed by re-parsing; the re-run reproduced every confirmatory table exactly.
+- **D12 — H2 first attempt failed.** Nearest-expiry contracts made the sports→macro leg mechanical garbage; documented, not reported as a finding.
+- **D13 — v2 re-run.** The full confirmatory re-run on corrected data (see D11).
+- **D14 — Extended samples.** Cross-domain tickers, the missed CPI release, new scheduled sports events, and the January–September scheduled-macro window.
+- **D15 — H2 second attempt failed.** Far-expiry contracts replaced one bias with illiquidity plus baseline contamination; the leg is untestable with daily data.
+- **D16 — Giannis amendment.** Baseline minimum 5→3 observations (thin ones flagged); fallback to the full 30-day pre-window when needed (flagged). Exists because the old rule excluded the sample's most informative event over a 1-observation shortfall. The headline is reported under both rules; it survives both. Side effect: the macro placebo gate flips from marginal-pass to marginal-fail — a stable background drift, not a thin-baseline artifact (see "What's shaky" §3).
+- **D17 — Involved-teams supplementary estimand.** The prereg's event-level average (all 30-odd teams) structurally dilutes sports trades, which mechanically reprice ~2 teams. Added a post-prereg supplementary analysis: abnormal moves of involved teams' contracts only (acquiring/keeping vs. giving), teams picked from registry descriptions before computing. Four Boston observations dropped as contaminated (they read off the July-1 Jaylen Brown trade, not their own news). Result: acquirers +1.8¢ (n=11), givers −1.0¢ (n=6). Data: `hidden_files/analysis_real/involved_teams_3d.csv`.
+- **D18 — Involved-teams becomes the H1c estimand (2026-09-24, at Yuvan's direction).** Yuvan's objection stands: the all-teams average was the wrong aggregation, not a defensible choice — it biases the sports cell toward zero by construction. H1c re-tested with the D17 involved-teams sample (acquiring/keeping side, one observation per event; both sides reported, not averaged together): +1.79¢ (n=11) vs +4.55¢ (n=8), Welch t=−1.99, **p=0.077** — not significant at 5%. The original p=0.008 is still reported (it answers "did the average contract move?"), but the paper's verdict follows the fair aggregation: direction favors macro, evidence is not decisive. All three aggregations are shown side by side in §1. Numbers: `hidden_files/analysis_real/contrast_d18_involved.csv`.
+- **D19 — Market-time anchoring / jump detection (2026-09-24, at Yuvan's direction).** Reported timestamps are report times, not market times. For each involved team, the jump day = largest single-day midpoint move in [T0−10, T0+5] (Kawhi located manually: the true jump was the 2026-06-30 framework agreement, 76 days before the "official" T0 — outside any mechanical window — verified 0.5¢→2.5¢ that day, 4.5¢ by Jul-02, on 570× volume). Findings: 7 of 11 acquiring-team jumps land within ±2 days of the report (the +1d lag is the midnight-ET candle artifact; 100–900× volume spikes confirm news-driven repricing); Boston leaked 7 days early, Cleveland priced the Mitchell extension 6 days early at free-agency open. Jump-anchored abnormal moves (baseline [J−30,J−5], window [J,J+2]) are reported as a labeled sensitivity — they are **upper bounds** (anchoring on the observed max selects the largest move); T0-anchored are lower bounds. The formal H1c test stays T0-anchored; re-testing on selected maxima would be circular. Data: `hidden_files/analysis_real/jump_timing_3d.csv`.
 
 ---
 
 ## Reproducibility
 
-- Preregistration: `preregistration.md` (locked 2026-09-21, unedited).
-- Registry: `hidden_files/event_registry.csv` (+ `event_registry_extended.csv` for batches A–D).
-- Data: `kalshi_api_data_summer/` (confirmatory), `kalshi_api_data_extended/` (batches A–D), combined `hidden_files/market_data_combined.csv`.
-- Analysis: `analyze_kalshi_fixed.py`; v2 outputs `hidden_files/analysis_real/*_v2.csv`; extended `*_v2xd.csv`; supplementary `*_v2supp.csv`; fallback `fallback_descriptive_3d.csv`, `giannis_descriptive.csv`; H3 supplementary `tier_supplementary_3d.csv`.
-- Deviations D1–D14: `hidden_files/prereg_deviations.md`. Exclusions: `hidden_files/excluded_but_material.md`, `analysis_real/exclusions*.csv`. Guard: `hidden_files/coverage_precheck.py`, `hidden_files/analyze_fallback.py`.
+- Plan: `preregistration.md` (locked, unedited). Deviations: `hidden_files/prereg_deviations.md` (D1–D16).
+- Events: `hidden_files/event_registry.csv` (+ `event_registry_extended.csv`). Expectations/rumor trails: `hidden_files/expectations.md`.
+- Data: `kalshi_api_data_summer/` (confirmatory), `kalshi_api_data_extended/`, `kalshi_api_data_h2farexpiry/`, combined `hidden_files/market_data_combined.csv`.
+- Code: `analyze_kalshi_fixed.py` (strict rule), `analyze_d16.py` (amended rule), collectors `collect_kalshi_summer.py` / `collect_extended.py` / `collect_h2farexpiry.py`, guard `hidden_files/coverage_precheck.py`, fallback `hidden_files/analyze_fallback.py`.
+- Outputs: `hidden_files/analysis_real/` — `*_v2.csv` (strict confirmatory), `*_d16.csv` (D16 confirmatory), `*_v2xd.csv` / `*_d16xd.csv` (extended), `*_v2supp.csv` (supplementary), `size_tiers_3d.csv`, `tier_supplementary_3d.csv`, `giannis_descriptive.csv`, `exclusions*.csv`, run logs.
+- Size tiers (ex-ante): `hidden_files/size_tiers.csv`. Exclusion register: `hidden_files/excluded_but_material.md`.

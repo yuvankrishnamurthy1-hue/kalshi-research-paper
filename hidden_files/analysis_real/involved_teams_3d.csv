@@ -1,0 +1,24 @@
+event_id,ticker,team,role,t0,baseline_cents,window_cents,abn_cents,baseline_n,contaminated,contamination_note
+giannis_to_heat,KXNBA-27-MIA,MIA,get,2026-06-23,2.75,7.0,4.25,4,False,
+giannis_to_heat,KXNBA-27-MIL,MIL,give,2026-06-23,0.5,0.5,0.0,4,False,
+jaylen_brown_to_76ers,KXNBA-27-PHI,PHI,get,2026-07-01,1.62,4.83,3.21,12,False,
+jaylen_brown_to_76ers,KXNBA-27-BOS,BOS,give,2026-07-01,12.88,8.67,-4.21,12,False,
+dlo_six_team_trade,KXNBA-27-MEM,MEM,get,2026-07-08,0.5,0.5,0.0,17,False,
+myles_garrett_to_rams,KXSB-27-LAR,LAR,get,2026-06-01,10.81,14.17,3.36,26,False,
+myles_garrett_to_rams,KXSB-27-CLE,CLE,give,2026-06-01,0.5,0.5,0.0,26,False,
+aj_brown_to_patriots,KXSB-27-NE,NE,get,2026-06-01,3.5,4.17,0.67,26,False,
+aj_brown_to_patriots,KXSB-27-PHI,PHI,give,2026-06-01,5.31,4.5,-0.81,26,False,
+kawhi_to_raptors,KXNBA-27-TOR,TOR,get,2026-09-14,2.54,2.5,-0.04,26,False,
+kawhi_to_raptors,KXNBA-27-LAC,LAC,give,2026-09-14,0.5,0.5,0.0,24,False,
+lebron_to_76ers,KXNBA-27-PHI,PHI,get,2026-07-24,5.56,9.5,3.94,26,False,
+lebron_to_76ers,KXNBA-27-LAL,LAL,give,2026-07-24,3.54,2.5,-1.04,26,False,
+von_miller_to_cowboys,KXSB-27-DAL,DAL,get,2026-08-17,3.5,4.5,1.0,26,False,
+mitchell_robinson_to_celtics,KXNBA-27-BOS,BOS,get,2026-07-01,12.88,8.67,-4.21,12,True,shares team/window with 2026-07-01 Jaylen Brown trade
+mitchell_robinson_to_celtics,KXNBA-27-NYK,NYK,give,2026-07-01,13.25,9.83,-3.42,12,True,shares team/window with 2026-07-01 Jaylen Brown trade
+mike_conley_to_celtics,KXNBA-27-BOS,BOS,get,2026-07-01,12.88,8.67,-4.21,12,True,shares team/window with 2026-07-01 Jaylen Brown trade
+mike_conley_to_celtics,KXNBA-27-MIN,MIN,give,2026-07-01,3.79,5.17,1.37,12,True,shares team/window with 2026-07-01 Jaylen Brown trade
+donovan_mitchell_extension,KXNBA-27-CLE,CLE,keep,2026-07-07,2.83,5.67,2.83,18,False,
+neemias_queta_extension,KXNBA-27-BOS,BOS,keep,2026-07-03,12.54,7.67,-4.87,14,True,shares team/window with 2026-07-01 Jaylen Brown trade
+jordan_walsh_extension,KXNBA-27-BOS,BOS,keep,2026-07-23,8.25,5.5,-2.75,26,True,shares team/window with 2026-07-01 Jaylen Brown trade
+brian_oneill_extension,KXSB-27-MIN,MIN,keep,2026-07-28,1.5,1.5,0.0,26,False,
+aaron_donald_comeback,KXSB-27-LAR,LAR,get,2026-08-30,15.35,15.83,0.49,26,False,
