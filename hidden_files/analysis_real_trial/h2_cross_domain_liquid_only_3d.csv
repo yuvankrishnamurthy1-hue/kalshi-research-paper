@@ -1,0 +1,3 @@
+h2_cell,direction,n_events,n_pairs,tested,mean_abn,mean_abn_logodds,ci95_lo,ci95_hi,t,p,prediction,note
+cross_macro_on_sports,macro news -> sports markets,0,0,False,,,,,,,indistinguishable from zero,descriptive only (n<5 unique events)
+cross_sports_on_macro,sports news -> macro markets,0,0,False,,,,,,,indistinguishable from zero,descriptive only (n<5 unique events)

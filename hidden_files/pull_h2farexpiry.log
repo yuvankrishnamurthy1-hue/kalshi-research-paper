@@ -1,0 +1,126 @@
+== discovery phase ==
+  KXCPI: 69 live + 483 historical (483 new), 552 total
+  KXFED: 269 live + 391 historical (391 new), 660 total
+
+== myles_garrett_to_rams_fx (2026-06-01T17:19:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 38 candles (live)
+    KXFED-26SEP-T5.00: 32 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26JUL-T0.5: 55 candles (live)
+    KXCPI-26JUL-T0.4: 54 candles (live)
+
+== aj_brown_to_patriots_fx (2026-06-01T20:20:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 38 candles (live)
+    KXFED-26SEP-T5.00: 32 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26JUL-T0.5: 55 candles (live)
+    KXCPI-26JUL-T0.4: 54 candles (live)
+
+== giannis_to_heat_fx (2026-06-23T03:50:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 22 candles (live)
+    KXFED-26SEP-T5.00: 22 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26AUG-T0.5: 51 candles (live)
+    KXCPI-26AUG-T0.4: 47 candles (live)
+
+== jaylen_brown_to_76ers_fx (2026-07-01T22:20:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 19 candles (live)
+    KXFED-26SEP-T5.00: 22 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26AUG-T0.5: 50 candles (live)
+    KXCPI-26AUG-T0.4: 47 candles (live)
+
+== mike_conley_to_celtics_fx (2026-07-01T14:58:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 19 candles (live)
+    KXFED-26SEP-T5.00: 22 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26AUG-T0.5: 50 candles (live)
+    KXCPI-26AUG-T0.4: 47 candles (live)
+
+== mitchell_robinson_to_celtics_fx (2026-07-01T15:39:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 19 candles (live)
+    KXFED-26SEP-T5.00: 22 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26AUG-T0.5: 50 candles (live)
+    KXCPI-26AUG-T0.4: 47 candles (live)
+
+== neemias_queta_extension_fx (2026-07-03T13:53:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 20 candles (live)
+    KXFED-26SEP-T5.00: 24 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26AUG-T0.5: 50 candles (live)
+    KXCPI-26AUG-T0.4: 47 candles (live)
+
+== donovan_mitchell_extension_fx (2026-07-07T10:01:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 20 candles (live)
+    KXFED-26SEP-T5.00: 24 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26AUG-T0.5: 50 candles (live)
+    KXCPI-26AUG-T0.4: 47 candles (live)
+
+== dlo_six_team_trade_fx (2026-07-08T00:53:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26SEP-T5.25: 20 candles (live)
+    KXFED-26SEP-T5.00: 24 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26AUG-T0.5: 50 candles (live)
+    KXCPI-26AUG-T0.4: 47 candles (live)
+
+== jordan_walsh_extension_fx (2026-07-23T12:27:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26OCT-T5.25: 29 candles (live)
+    KXFED-26OCT-T5.00: 36 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26SEP-T0.6: 11 candles (live)
+    KXCPI-26SEP-T-0.4: 13 candles (live)
+
+== lebron_to_76ers_fx (2026-07-24T20:34:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26OCT-T5.25: 30 candles (live)
+    KXFED-26OCT-T5.00: 37 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26SEP-T0.6: 12 candles (live)
+    KXCPI-26SEP-T-0.4: 14 candles (live)
+
+== brian_oneill_extension_fx (2026-07-28T14:24:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26OCT-T5.25: 33 candles (live)
+    KXFED-26OCT-T5.00: 40 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26SEP-T0.6: 16 candles (live)
+    KXCPI-26SEP-T-0.4: 18 candles (live)
+
+== von_miller_to_cowboys_fx (2026-08-17T01:10:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26OCT-T5.25: 41 candles (live)
+    KXFED-26OCT-T5.00: 44 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26OCT-T0.5: 41 candles (live)
+    KXCPI-26OCT-T0.4: 43 candles (live)
+
+== aaron_donald_comeback_fx (2026-08-30T17:00:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26DEC-T5.25: 36 candles (live)
+    KXFED-26DEC-T5.00: 47 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26OCT-T0.5: 36 candles (live)
+    KXCPI-26OCT-T0.4: 38 candles (live)
+
+== kawhi_to_raptors_fx (2026-09-14T18:56:00Z, unscheduled_sports/crossdomain_macro_farexpiry) ==
+  KXFED: 2 candidate tickers
+    KXFED-26DEC-T5.25: 36 candles (live)
+    KXFED-26DEC-T5.00: 45 candles (live)
+  KXCPI: 2 candidate tickers
+    KXCPI-26NOV-T0.5: 39 candles (live)
+    KXCPI-26NOV-T0.4: 38 candles (live)
+
+DONE: 16 tickers, 737 candle-rows, 0 gaps, 0 deselected
+wrote /home/hatch/workspace/kalshi-paper/kalshi_api_data_h2farexpiry/market_data.csv etc.

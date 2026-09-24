@@ -1,0 +1,110 @@
+/usr/lib/python3/dist-packages/scipy/stats/_axis_nan_policy.py:523: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  res = hypotest_fun_out(*samples, **kwds)
+  field check: trades_available=False, spread_available=True, volume_rows=9954
+  WARNING: no usable trade counts — liquidity filter falls back to spread only, and 'n_trades' is reported as NaN (not zero).
+  WARNING (FIX 6): 2592 macro pairs lack moneyness_steps; they get tier 'M?' and are excluded from tier tests.
+== confirmatory run (exploratory events excluded) ==
+analyzed 25 unique events x 201 markets = 4174 pair-windows (75 event-windows)
+pair cell counts: {'unsched_macro': 869, 'unsched_sports': 430, 'sched_macro': 82, 'sched_sports': 62}
+event cell counts: {'unsched_sports': 14, 'unsched_macro': 8, 'sched_sports': 2, 'sched_macro': 1}
+exclusions by reason: {'insufficient_baseline_history': 4644, 'no_window_data': 827}
+
+-- full, 3-day window: pooled abnormal moves (event-level, FIX 2/3) --
+          cell tier  n_events  n_pairs  mean_abn  mean_abn_logodds    p_abn  tested
+   sched_macro   M?         1       82  0.093403          0.712492      NaN   False
+  sched_sports   S1         2       62 -0.000756         -0.056874      NaN   False
+ unsched_macro   M?         8      869  0.050597          0.455577 0.007510    True
+unsched_sports   S1        14      430 -0.001166         -0.005878 0.057826    True
+-- full: H1a-H1d factorial contrasts (event-level) --
+contrast              a             b  n_a  n_b  mean_abn_a  mean_abn_b    p_abn  p_abn_holm    p_t50  p_t50_holm  tested
+     H1a  unsched_macro   sched_macro    8    1    0.050597    0.093403      NaN         NaN      NaN         NaN   False
+     H1b unsched_sports  sched_sports   14    2   -0.001166   -0.000756      NaN         NaN      NaN         NaN   False
+     H1c unsched_sports unsched_macro   14    8   -0.001166    0.050597 0.006699    0.006699 0.092027    0.092027    True
+     H1d   sched_sports   sched_macro    2    1   -0.000756    0.093403      NaN         NaN      NaN         NaN   False
+-- full: H2 cross-domain falsification --
+              h2_cell  n_events  mean_abn  ci95_lo  ci95_hi   p  tested
+cross_macro_on_sports         0       NaN      NaN      NaN NaN   False
+cross_sports_on_macro         0       NaN      NaN      NaN NaN   False
+-- full: tier differences within cell (Kruskal-Wallis, H3) --
+          cell       metric   H   p  tiers_compared  n_events
+   sched_macro abs_abnormal NaN NaN               0         1
+   sched_macro          t50 NaN NaN               0         1
+  sched_sports abs_abnormal NaN NaN               1         2
+  sched_sports          t50 NaN NaN               1         2
+ unsched_macro abs_abnormal NaN NaN               1         8
+ unsched_macro          t50 NaN NaN               1         8
+unsched_sports abs_abnormal NaN NaN               1        14
+unsched_sports          t50 NaN NaN               1        14
+
+-- liquid_only, 3-day window: pooled abnormal moves (event-level, FIX 2/3) --
+          cell tier  n_events  n_pairs  mean_abn  mean_abn_logodds    p_abn  tested
+   sched_macro   M?         1       41  0.069301          0.758926      NaN   False
+  sched_sports   S1         2       62 -0.000756         -0.056874      NaN   False
+ unsched_macro   M?         8      447  0.046000          0.552838 0.009080    True
+unsched_sports   S1        14      430 -0.001166         -0.005878 0.057826    True
+-- liquid_only: H1a-H1d factorial contrasts (event-level) --
+contrast              a             b  n_a  n_b  mean_abn_a  mean_abn_b    p_abn  p_abn_holm    p_t50  p_t50_holm  tested
+     H1a  unsched_macro   sched_macro    8    1    0.046000    0.069301      NaN         NaN      NaN         NaN   False
+     H1b unsched_sports  sched_sports   14    2   -0.001166   -0.000756      NaN         NaN      NaN         NaN   False
+     H1c unsched_sports unsched_macro   14    8   -0.001166    0.046000 0.008033    0.008033 0.334705    0.334705    True
+     H1d   sched_sports   sched_macro    2    1   -0.000756    0.069301      NaN         NaN      NaN         NaN   False
+-- liquid_only: H2 cross-domain falsification --
+              h2_cell  n_events  mean_abn  ci95_lo  ci95_hi   p  tested
+cross_macro_on_sports         0       NaN      NaN      NaN NaN   False
+cross_sports_on_macro         0       NaN      NaN      NaN NaN   False
+-- liquid_only: tier differences within cell (Kruskal-Wallis, H3) --
+          cell       metric   H   p  tiers_compared  n_events
+   sched_macro abs_abnormal NaN NaN               0         1
+   sched_macro          t50 NaN NaN               0         1
+  sched_sports abs_abnormal NaN NaN               1         2
+  sched_sports          t50 NaN NaN               1         2
+ unsched_macro abs_abnormal NaN NaN               1         8
+ unsched_macro          t50 NaN NaN               1         8
+unsched_sports abs_abnormal NaN NaN               1        14
+unsched_sports          t50 NaN NaN               1        14
+
+== placebo test ==
+  market_kind  n  mean_abn         t        p          verdict
+ macro_bucket 50 -0.002867 -0.254140 0.800451 PASS (no effect)
+sports_future 50 -0.000609 -1.374335 0.176298 PASS (no effect)
+
+== robustness: headline metric across window lengths ==
+-- 1-day window: cells --
+          cell tier  n_events  mean_abn    p_abn  tested
+   sched_macro   M?         1  0.059444      NaN   False
+  sched_sports   S1         2 -0.000303      NaN   False
+ unsched_macro   M?         8  0.037551 0.003512    True
+unsched_sports   S1        14 -0.000852 0.152379    True
+-- 1-day window: H1a-H1d contrasts --
+contrast  n_a  n_b    p_abn  p_abn_holm  tested
+     H1a    8    1      NaN         NaN   False
+     H1b   14    2      NaN         NaN   False
+     H1c   14    8 0.003089    0.003089    True
+     H1d    2    1      NaN         NaN   False
+-- 3-day window: cells --
+          cell tier  n_events  mean_abn    p_abn  tested
+   sched_macro   M?         1  0.093403      NaN   False
+  sched_sports   S1         2 -0.000756      NaN   False
+ unsched_macro   M?         8  0.050597 0.007510    True
+unsched_sports   S1        14 -0.001166 0.057826    True
+-- 3-day window: H1a-H1d contrasts --
+contrast  n_a  n_b    p_abn  p_abn_holm  tested
+     H1a    8    1      NaN         NaN   False
+     H1b   14    2      NaN         NaN   False
+     H1c   14    8 0.006699    0.006699    True
+     H1d    2    1      NaN         NaN   False
+-- 5-day window: cells --
+          cell tier  n_events  mean_abn    p_abn  tested
+   sched_macro   M?         1  0.095882      NaN   False
+  sched_sports   S1         2 -0.000914      NaN   False
+ unsched_macro   M?         8  0.060514 0.001157    True
+unsched_sports   S1        14 -0.001451 0.036174    True
+-- 5-day window: H1a-H1d contrasts --
+contrast  n_a  n_b    p_abn  p_abn_holm  tested
+     H1a    8    1      NaN         NaN   False
+     H1b   14    2      NaN         NaN   False
+     H1c   14    8 0.000998    0.000998    True
+     H1d    2    1      NaN         NaN   False
+
+All tables written to hidden_files/analysis_real_trial/
+EXIT:0

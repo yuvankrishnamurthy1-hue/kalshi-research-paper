@@ -1,0 +1,525 @@
+ticker,series,event_id,event_type,category,t0_utc,discovery_source,status,market_type,subtitle,yes_sub_title,floor_strike,cap_strike,open_time,close_time,candle_source,n_candles
+KXNBA-27-PHI,KXNBA,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIA,KXNBA,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-ORL,KXNBA,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,54
+KXNBA-27-MEM,KXNBA,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,51
+KXNBA-27-MIN,KXNBA,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-LAL,KXNBA,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-NYK,KXNBA,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,New York,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-GSW,KXNBA,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXSB-27-DAL,KXSB,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Dallas,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-SF,KXSB,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,San Francisco,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-LAR,KXSB,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Los Angeles R,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CIN,KXSB,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Cincinnati,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-BUF,KXSB,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Buffalo,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CHI,KXSB,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Chicago,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-NYG,KXSB,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,New York G,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-HOU,KXSB,hormuz_retaliation_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-07T13:53:00Z,live,active,binary,,Houston,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXNBA-27-PHI,KXNBA,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIA,KXNBA,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-ORL,KXNBA,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,54
+KXNBA-27-MEM,KXNBA,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,51
+KXNBA-27-MIN,KXNBA,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-LAL,KXNBA,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-NYK,KXNBA,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,New York,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-GSW,KXNBA,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXSB-27-DAL,KXSB,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Dallas,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-SF,KXSB,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,San Francisco,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-LAR,KXSB,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Los Angeles R,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CIN,KXSB,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Cincinnati,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-BUF,KXSB,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Buffalo,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CHI,KXSB,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Chicago,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-NYG,KXSB,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,New York G,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-HOU,KXSB,canada_proclamations_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-08,live,active,binary,,Houston,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXNBA-27-PHI,KXNBA,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIA,KXNBA,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MEM,KXNBA,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,51
+KXNBA-27-MIN,KXNBA,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-ORL,KXNBA,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,54
+KXNBA-27-LAL,KXNBA,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-GSW,KXNBA,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-SAS,KXNBA,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,San Antonio,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXSB-27-DAL,KXSB,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Dallas,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-SF,KXSB,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,San Francisco,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-LAR,KXSB,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Los Angeles R,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-BUF,KXSB,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Buffalo,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CIN,KXSB,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Cincinnati,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CHI,KXSB,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Chicago,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-NYG,KXSB,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,New York G,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-HOU,KXSB,hormuz_strike_pipeline_shutdown_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-10,live,active,binary,,Houston,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXNBA-27-PHI,KXNBA,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MEM,KXNBA,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,51
+KXNBA-27-MIA,KXNBA,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIN,KXNBA,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-ORL,KXNBA,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,54
+KXNBA-27-LAL,KXNBA,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-GSW,KXNBA,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-SAS,KXNBA,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,San Antonio,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXSB-27-DAL,KXSB,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Dallas,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-SF,KXSB,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,San Francisco,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-BUF,KXSB,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Buffalo,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-LAR,KXSB,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Los Angeles R,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CIN,KXSB,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Cincinnati,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CHI,KXSB,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Chicago,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-NYG,KXSB,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,New York G,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-HOU,KXSB,perim_island_seized_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-11,live,active,binary,,Houston,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXNBA-27-PHI,KXNBA,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,54
+KXNBA-27-MEM,KXNBA,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,50
+KXNBA-27-MIN,KXNBA,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-ORL,KXNBA,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,53
+KXNBA-27-LAL,KXNBA,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIA,KXNBA,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-GSW,KXNBA,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-SAS,KXNBA,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,San Antonio,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXSB-27-DAL,KXSB,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Dallas,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CIN,KXSB,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Cincinnati,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CHI,KXSB,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Chicago,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-SF,KXSB,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,San Francisco,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-BUF,KXSB,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Buffalo,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-NYG,KXSB,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,New York G,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-LAR,KXSB,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Los Angeles R,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-HOU,KXSB,tariff_eu_threat_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Houston,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXNBA-27-PHI,KXNBA,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,54
+KXNBA-27-MEM,KXNBA,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,50
+KXNBA-27-MIN,KXNBA,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-ORL,KXNBA,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,53
+KXNBA-27-LAL,KXNBA,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIA,KXNBA,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-GSW,KXNBA,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-SAS,KXNBA,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,San Antonio,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXSB-27-DAL,KXSB,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Dallas,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CIN,KXSB,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Cincinnati,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CHI,KXSB,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Chicago,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-SF,KXSB,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,San Francisco,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-BUF,KXSB,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Buffalo,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-NYG,KXSB,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,New York G,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-LAR,KXSB,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Los Angeles R,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-HOU,KXSB,russia_sanctions_bill_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Houston,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXNBA-27-PHI,KXNBA,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,54
+KXNBA-27-MEM,KXNBA,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,50
+KXNBA-27-MIN,KXNBA,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-ORL,KXNBA,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,53
+KXNBA-27-LAL,KXNBA,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIA,KXNBA,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-GSW,KXNBA,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-SAS,KXNBA,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,San Antonio,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXSB-27-DAL,KXSB,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Dallas,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CIN,KXSB,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Cincinnati,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CHI,KXSB,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Chicago,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-SF,KXSB,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,San Francisco,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-BUF,KXSB,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Buffalo,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-NYG,KXSB,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,New York G,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-LAR,KXSB,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Los Angeles R,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-HOU,KXSB,trump_truth_fed_xd,unscheduled_macro,crossdomain_sports_basket,2026-09-16,live,active,binary,,Houston,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXNBA-27-PHI,KXNBA,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIA,KXNBA,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-ORL,KXNBA,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,54
+KXNBA-27-MEM,KXNBA,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,53
+KXNBA-27-LAL,KXNBA,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-MIN,KXNBA,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-GSW,KXNBA,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXNBA-27-NYK,KXNBA,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,New York,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,55
+KXSB-27-DAL,KXSB,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Dallas,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-LAR,KXSB,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Los Angeles R,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-HOU,KXSB,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Houston,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-BUF,KXSB,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Buffalo,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-DEN,KXSB,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Denver,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-SF,KXSB,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,San Francisco,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-MIN,KXSB,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Minnesota,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXSB-27-CIN,KXSB,nvda_earnings_xd,unscheduled_macro,crossdomain_sports_basket,2026-08-26,live,active,binary,,Cincinnati,,,2026-02-08T20:00:00Z,2029-02-13T23:30:00Z,live,55
+KXFED-26JUN-T5.25,KXFED,myles_garrett_to_rams_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-01T17:19:00Z,historical,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,41
+KXFED-26JUN-T5.00,KXFED,myles_garrett_to_rams_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-01T17:19:00Z,historical,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,35
+KXCPI-26MAY-T-0.3,KXCPI,myles_garrett_to_rams_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-01T17:19:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-04-10T19:30:00Z,2026-06-10T12:25:00Z,historical,42
+KXCPI-26MAY-T-0.2,KXCPI,myles_garrett_to_rams_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-01T17:19:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-04-10T19:30:00Z,2026-06-10T12:25:00Z,historical,45
+KXFED-26JUN-T5.25,KXFED,aj_brown_to_patriots_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-01T20:20:00Z,historical,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,41
+KXFED-26JUN-T5.00,KXFED,aj_brown_to_patriots_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-01T20:20:00Z,historical,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,35
+KXCPI-26MAY-T-0.3,KXCPI,aj_brown_to_patriots_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-01T20:20:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-04-10T19:30:00Z,2026-06-10T12:25:00Z,historical,42
+KXCPI-26MAY-T-0.2,KXCPI,aj_brown_to_patriots_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-01T20:20:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-04-10T19:30:00Z,2026-06-10T12:25:00Z,historical,45
+KXFED-26JUL-T5.25,KXFED,giannis_to_heat_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-23T03:50:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,32
+KXFED-26JUL-T5.00,KXFED,giannis_to_heat_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-23T03:50:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,30
+KXCPI-26JUN-T-0.3,KXCPI,giannis_to_heat_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-23T03:50:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,23
+KXCPI-26JUN-T-0.2,KXCPI,giannis_to_heat_xd,unscheduled_sports,crossdomain_macro_contracts,2026-06-23T03:50:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,24
+KXFED-26JUL-T5.25,KXFED,jaylen_brown_to_76ers_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T22:20:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXFED-26JUL-T5.00,KXFED,jaylen_brown_to_76ers_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T22:20:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXCPI-26JUN-T-0.3,KXCPI,jaylen_brown_to_76ers_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T22:20:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,32
+KXCPI-26JUN-T-0.2,KXCPI,jaylen_brown_to_76ers_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T22:20:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,33
+KXFED-26JUL-T5.25,KXFED,mike_conley_to_celtics_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T14:58:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXFED-26JUL-T5.00,KXFED,mike_conley_to_celtics_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T14:58:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXCPI-26JUN-T-0.3,KXCPI,mike_conley_to_celtics_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T14:58:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,32
+KXCPI-26JUN-T-0.2,KXCPI,mike_conley_to_celtics_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T14:58:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,33
+KXFED-26JUL-T5.25,KXFED,mitchell_robinson_to_celtics_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T15:39:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXFED-26JUL-T5.00,KXFED,mitchell_robinson_to_celtics_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T15:39:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXCPI-26JUN-T-0.3,KXCPI,mitchell_robinson_to_celtics_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T15:39:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,32
+KXCPI-26JUN-T-0.2,KXCPI,mitchell_robinson_to_celtics_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-01T15:39:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,33
+KXFED-26JUL-T5.25,KXFED,neemias_queta_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-03T13:53:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,32
+KXFED-26JUL-T5.00,KXFED,neemias_queta_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-03T13:53:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,32
+KXCPI-26JUN-T-0.3,KXCPI,neemias_queta_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-03T13:53:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,34
+KXCPI-26JUN-T-0.2,KXCPI,neemias_queta_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-03T13:53:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,35
+KXFED-26JUL-T5.25,KXFED,donovan_mitchell_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-07T10:01:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXFED-26JUL-T5.00,KXFED,donovan_mitchell_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-07T10:01:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXCPI-26JUN-T-0.3,KXCPI,donovan_mitchell_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-07T10:01:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,36
+KXCPI-26JUN-T-0.2,KXCPI,donovan_mitchell_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-07T10:01:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,37
+KXFED-26JUL-T5.25,KXFED,dlo_six_team_trade_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-08T00:53:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXFED-26JUL-T5.00,KXFED,dlo_six_team_trade_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-08T00:53:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXCPI-26JUN-T-0.3,KXCPI,dlo_six_team_trade_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-08T00:53:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,36
+KXCPI-26JUN-T-0.2,KXCPI,dlo_six_team_trade_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-08T00:53:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,37
+KXFED-26JUL-T5.25,KXFED,jordan_walsh_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-23T12:27:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,30
+KXFED-26JUL-T5.00,KXFED,jordan_walsh_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-23T12:27:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,31
+KXCPI-26JUL-T-0.4,KXCPI,jordan_walsh_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-23T12:27:00Z,live,finalized,binary,-0.4%,Above -0.4%,-0.4,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,44
+KXCPI-26JUL-T-0.3,KXCPI,jordan_walsh_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-23T12:27:00Z,live,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,45
+KXFED-26JUL-T5.25,KXFED,lebron_to_76ers_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-24T20:34:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,29
+KXFED-26JUL-T5.00,KXFED,lebron_to_76ers_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-24T20:34:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,30
+KXCPI-26JUL-T-0.4,KXCPI,lebron_to_76ers_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-24T20:34:00Z,live,finalized,binary,-0.4%,Above -0.4%,-0.4,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,45
+KXCPI-26JUL-T-0.3,KXCPI,lebron_to_76ers_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-24T20:34:00Z,live,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,46
+KXFED-26JUL-T5.25,KXFED,brian_oneill_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-28T14:24:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,26
+KXFED-26JUL-T5.00,KXFED,brian_oneill_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-28T14:24:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,27
+KXCPI-26JUL-T-0.4,KXCPI,brian_oneill_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-28T14:24:00Z,live,finalized,binary,-0.4%,Above -0.4%,-0.4,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,49
+KXCPI-26JUL-T-0.3,KXCPI,brian_oneill_extension_xd,unscheduled_sports,crossdomain_macro_contracts,2026-07-28T14:24:00Z,live,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,50
+KXFED-26SEP-T5.25,KXFED,von_miller_to_cowboys_xd,unscheduled_sports,crossdomain_macro_contracts,2026-08-17T01:10:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-09-16T17:55:00Z,live,44
+KXFED-26SEP-T5.00,KXFED,von_miller_to_cowboys_xd,unscheduled_sports,crossdomain_macro_contracts,2026-08-17T01:10:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-09-16T17:55:00Z,live,48
+KXCPI-26AUG-T1.0,KXCPI,von_miller_to_cowboys_xd,unscheduled_sports,crossdomain_macro_contracts,2026-08-17T01:10:00Z,live,finalized,binary,1.0%,Above 1.0%,1,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,29
+KXCPI-26AUG-T0.9,KXCPI,von_miller_to_cowboys_xd,unscheduled_sports,crossdomain_macro_contracts,2026-08-17T01:10:00Z,live,finalized,binary,0.9%,Above 0.9%,0.9,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,32
+KXFED-26SEP-T5.25,KXFED,aaron_donald_comeback_xd,unscheduled_sports,crossdomain_macro_contracts,2026-08-30T17:00:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-09-16T17:55:00Z,live,50
+KXFED-26SEP-T5.00,KXFED,aaron_donald_comeback_xd,unscheduled_sports,crossdomain_macro_contracts,2026-08-30T17:00:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-09-16T17:55:00Z,live,50
+KXCPI-26AUG-T1.0,KXCPI,aaron_donald_comeback_xd,unscheduled_sports,crossdomain_macro_contracts,2026-08-30T17:00:00Z,live,finalized,binary,1.0%,Above 1.0%,1,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,41
+KXCPI-26AUG-T0.9,KXCPI,aaron_donald_comeback_xd,unscheduled_sports,crossdomain_macro_contracts,2026-08-30T17:00:00Z,live,finalized,binary,0.9%,Above 0.9%,0.9,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,43
+KXFED-26SEP-T5.25,KXFED,kawhi_to_raptors_xd,unscheduled_sports,crossdomain_macro_contracts,2026-09-14T18:56:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-09-16T17:55:00Z,live,42
+KXFED-26SEP-T5.00,KXFED,kawhi_to_raptors_xd,unscheduled_sports,crossdomain_macro_contracts,2026-09-14T18:56:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-09-16T17:55:00Z,live,43
+KXCPI-26SEP-T0.9,KXCPI,kawhi_to_raptors_xd,unscheduled_sports,crossdomain_macro_contracts,2026-09-14T18:56:00Z,live,active,binary,0.9%,Above 0.9%,0.9,,2026-09-17T15:30:00Z,2026-10-14T12:25:00Z,live,7
+KXCPI-26SEP-T0.8,KXCPI,kawhi_to_raptors_xd,unscheduled_sports,crossdomain_macro_contracts,2026-09-14T18:56:00Z,live,active,binary,0.8%,Above 0.8%,0.8,,2026-09-17T15:30:00Z,2026-10-14T12:25:00Z,live,7
+KXCPI-26AUG-T1.0,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,1.0%,Above 1.0%,1,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,39
+KXCPI-26AUG-T0.9,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.9%,Above 0.9%,0.9,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,41
+KXCPI-26AUG-T0.8,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.8%,Above 0.8%,0.8,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,39
+KXCPI-26AUG-T0.7,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.7%,Above 0.7%,0.7,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,43
+KXCPI-26AUG-T0.6,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.6%,Above 0.6%,0.6,,2026-07-23T21:00:00Z,2026-09-11T12:25:00Z,live,43
+KXCPI-26AUG-T-0.4,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,-0.4%,Above -0.4%,-0.4,,2026-07-20T18:00:00Z,2026-09-11T12:25:00Z,live,39
+KXCPI-26AUG-T-0.3,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-07-20T18:00:00Z,2026-09-11T12:25:00Z,live,41
+KXCPI-26AUG-T-0.2,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-07-20T18:00:00Z,2026-09-11T12:25:00Z,live,42
+KXCPI-26AUG-T0.5,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.5%,Above 0.5%,0.5,,2026-02-20T15:00:00Z,2026-09-11T12:25:00Z,live,43
+KXCPI-26AUG-T0.4,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.4%,Above 0.4%,0.4,,2026-02-20T15:00:00Z,2026-09-11T12:25:00Z,live,46
+KXCPI-26AUG-T0.3,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.3%,Above 0.3%,0.3,,2026-02-20T15:00:00Z,2026-09-11T12:25:00Z,live,46
+KXCPI-26AUG-T0.2,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.2%,Above 0.2%,0.2,,2026-02-20T15:00:00Z,2026-09-11T12:25:00Z,live,46
+KXCPI-26AUG-T0.1,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.1%,Above 0.1%,0.1,,2026-02-20T15:00:00Z,2026-09-11T12:25:00Z,live,45
+KXCPI-26AUG-T-0.1,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,-0.1%,Above -0.1%,-0.1,,2026-02-20T15:00:00Z,2026-09-11T12:25:00Z,live,37
+KXCPI-26AUG-T0.0,KXCPI,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.0%,Above 0.0%,0,,2026-02-20T15:00:00Z,2026-09-11T12:25:00Z,live,40
+KXCPICORE-26AUG-T1.0,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,1.0,Above 1.0%,1,1,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,7
+KXCPICORE-26AUG-T0.9,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.9,Above 0.9%,0.9,0.9,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,10
+KXCPICORE-26AUG-T0.8,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.8,Above 0.8%,0.8,0.8,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,38
+KXCPICORE-26AUG-T0.7,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.7,Above 0.7%,0.7,0.7,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,37
+KXCPICORE-26AUG-T0.6,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.6,Above 0.6%,0.6,0.6,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,38
+KXCPICORE-26AUG-T0.5,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,38
+KXCPICORE-26AUG-T0.4,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,28
+KXCPICORE-26AUG-T0.3,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,39
+KXCPICORE-26AUG-T0.2,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,45
+KXCPICORE-26AUG-T0.1,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,39
+KXCPICORE-26AUG-T0.0,KXCPICORE,cpi_aug_release,scheduled_macro,scheduled_macro,2026-09-11T12:30:00Z,live,finalized,binary,0.0,Above 0.0%,0,0,2026-06-10T18:30:00Z,2026-09-11T12:25:00Z,live,40
+KXNBA-26-WAS,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Washington,,,2025-07-12T14:00:00Z,2026-04-09T18:18:51Z,historical,15
+KXNBA-26-UTA,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Utah,,,2025-07-12T14:00:00Z,2026-04-09T18:18:51Z,historical,15
+KXNBA-26-TOR,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Toronto,,,2025-07-12T14:00:00Z,2026-05-04T02:47:42Z,historical,39
+KXNBA-26-SAS,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,San Antonio,,,2025-07-12T14:00:00Z,2026-06-14T03:32:24Z,historical,55
+KXNBA-26-SAC,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Sacramento,,,2025-07-12T14:00:00Z,2026-04-09T18:18:51Z,historical,15
+KXNBA-26-POR,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Portland,,,2025-07-12T14:00:00Z,2026-04-29T04:29:42Z,historical,35
+KXNBA-26-PHX,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Phoenix,,,2025-07-12T14:00:00Z,2026-04-28T04:26:09Z,historical,34
+KXNBA-26-PHI,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Philadelphia,,,2025-07-12T14:00:00Z,2026-05-10T22:14:11Z,historical,46
+KXNBA-26-ORL,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Orlando,,,2025-07-12T14:00:00Z,2026-05-03T22:19:44Z,historical,39
+KXNBA-26-OKC,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,Oklahoma City,Oklahoma City,,,2025-07-12T14:00:00Z,2026-05-31T02:50:41Z,historical,55
+KXNBA-26-NYK,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,New York,,,2025-07-12T14:00:00Z,2026-06-14T03:32:24Z,historical,55
+KXNBA-26-NOP,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,New Orleans,,,2025-07-12T14:00:00Z,2026-04-09T18:18:51Z,historical,15
+KXNBA-26-MIN,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Minnesota,,,2025-07-12T14:00:00Z,2026-05-16T04:33:40Z,historical,52
+KXNBA-26-MIL,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Milwaukee,,,2025-07-12T14:00:00Z,2026-04-09T18:17:01Z,historical,15
+KXNBA-26-MIA,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Miami,,,2025-07-12T14:00:00Z,2026-04-15T04:49:43Z,historical,21
+KXNBA-26-MEM,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Memphis,,,2025-07-12T14:00:00Z,2026-04-09T18:18:51Z,historical,15
+KXNBA-26-LAL,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Los Angeles L,,,2025-07-12T14:00:00Z,2026-05-12T05:34:06Z,historical,48
+KXNBA-26-LAC,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Los Angeles C,,,2025-07-12T14:00:00Z,2026-04-16T05:04:54Z,historical,22
+KXNBA-26-IND,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Indiana,,,2025-07-12T14:00:00Z,2026-04-09T18:18:51Z,historical,15
+KXNBA-26-HOU,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Houston,,,2025-07-12T14:00:00Z,2026-05-02T04:27:15Z,historical,38
+KXNBA-26-GSW,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Golden State,,,2025-07-12T14:00:00Z,2026-04-18T04:53:46Z,historical,24
+KXNBA-26-DET,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Detroit,,,2025-07-12T14:00:00Z,2026-05-18T02:50:39Z,historical,53
+KXNBA-26-DEN,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Denver,,,2025-07-12T14:00:00Z,2026-05-01T04:25:34Z,historical,37
+KXNBA-26-DAL,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Dallas,,,2025-07-12T14:00:00Z,2026-04-09T18:18:51Z,historical,15
+KXNBA-26-CLE,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Cleveland,,,2025-07-12T14:00:00Z,2026-05-26T02:32:20Z,historical,55
+KXNBA-26-CHI,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Chicago,,,2025-07-12T14:00:00Z,2026-04-09T18:17:14Z,historical,15
+KXNBA-26-CHA,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Charlotte,,,2025-07-12T14:00:00Z,2026-04-18T02:25:40Z,historical,23
+KXNBA-26-BOS,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Boston,,,2025-07-12T14:00:00Z,2026-05-03T02:12:59Z,historical,38
+KXNBA-26-BKN,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,,Brooklyn,,,2025-07-12T14:00:00Z,2026-04-09T18:18:51Z,historical,15
+KXNBA-26-ATL,KXNBA,nba_draft_lottery_2026,scheduled_sports,scheduled_sports,2026-05-11,historical,finalized,binary,Atlanta,Atlanta,,,2025-07-12T14:00:00Z,2026-05-01T01:52:36Z,historical,36
+KXNBA-27-WAS,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Washington,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-UTA,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Utah,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-TOR,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Toronto,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-SAS,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,San Antonio,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-SAC,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Sacramento,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,18
+KXNBA-27-POR,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Portland,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-PHX,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Phoenix,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,18
+KXNBA-27-PHI,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Philadelphia,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-ORL,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Orlando,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-OKC,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Oklahoma City,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-NYK,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,New York,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-NOP,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,New Orleans,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,16
+KXNBA-27-MIN,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Minnesota,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-MIL,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Milwaukee,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,18
+KXNBA-27-MIA,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Miami,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-MEM,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Memphis,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,17
+KXNBA-27-LAL,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Los Angeles L,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-LAC,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Los Angeles C,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-IND,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Indiana,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-HOU,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Houston,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-GSW,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Golden State,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-DET,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Detroit,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-DEN,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Denver,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-DAL,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Dallas,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-CLE,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Cleveland,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-CHI,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Chicago,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-CHA,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Charlotte,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-BOS,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Boston,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-27-BKN,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,,Brooklyn,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,18
+KXNBA-27-ATL,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,live,active,binary,Atlanta,Atlanta,,,2026-06-14T08:00:00Z,2029-07-30T14:00:00Z,live,19
+KXNBA-26-SAS,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,historical,finalized,binary,,San Antonio,,,2025-07-12T14:00:00Z,2026-06-14T03:32:24Z,historical,36
+KXNBA-26-PHI,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,historical,finalized,binary,,Philadelphia,,,2025-07-12T14:00:00Z,2026-05-10T22:14:11Z,historical,2
+KXNBA-26-OKC,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,historical,finalized,binary,Oklahoma City,Oklahoma City,,,2025-07-12T14:00:00Z,2026-05-31T02:50:41Z,historical,22
+KXNBA-26-NYK,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,historical,finalized,binary,,New York,,,2025-07-12T14:00:00Z,2026-06-14T03:32:24Z,historical,36
+KXNBA-26-MIN,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,historical,finalized,binary,,Minnesota,,,2025-07-12T14:00:00Z,2026-05-16T04:33:40Z,historical,8
+KXNBA-26-LAL,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,historical,finalized,binary,,Los Angeles L,,,2025-07-12T14:00:00Z,2026-05-12T05:34:06Z,historical,4
+KXNBA-26-DET,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,historical,finalized,binary,,Detroit,,,2025-07-12T14:00:00Z,2026-05-18T02:50:39Z,historical,9
+KXNBA-26-CLE,KXNBA,nba_draft_2026,scheduled_sports,scheduled_sports,2026-06-24,historical,finalized,binary,,Cleveland,,,2025-07-12T14:00:00Z,2026-05-26T02:32:20Z,historical,17
+KXMLB-26-WSH,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Washington,,,2025-12-17T15:00:00Z,2026-09-18T15:59:03Z,live,55
+KXMLB-26-TOR,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Toronto,,,2025-12-17T15:00:00Z,2026-09-23T21:59:48Z,live,55
+KXMLB-26-TEX,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Texas,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-TB,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Tampa Bay,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-STL,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,St. Louis,,,2025-12-17T15:00:00Z,2026-09-21T15:23:45Z,live,55
+KXMLB-26-SF,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,San Francisco,,,2025-12-17T15:00:00Z,2026-09-18T15:59:03Z,live,55
+KXMLB-26-SEA,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Seattle,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-SD,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,San Diego,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-PIT,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Pittsburgh,,,2025-12-17T15:00:00Z,2026-09-21T15:23:45Z,live,55
+KXMLB-26-PHI,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Philadelphia,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-NYY,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,New York Y,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-NYM,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,New York M,,,2025-12-17T15:00:00Z,2026-09-18T15:59:03Z,live,55
+KXMLB-26-MIN,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Minnesota,,,2025-12-17T15:00:00Z,2026-09-21T15:23:45Z,live,55
+KXMLB-26-MIL,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Milwaukee,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-MIA,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Miami,,,2025-12-17T15:00:00Z,2026-09-21T15:23:46Z,live,55
+KXMLB-26-LAD,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Los Angeles D,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-LAA,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Los Angeles A,,,2025-12-17T15:00:00Z,2026-09-18T15:59:03Z,live,55
+KXMLB-26-KC,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Kansas City,,,2025-12-17T15:00:00Z,2026-09-18T15:59:03Z,live,55
+KXMLB-26-HOU,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Houston,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-DET,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Detroit,,,2025-12-17T15:00:00Z,2026-09-21T15:23:45Z,live,55
+KXMLB-26-CWS,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Chicago WS,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-COL,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Colorado,,,2025-12-17T15:00:00Z,2026-09-18T15:59:03Z,live,54
+KXMLB-26-CLE,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Cleveland,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-CIN,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,Cincinnati,,,2025-12-17T15:00:00Z,2026-09-18T15:59:03Z,live,55
+KXMLB-26-CHC,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Chicago C,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-BOS,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Boston,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-BAL,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Baltimore,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-AZ,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Arizona,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-ATL,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,active,binary,,Atlanta,,,2025-12-17T15:00:00Z,2028-10-31T04:00:00Z,live,55
+KXMLB-26-ATH,KXMLB,mlb_allstar_2026,scheduled_sports,scheduled_sports,2026-07-14,live,finalized,binary,,A's,,,2025-12-17T15:00:00Z,2026-09-18T15:59:03Z,live,55
+KXFED-26JAN-T5.25,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T5.00,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T4.75,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,4.75%,Above 4.75%,4.75,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T4.50,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,4.50%,Above 4.50%,4.5,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T4.25,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,4.25%,Above 4.25%,4.25,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T4.00,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,4.00%,Above 4.00%,4,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T3.75,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,3.75%,Above 3.75%,3.75,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T3.50,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,3.50%,Above 3.50%,3.5,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T3.25,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,3.25%,Above 3.25%,3.25,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T3.00,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,3.00%,Above 3.00%,3,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26JAN-T2.75,KXFED,fomc_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-28T18:00:00Z,historical,finalized,binary,2.75%,Above 2.75%,2.75,,2025-08-06T14:00:00Z,2026-01-28T18:55:00Z,historical,46
+KXFED-26MAR-T5.25,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,39
+KXFED-26MAR-T5.00,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,38
+KXFED-26MAR-T4.75,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,4.75%,Above 4.75%,4.75,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,38
+KXFED-26MAR-T4.50,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,4.50%,Above 4.50%,4.5,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,31
+KXFED-26MAR-T4.25,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,4.25%,Above 4.25%,4.25,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,30
+KXFED-26MAR-T4.00,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,4.00%,Above 4.00%,4,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,40
+KXFED-26MAR-T3.75,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,3.75%,Above 3.75%,3.75,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,45
+KXFED-26MAR-T3.50,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,3.50%,Above 3.50%,3.5,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,46
+KXFED-26MAR-T3.25,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,3.25%,Above 3.25%,3.25,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,46
+KXFED-26MAR-T3.00,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,3.00%,Above 3.00%,3,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,39
+KXFED-26MAR-T2.75,KXFED,fomc_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-18T18:00:00Z,historical,finalized,binary,2.75%,Above 2.75%,2.75,,2025-08-06T14:00:00Z,2026-03-18T17:55:00Z,historical,39
+KXFED-26APR-T5.25,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,45
+KXFED-26APR-T5.00,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,42
+KXFED-26APR-T4.75,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,4.75%,Above 4.75%,4.75,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,43
+KXFED-26APR-T4.50,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,4.50%,Above 4.50%,4.5,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,42
+KXFED-26APR-T4.25,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,4.25%,Above 4.25%,4.25,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,45
+KXFED-26APR-T4.00,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,4.00%,Above 4.00%,4,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,46
+KXFED-26APR-T3.75,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,3.75%,Above 3.75%,3.75,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,46
+KXFED-26APR-T3.50,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,3.50%,Above 3.50%,3.5,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,46
+KXFED-26APR-T3.25,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,3.25%,Above 3.25%,3.25,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,46
+KXFED-26APR-T3.00,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,3.00%,Above 3.00%,3,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,44
+KXFED-26APR-T2.75,KXFED,fomc_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-29T18:00:00Z,historical,finalized,binary,2.75%,Above 2.75%,2.75,,2025-08-06T14:30:00Z,2026-04-29T17:55:00Z,historical,42
+KXFED-26JUN-T5.25,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,30
+KXFED-26JUN-T5.00,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,29
+KXFED-26JUN-T4.75,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,4.75%,Above 4.75%,4.75,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,28
+KXFED-26JUN-T4.50,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,4.50%,Above 4.50%,4.5,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,37
+KXFED-26JUN-T4.25,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,4.25%,Above 4.25%,4.25,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,36
+KXFED-26JUN-T4.00,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,4.00%,Above 4.00%,4,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,45
+KXFED-26JUN-T3.75,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,3.75%,Above 3.75%,3.75,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,46
+KXFED-26JUN-T3.50,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,3.50%,Above 3.50%,3.5,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,46
+KXFED-26JUN-T3.25,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,3.25%,Above 3.25%,3.25,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,44
+KXFED-26JUN-T3.00,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,3.00%,Above 3.00%,3,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,36
+KXFED-26JUN-T2.75,KXFED,fomc_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-17T18:00:00Z,historical,finalized,binary,2.75%,Above 2.75%,2.75,,2025-08-06T14:30:00Z,2026-06-17T17:55:00Z,historical,39
+KXFED-26JUL-T5.25,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,5.25%,Above 5.25%,5.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,25
+KXFED-26JUL-T5.00,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,5.00%,Above 5.00%,5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,26
+KXFED-26JUL-T4.75,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,4.75%,Above 4.75%,4.75,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,26
+KXFED-26JUL-T4.50,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,4.50%,Above 4.50%,4.5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,38
+KXFED-26JUL-T4.25,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,4.25%,Above 4.25%,4.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,39
+KXFED-26JUL-T4.00,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,4.00%,Above 4.00%,4,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,46
+KXFED-26JUL-T3.75,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,3.75%,Above 3.75%,3.75,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,46
+KXFED-26JUL-T3.50,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,3.50%,Above 3.50%,3.5,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,46
+KXFED-26JUL-T3.25,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,3.25%,Above 3.25%,3.25,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,43
+KXFED-26JUL-T3.00,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,3.00%,Above 3.00%,3,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,41
+KXFED-26JUL-T2.75,KXFED,fomc_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-29T18:00:00Z,live,finalized,binary,2.75%,Above 2.75%,2.75,,2025-08-06T14:30:00Z,2026-07-29T17:55:00Z,live,44
+KXCPI-25DEC-T0.4,KXCPI,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.4%,Above 0.4%,0.4,,2025-12-18T21:30:00Z,2026-01-13T13:29:00Z,historical,27
+KXCPI-25DEC-T0.3,KXCPI,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.3%,Above 0.3%,0.3,,2025-12-18T21:30:00Z,2026-01-13T13:29:00Z,historical,27
+KXCPI-25DEC-T0.2,KXCPI,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.2%,Above 0.2%,0.2,,2025-12-18T21:30:00Z,2026-01-13T13:29:00Z,historical,27
+KXCPI-25DEC-T0.1,KXCPI,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.1%,Above 0.1%,0.1,,2025-12-18T21:30:00Z,2026-01-13T13:29:00Z,historical,27
+KXCPI-25DEC-T-0.1,KXCPI,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,-0.1%,Above -0.1%,-0.1,,2025-12-18T21:30:00Z,2026-01-13T13:29:00Z,historical,26
+KXCPI-25DEC-T0.0,KXCPI,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.0%,Above 0.0%,0,,2025-12-18T21:30:00Z,2026-01-13T13:29:00Z,historical,27
+KXCPICORE-25DECT-T0.5,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-01-01T15:00:00Z,2026-01-13T13:25:00Z,historical,13
+KXCPICORE-25DECT-T0.4,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-01-01T15:00:00Z,2026-01-13T13:25:00Z,historical,13
+KXCPICORE-25DECT-T0.3,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-01-01T15:00:00Z,2026-01-13T13:25:00Z,historical,13
+KXCPICORE-25DECT-T0.2,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-01-01T15:00:00Z,2026-01-13T13:25:00Z,historical,13
+KXCPICORE-25DECT-T0.1,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-01-01T15:00:00Z,2026-01-13T13:25:00Z,historical,13
+KXCPICORE-25DECT-T0.0,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.0,Above 0.0%,0,0,2026-01-01T15:00:00Z,2026-01-13T13:25:00Z,historical,13
+KXCPICORE-25DEC-T0.3,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.3,Above 0.3%,0.3,0.3,2025-12-23T03:00:00Z,2025-12-29T20:13:36.935Z,historical,2
+KXCPICORE-25DEC-T0.2,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.2,Above 0.2%,0.2,0.2,2025-12-23T03:00:00Z,2025-12-29T20:13:36.935Z,historical,2
+KXCPICORE-25DEC-T0.1,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.1,Above 0.1%,0.1,0.1,2025-12-23T03:00:00Z,2025-12-29T20:13:36.935Z,historical,2
+KXCPICORE-25DEC-T0.0,KXCPICORE,cpi_2026_01_supp,scheduled_macro,scheduled_macro_supplementary,2026-01-13T12:30:00Z,historical,finalized,binary,0.0,Above 0.0%,0,0,2025-12-23T03:00:00Z,2025-12-29T20:13:36.935Z,historical,2
+KXCPI-26JAN-T0.4,KXCPI,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.4%,Above 0.4%,0.4,,2026-01-13T21:00:00Z,2026-02-13T13:29:00Z,historical,32
+KXCPI-26JAN-T0.3,KXCPI,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.3%,Above 0.3%,0.3,,2026-01-13T21:00:00Z,2026-02-13T13:29:00Z,historical,32
+KXCPI-26JAN-T0.2,KXCPI,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.2%,Above 0.2%,0.2,,2026-01-13T21:00:00Z,2026-02-13T13:29:00Z,historical,32
+KXCPI-26JAN-T0.1,KXCPI,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.1%,Above 0.1%,0.1,,2026-01-13T21:00:00Z,2026-02-13T13:29:00Z,historical,32
+KXCPI-26JAN-T-0.1,KXCPI,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,-0.1%,Above -0.1%,-0.1,,2026-01-13T21:00:00Z,2026-02-13T13:29:00Z,historical,30
+KXCPI-26JAN-T0.0,KXCPI,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.0%,Above 0.0%,0,,2026-01-13T21:00:00Z,2026-02-13T13:29:00Z,historical,32
+KXCPICORE-26JAN-T0.5,KXCPICORE,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-01-13T21:00:00Z,2026-02-13T13:25:00Z,historical,32
+KXCPICORE-26JAN-T0.4,KXCPICORE,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-01-13T21:00:00Z,2026-02-13T13:25:00Z,historical,31
+KXCPICORE-26JAN-T0.3,KXCPICORE,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-01-13T21:00:00Z,2026-02-13T13:25:00Z,historical,30
+KXCPICORE-26JAN-T0.2,KXCPICORE,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-01-13T21:00:00Z,2026-02-13T13:25:00Z,historical,28
+KXCPICORE-26JAN-T0.1,KXCPICORE,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-01-13T21:00:00Z,2026-02-13T13:25:00Z,historical,26
+KXCPICORE-26JAN-T0.0,KXCPICORE,cpi_2026_02_supp,scheduled_macro,scheduled_macro_supplementary,2026-02-13T12:30:00Z,historical,finalized,binary,0.0,Above 0.0%,0,0,2026-01-13T21:00:00Z,2026-02-13T13:25:00Z,historical,23
+KXCPI-26FEB-T0.4,KXCPI,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.4%,Above 0.4%,0.4,,2026-01-13T21:00:00Z,2026-03-11T12:29:00Z,historical,39
+KXCPI-26FEB-T0.3,KXCPI,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.3%,Above 0.3%,0.3,,2026-01-13T21:00:00Z,2026-03-11T12:29:00Z,historical,41
+KXCPI-26FEB-T0.2,KXCPI,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.2%,Above 0.2%,0.2,,2026-01-13T21:00:00Z,2026-03-11T12:29:00Z,historical,41
+KXCPI-26FEB-T0.1,KXCPI,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.1%,Above 0.1%,0.1,,2026-01-13T21:00:00Z,2026-03-11T12:29:00Z,historical,39
+KXCPI-26FEB-T-0.1,KXCPI,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,-0.1%,Above -0.1%,-0.1,,2026-01-13T21:00:00Z,2026-03-11T12:29:00Z,historical,34
+KXCPI-26FEB-T0.0,KXCPI,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.0%,Above 0.0%,0,,2026-01-13T21:00:00Z,2026-03-11T12:29:00Z,historical,34
+KXCPICORE-26FEB-T0.5,KXCPICORE,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-01-13T21:00:00Z,2026-03-11T12:25:00Z,historical,34
+KXCPICORE-26FEB-T0.4,KXCPICORE,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-01-13T21:00:00Z,2026-03-11T12:25:00Z,historical,27
+KXCPICORE-26FEB-T0.3,KXCPICORE,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-01-13T21:00:00Z,2026-03-11T12:25:00Z,historical,30
+KXCPICORE-26FEB-T0.2,KXCPICORE,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-01-13T21:00:00Z,2026-03-11T12:25:00Z,historical,40
+KXCPICORE-26FEB-T0.1,KXCPICORE,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-01-13T21:00:00Z,2026-03-11T12:25:00Z,historical,30
+KXCPICORE-26FEB-T0.0,KXCPICORE,cpi_2026_03_supp,scheduled_macro,scheduled_macro_supplementary,2026-03-11T12:30:00Z,historical,finalized,binary,0.0,Above 0.0%,0,0,2026-01-13T21:00:00Z,2026-03-11T12:25:00Z,historical,27
+KXCPI-26MAR-T1.3,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,1.3%,Above 1.3%,1.3,,2026-03-17T15:00:00Z,2026-04-10T12:25:00Z,historical,25
+KXCPI-26MAR-T1.2,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,1.2%,Above 1.2%,1.2,,2026-03-17T15:00:00Z,2026-04-10T12:25:00Z,historical,25
+KXCPI-26MAR-T1.1,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,1.1%,Above 1.1%,1.1,,2026-03-17T15:00:00Z,2026-04-10T12:25:00Z,historical,25
+KXCPI-26MAR-T1.0,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,1.0%,Above 1.0%,1,,2026-03-10T14:00:00Z,2026-04-10T12:25:00Z,historical,32
+KXCPI-26MAR-T0.9,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.9%,Above 0.9%,0.9,,2026-03-10T14:00:00Z,2026-04-10T12:25:00Z,historical,32
+KXCPI-26MAR-T0.8,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.8%,Above 0.8%,0.8,,2026-03-10T14:00:00Z,2026-04-10T12:25:00Z,historical,32
+KXCPI-26MAR-T0.7,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.7%,Above 0.7%,0.7,,2026-03-10T14:00:00Z,2026-04-10T12:25:00Z,historical,32
+KXCPI-26MAR-T0.6,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.6%,Above 0.6%,0.6,,2026-03-10T14:00:00Z,2026-04-10T12:25:00Z,historical,32
+KXCPI-26MAR-T0.5,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.5%,Above 0.5%,0.5,,2026-02-17T22:00:00Z,2026-04-10T12:25:00Z,historical,45
+KXCPI-26MAR-T0.4,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.4%,Above 0.4%,0.4,,2026-02-17T22:00:00Z,2026-04-10T12:25:00Z,historical,46
+KXCPI-26MAR-T0.3,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.3%,Above 0.3%,0.3,,2026-02-17T22:00:00Z,2026-04-10T12:25:00Z,historical,46
+KXCPI-26MAR-T0.2,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.2%,Above 0.2%,0.2,,2026-02-17T22:00:00Z,2026-04-10T12:25:00Z,historical,46
+KXCPI-26MAR-T0.1,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.1%,Above 0.1%,0.1,,2026-02-17T22:00:00Z,2026-04-10T12:25:00Z,historical,46
+KXCPI-26MAR-T-0.1,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,-0.1%,Above -0.1%,-0.1,,2026-02-17T22:00:00Z,2026-04-10T12:25:00Z,historical,44
+KXCPI-26MAR-T0.0,KXCPI,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.0%,Above 0.0%,0,,2026-02-17T22:00:00Z,2026-04-10T12:25:00Z,historical,46
+KXCPICORE-26MAR-T0.7,KXCPICORE,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.7,Above 0.7%,0.7,0.7,2026-03-11T14:00:00Z,2026-04-10T12:25:00Z,historical,30
+KXCPICORE-26MAR-T0.6,KXCPICORE,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.6,Above 0.6%,0.6,0.6,2026-03-11T14:00:00Z,2026-04-10T12:25:00Z,historical,30
+KXCPICORE-26MAR-T0.5,KXCPICORE,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-03-11T14:00:00Z,2026-04-10T12:25:00Z,historical,30
+KXCPICORE-26MAR-T0.4,KXCPICORE,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-03-11T14:00:00Z,2026-04-10T12:25:00Z,historical,31
+KXCPICORE-26MAR-T0.3,KXCPICORE,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-03-11T14:00:00Z,2026-04-10T12:25:00Z,historical,31
+KXCPICORE-26MAR-T0.2,KXCPICORE,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-03-11T14:00:00Z,2026-04-10T12:25:00Z,historical,31
+KXCPICORE-26MAR-T0.1,KXCPICORE,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-03-11T14:00:00Z,2026-04-10T12:25:00Z,historical,31
+KXCPICORE-26MAR-T0.0,KXCPICORE,cpi_2026_04_supp,scheduled_macro,scheduled_macro_supplementary,2026-04-10T12:30:00Z,historical,finalized,binary,0.0,Above 0.0%,0,0,2026-03-11T14:00:00Z,2026-04-10T12:25:00Z,historical,30
+KXCPI-26APR-T1.0,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,1.0%,Above 1.0%,1,,2026-03-18T17:00:00Z,2026-05-12T12:25:00Z,historical,45
+KXCPI-26APR-T0.9,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.9%,Above 0.9%,0.9,,2026-03-18T17:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPI-26APR-T0.8,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.8%,Above 0.8%,0.8,,2026-03-18T17:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPI-26APR-T0.7,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.7%,Above 0.7%,0.7,,2026-03-18T17:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPI-26APR-T0.6,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.6%,Above 0.6%,0.6,,2026-03-18T17:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPI-26APR-T0.5,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.5%,Above 0.5%,0.5,,2026-02-20T15:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPI-26APR-T0.4,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.4%,Above 0.4%,0.4,,2026-02-20T15:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPI-26APR-T0.3,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.3%,Above 0.3%,0.3,,2026-02-20T15:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPI-26APR-T0.2,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.2%,Above 0.2%,0.2,,2026-02-20T15:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPI-26APR-T0.1,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.1%,Above 0.1%,0.1,,2026-02-20T15:00:00Z,2026-05-12T12:25:00Z,historical,41
+KXCPI-26APR-T-0.1,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,-0.1%,Above -0.1%,-0.1,,2026-02-20T15:00:00Z,2026-05-12T12:25:00Z,historical,44
+KXCPI-26APR-T0.0,KXCPI,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.0%,Above 0.0%,0,,2026-02-20T15:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPICORE-26APR-T1.5,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,1.5,Above 1.5%,1.5,1.5,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,25
+KXCPICORE-26APR-T1.4,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,1.4,Above 1.4%,1.4,1.4,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,27
+KXCPICORE-26APR-T1.3,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,1.3,Above 1.3%,1.3,1.3,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,27
+KXCPICORE-26APR-T1.2,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,1.2,Above 1.2%,1.2,1.2,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,26
+KXCPICORE-26APR-T1.1,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,1.1,Above 1.1%,1.1,1.1,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,26
+KXCPICORE-26APR-T1.0,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,1.0,Above 1.0%,1,1,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,26
+KXCPICORE-26APR-T0.9,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.9,Above 0.9%,0.9,0.9,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,26
+KXCPICORE-26APR-T0.8,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.8,Above 0.8%,0.8,0.8,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,26
+KXCPICORE-26APR-T0.7,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.7,Above 0.7%,0.7,0.7,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,29
+KXCPICORE-26APR-T0.6,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.6,Above 0.6%,0.6,0.6,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,37
+KXCPICORE-26APR-T0.5,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,37
+KXCPICORE-26APR-T0.4,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,45
+KXCPICORE-26APR-T0.3,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPICORE-26APR-T0.2,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,46
+KXCPICORE-26APR-T0.1,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,37
+KXCPICORE-26APR-T0.0,KXCPICORE,cpi_2026_05_supp,scheduled_macro,scheduled_macro_supplementary,2026-05-12T12:30:00Z,historical,finalized,binary,0.0,Above 0.0%,0,0,2026-03-11T20:00:00Z,2026-05-12T12:25:00Z,historical,29
+KXCPI-26MAY-T-0.3,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-04-10T19:30:00Z,2026-06-10T12:25:00Z,historical,33
+KXCPI-26MAY-T-0.2,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-04-10T19:30:00Z,2026-06-10T12:25:00Z,historical,36
+KXCPI-26MAY-T1.0,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,1.0%,Above 1.0%,1,,2026-03-18T17:00:00Z,2026-06-10T12:25:00Z,historical,41
+KXCPI-26MAY-T0.9,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.9%,Above 0.9%,0.9,,2026-03-18T17:00:00Z,2026-06-10T12:25:00Z,historical,39
+KXCPI-26MAY-T0.8,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.8%,Above 0.8%,0.8,,2026-03-18T17:00:00Z,2026-06-10T12:25:00Z,historical,46
+KXCPI-26MAY-T0.7,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.7%,Above 0.7%,0.7,,2026-03-18T17:00:00Z,2026-06-10T12:25:00Z,historical,46
+KXCPI-26MAY-T0.6,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.6%,Above 0.6%,0.6,,2026-03-18T17:00:00Z,2026-06-10T12:25:00Z,historical,46
+KXCPI-26MAY-T0.5,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.5%,Above 0.5%,0.5,,2026-02-20T15:00:00Z,2026-06-10T12:25:00Z,historical,46
+KXCPI-26MAY-T0.4,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.4%,Above 0.4%,0.4,,2026-02-20T15:00:00Z,2026-06-10T12:25:00Z,historical,46
+KXCPI-26MAY-T0.3,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.3%,Above 0.3%,0.3,,2026-02-20T15:00:00Z,2026-06-10T12:25:00Z,historical,45
+KXCPI-26MAY-T0.2,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.2%,Above 0.2%,0.2,,2026-02-20T15:00:00Z,2026-06-10T12:25:00Z,historical,43
+KXCPI-26MAY-T0.1,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.1%,Above 0.1%,0.1,,2026-02-20T15:00:00Z,2026-06-10T12:25:00Z,historical,35
+KXCPI-26MAY-T-0.1,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,-0.1%,Above -0.1%,-0.1,,2026-02-20T15:00:00Z,2026-06-10T12:25:00Z,historical,40
+KXCPI-26MAY-T0.0,KXCPI,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.0%,Above 0.0%,0,,2026-02-20T15:00:00Z,2026-06-10T12:25:00Z,historical,38
+KXCPICORE-26MAY-T1.0,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,1.0,Above 1.0%,1,1,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,33
+KXCPICORE-26MAY-T0.9,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.9,Above 0.9%,0.9,0.9,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,20
+KXCPICORE-26MAY-T0.8,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.8,Above 0.8%,0.8,0.8,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,30
+KXCPICORE-26MAY-T0.7,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.7,Above 0.7%,0.7,0.7,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,34
+KXCPICORE-26MAY-T0.6,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.6,Above 0.6%,0.6,0.6,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,33
+KXCPICORE-26MAY-T0.5,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,41
+KXCPICORE-26MAY-T0.4,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,45
+KXCPICORE-26MAY-T0.3,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,42
+KXCPICORE-26MAY-T0.2,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,40
+KXCPICORE-26MAY-T0.1,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,43
+KXCPICORE-26MAY-T0.0,KXCPICORE,cpi_2026_06_supp,scheduled_macro,scheduled_macro_supplementary,2026-06-10T12:30:00Z,historical,finalized,binary,0.0,Above 0.0%,0,0,2026-03-13T22:00:00Z,2026-06-10T12:25:00Z,historical,33
+KXCPI-26JUN-T-0.3,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,36
+KXCPI-26JUN-T-0.2,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-08T22:00:00Z,2026-07-14T12:25:00Z,historical,37
+KXCPI-26JUN-T0.5,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.5%,Above 0.5%,0.5,,2026-02-20T15:00:00Z,2026-07-14T12:25:00Z,historical,42
+KXCPI-26JUN-T0.4,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.4%,Above 0.4%,0.4,,2026-02-20T15:00:00Z,2026-07-14T12:25:00Z,historical,39
+KXCPI-26JUN-T0.3,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.3%,Above 0.3%,0.3,,2026-02-20T15:00:00Z,2026-07-14T12:25:00Z,historical,42
+KXCPI-26JUN-T0.2,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.2%,Above 0.2%,0.2,,2026-02-20T15:00:00Z,2026-07-14T12:25:00Z,historical,44
+KXCPI-26JUN-T0.1,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.1%,Above 0.1%,0.1,,2026-02-20T15:00:00Z,2026-07-14T12:25:00Z,historical,45
+KXCPI-26JUN-T-0.1,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,-0.1%,Above -0.1%,-0.1,,2026-02-20T15:00:00Z,2026-07-14T12:25:00Z,historical,46
+KXCPI-26JUN-T0.0,KXCPI,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.0%,Above 0.0%,0,,2026-02-20T15:00:00Z,2026-07-14T12:25:00Z,historical,46
+KXCPICORE-26JUN-T1.0,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,1.0,Above 1.0%,1,1,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,10
+KXCPICORE-26JUN-T0.9,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.9,Above 0.9%,0.9,0.9,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,21
+KXCPICORE-26JUN-T0.8,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.8,Above 0.8%,0.8,0.8,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,28
+KXCPICORE-26JUN-T0.7,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.7,Above 0.7%,0.7,0.7,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,19
+KXCPICORE-26JUN-T0.6,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.6,Above 0.6%,0.6,0.6,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,26
+KXCPICORE-26JUN-T0.5,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,29
+KXCPICORE-26JUN-T0.4,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,39
+KXCPICORE-26JUN-T0.3,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,44
+KXCPICORE-26JUN-T0.2,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,43
+KXCPICORE-26JUN-T0.1,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,45
+KXCPICORE-26JUN-T0.0,KXCPICORE,cpi_2026_07_supp,scheduled_macro,scheduled_macro_supplementary,2026-07-14T12:30:00Z,historical,finalized,binary,0.0,Above 0.0%,0,0,2026-04-10T14:00:00Z,2026-07-14T12:25:00Z,historical,45
+KXCPI-26JUL-T-0.4,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,-0.4%,Above -0.4%,-0.4,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,45
+KXCPI-26JUL-T-0.3,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,-0.3%,Above -0.3%,-0.3,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,46
+KXCPI-26JUL-T-0.2,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,-0.2%,Above -0.2%,-0.2,,2026-06-16T17:45:00Z,2026-08-12T12:25:00Z,live,46
+KXCPI-26JUL-T0.5,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.5%,Above 0.5%,0.5,,2026-02-20T15:00:00Z,2026-08-12T12:25:00Z,live,46
+KXCPI-26JUL-T0.4,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.4%,Above 0.4%,0.4,,2026-02-20T15:00:00Z,2026-08-12T12:25:00Z,live,46
+KXCPI-26JUL-T0.3,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.3%,Above 0.3%,0.3,,2026-02-20T15:00:00Z,2026-08-12T12:25:00Z,live,46
+KXCPI-26JUL-T0.2,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.2%,Above 0.2%,0.2,,2026-02-20T15:00:00Z,2026-08-12T12:25:00Z,live,46
+KXCPI-26JUL-T0.1,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.1%,Above 0.1%,0.1,,2026-02-20T15:00:00Z,2026-08-12T12:25:00Z,live,46
+KXCPI-26JUL-T-0.1,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,-0.1%,Above -0.1%,-0.1,,2026-02-20T15:00:00Z,2026-08-12T12:25:00Z,live,46
+KXCPI-26JUL-T0.0,KXCPI,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.0%,Above 0.0%,0,,2026-02-20T15:00:00Z,2026-08-12T12:25:00Z,live,46
+KXCPICORE-26JUL-T1.0,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,1.0,Above 1.0%,1,1,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,32
+KXCPICORE-26JUL-T0.9,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.9,Above 0.9%,0.9,0.9,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,32
+KXCPICORE-26JUL-T0.8,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.8,Above 0.8%,0.8,0.8,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,29
+KXCPICORE-26JUL-T0.7,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.7,Above 0.7%,0.7,0.7,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,33
+KXCPICORE-26JUL-T0.6,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.6,Above 0.6%,0.6,0.6,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,31
+KXCPICORE-26JUL-T0.5,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.5,Above 0.5%,0.5,0.5,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,35
+KXCPICORE-26JUL-T0.4,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.4,Above 0.4%,0.4,0.4,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,33
+KXCPICORE-26JUL-T0.3,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.3,Above 0.3%,0.3,0.3,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,44
+KXCPICORE-26JUL-T0.2,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.2,Above 0.2%,0.2,0.2,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,45
+KXCPICORE-26JUL-T0.1,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.1,Above 0.1%,0.1,0.1,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,42
+KXCPICORE-26JUL-T0.0,KXCPICORE,cpi_2026_08_supp,scheduled_macro,scheduled_macro_supplementary,2026-08-12T12:30:00Z,live,finalized,binary,0.0,Above 0.0%,0,0,2026-05-12T16:00:00Z,2026-08-12T12:25:00Z,live,39

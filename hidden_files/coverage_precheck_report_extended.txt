@@ -1,0 +1,183 @@
+==============================================================================
+COVERAGE PRECHECK — registration-time exclusion guard
+Rule: every event must have >= 5 baseline obs in [T0-30d, T0-5d) on at
+least one ticker, or it WILL be excluded from confirmatory analysis.
+==============================================================================
+
+--- hormuz_retaliation_threat_xd  T0=2026-09-07T13:53:00Z  cell=unscheduled_macro
+    tickers: 16 | >=5 baseline obs: 16 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 0
+    OK: full baseline coverage.
+
+--- canada_proclamations_xd  T0=2026-09-08  cell=unscheduled_macro
+    tickers: 16 | >=5 baseline obs: 15 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 0
+!!! WARNING: only 15/16 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- hormuz_strike_pipeline_shutdown_xd  T0=2026-09-10  cell=unscheduled_macro
+    tickers: 16 | >=5 baseline obs: 15 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 0
+!!! WARNING: only 15/16 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- perim_island_seized_xd  T0=2026-09-11  cell=unscheduled_macro
+    tickers: 16 | >=5 baseline obs: 15 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 0
+!!! WARNING: only 15/16 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- tariff_eu_threat_xd  T0=2026-09-16  cell=unscheduled_macro
+    tickers: 16 | >=5 baseline obs: 15 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 1
+!!! WARNING: only 15/16 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- russia_sanctions_bill_xd  T0=2026-09-16  cell=unscheduled_macro
+    tickers: 16 | >=5 baseline obs: 15 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 1
+!!! WARNING: only 15/16 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- trump_truth_fed_xd  T0=2026-09-16  cell=unscheduled_macro
+    tickers: 16 | >=5 baseline obs: 15 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 1
+!!! WARNING: only 15/16 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- nvda_earnings_xd  T0=2026-08-26  cell=unscheduled_macro
+    tickers: 16 | >=5 baseline obs: 16 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 0
+    OK: full baseline coverage.
+
+--- myles_garrett_to_rams_xd  T0=2026-06-01T17:19:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- aj_brown_to_patriots_xd  T0=2026-06-01T20:20:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- giannis_to_heat_xd  T0=2026-06-23T03:50:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+    note: 2 tickers listed AFTER T0-30: KXCPI-26JUN-T-0.3 (listed 2026-06-09), KXCPI-26JUN-T-0.2 (listed 2026-06-09)
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- jaylen_brown_to_76ers_xd  T0=2026-07-01T22:20:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+    note: 2 tickers listed AFTER T0-30: KXCPI-26JUN-T-0.3 (listed 2026-06-09), KXCPI-26JUN-T-0.2 (listed 2026-06-09)
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- mike_conley_to_celtics_xd  T0=2026-07-01T14:58:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+    note: 2 tickers listed AFTER T0-30: KXCPI-26JUN-T-0.3 (listed 2026-06-09), KXCPI-26JUN-T-0.2 (listed 2026-06-09)
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- mitchell_robinson_to_celtics_xd  T0=2026-07-01T15:39:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+    note: 2 tickers listed AFTER T0-30: KXCPI-26JUN-T-0.3 (listed 2026-06-09), KXCPI-26JUN-T-0.2 (listed 2026-06-09)
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- neemias_queta_extension_xd  T0=2026-07-03T13:53:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+    note: 2 tickers listed AFTER T0-30: KXCPI-26JUN-T-0.3 (listed 2026-06-09), KXCPI-26JUN-T-0.2 (listed 2026-06-09)
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- donovan_mitchell_extension_xd  T0=2026-07-07T10:01:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+    note: 2 tickers listed AFTER T0-30: KXCPI-26JUN-T-0.3 (listed 2026-06-09), KXCPI-26JUN-T-0.2 (listed 2026-06-09)
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- dlo_six_team_trade_xd  T0=2026-07-08T00:53:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+    note: 2 tickers listed AFTER T0-30: KXCPI-26JUN-T-0.3 (listed 2026-06-09), KXCPI-26JUN-T-0.2 (listed 2026-06-09)
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- jordan_walsh_extension_xd  T0=2026-07-23T12:27:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 2 | <3 obs: 0
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- lebron_to_76ers_xd  T0=2026-07-24T20:34:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 2 | <3 obs: 0
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- brian_oneill_extension_xd  T0=2026-07-28T14:24:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 2 | <3 obs: 0
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- von_miller_to_cowboys_xd  T0=2026-08-17T01:10:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 3 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 1
+    note: 2 tickers listed AFTER T0-30: KXCPI-26AUG-T1.0 (listed 2026-07-24), KXCPI-26AUG-T0.9 (listed 2026-07-24)
+!!! WARNING: only 3/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- aaron_donald_comeback_xd  T0=2026-08-30T17:00:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 2 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 2
+!!! WARNING: only 2/4 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- kawhi_to_raptors_xd  T0=2026-09-14T18:56:00Z  cell=unscheduled_sports
+    tickers: 4 | >=5 baseline obs: 0 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 4
+    note: 2 tickers listed AFTER T0-30: KXCPI-26SEP-T0.9 (listed 2026-09-18), KXCPI-26SEP-T0.8 (listed 2026-09-18)
+!!! CRITICAL: NO ticker for this event reaches the confirmatory baseline (>=5 obs). This event WILL BE FULLY EXCLUDED from confirmatory analysis — the Giannis failure mode. Required actions BEFORE analysis: (1) try an earlier/longer pull for these contracts; (2) if data truly does not exist, route the event to the fallback descriptive track (hidden_files/analyze_fallback.py); (3) record it in hidden_files/excluded_but_material.md with its descriptive result. DO NOT let it drop silently.
+
+--- cpi_aug_release  T0=2026-09-11T12:30:00Z  cell=scheduled_macro
+    tickers: 26 | >=5 baseline obs: 19 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 6
+!!! WARNING: only 19/26 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- nba_draft_lottery_2026  T0=2026-05-11  cell=scheduled_sports
+    tickers: 30 | >=5 baseline obs: 19 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 10
+!!! WARNING: only 19/30 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- nba_draft_2026  T0=2026-06-24  cell=scheduled_sports
+    tickers: 38 | >=5 baseline obs: 3 | 3-4 obs (fallback-descriptive only): 26 | <3 obs: 9
+    note: 30 tickers listed AFTER T0-30: KXNBA-27-WAS (listed 2026-06-15), KXNBA-27-UTA (listed 2026-06-15), KXNBA-27-TOR (listed 2026-06-15), KXNBA-27-SAS (listed 2026-06-15), KXNBA-27-SAC (listed 2026-06-15) +25 more
+!!! WARNING: only 3/38 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- mlb_allstar_2026  T0=2026-07-14  cell=scheduled_sports
+    tickers: 30 | >=5 baseline obs: 30 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 0
+    OK: full baseline coverage.
+
+--- fomc_2026_01_supp  T0=2026-01-28T18:00:00Z  cell=scheduled_macro
+    tickers: 11 | >=5 baseline obs: 11 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 0
+    OK: full baseline coverage.
+
+--- fomc_2026_03_supp  T0=2026-03-18T18:00:00Z  cell=scheduled_macro
+    tickers: 11 | >=5 baseline obs: 8 | 3-4 obs (fallback-descriptive only): 2 | <3 obs: 1
+!!! WARNING: only 8/11 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- fomc_2026_04_supp  T0=2026-04-29T18:00:00Z  cell=scheduled_macro
+    tickers: 11 | >=5 baseline obs: 11 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 0
+    OK: full baseline coverage.
+
+--- fomc_2026_06_supp  T0=2026-06-17T18:00:00Z  cell=scheduled_macro
+    tickers: 11 | >=5 baseline obs: 8 | 3-4 obs (fallback-descriptive only): 2 | <3 obs: 1
+!!! WARNING: only 8/11 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- fomc_2026_07_supp  T0=2026-07-29T18:00:00Z  cell=scheduled_macro
+    tickers: 11 | >=5 baseline obs: 9 | 3-4 obs (fallback-descriptive only): 2 | <3 obs: 0
+!!! WARNING: only 9/11 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- cpi_2026_01_supp  T0=2026-01-13T12:30:00Z  cell=scheduled_macro
+    tickers: 16 | >=5 baseline obs: 11 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 5
+    note: 16 tickers listed AFTER T0-30: KXCPI-25DEC-T0.4 (listed 2025-12-19), KXCPI-25DEC-T0.3 (listed 2025-12-19), KXCPI-25DEC-T0.2 (listed 2025-12-19), KXCPI-25DEC-T0.1 (listed 2025-12-19), KXCPI-25DEC-T-0.1 (listed 2025-12-19) +11 more
+!!! WARNING: only 11/16 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- cpi_2026_02_supp  T0=2026-02-13T12:30:00Z  cell=scheduled_macro
+    tickers: 12 | >=5 baseline obs: 12 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 0
+    OK: full baseline coverage.
+
+--- cpi_2026_03_supp  T0=2026-03-11T12:30:00Z  cell=scheduled_macro
+    tickers: 12 | >=5 baseline obs: 10 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 1
+!!! WARNING: only 10/12 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- cpi_2026_04_supp  T0=2026-04-10T12:30:00Z  cell=scheduled_macro
+    tickers: 23 | >=5 baseline obs: 23 | 3-4 obs (fallback-descriptive only): 0 | <3 obs: 0
+    note: 11 tickers listed AFTER T0-30: KXCPI-26MAR-T1.3 (listed 2026-03-18), KXCPI-26MAR-T1.2 (listed 2026-03-18), KXCPI-26MAR-T1.1 (listed 2026-03-18), KXCPICORE-26MAR-T0.7 (listed 2026-03-12), KXCPICORE-26MAR-T0.6 (listed 2026-03-12) +6 more
+    OK: full baseline coverage.
+
+--- cpi_2026_05_supp  T0=2026-05-12T12:30:00Z  cell=scheduled_macro
+    tickers: 28 | >=5 baseline obs: 18 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 9
+!!! WARNING: only 18/28 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- cpi_2026_06_supp  T0=2026-06-10T12:30:00Z  cell=scheduled_macro
+    tickers: 25 | >=5 baseline obs: 19 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 5
+!!! WARNING: only 19/25 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- cpi_2026_07_supp  T0=2026-07-14T12:30:00Z  cell=scheduled_macro
+    tickers: 20 | >=5 baseline obs: 15 | 3-4 obs (fallback-descriptive only): 1 | <3 obs: 4
+    note: 1 tickers listed AFTER T0-30: KXCPICORE-26JUN-T1.0 (listed 2026-07-04)
+!!! WARNING: only 15/20 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+--- cpi_2026_08_supp  T0=2026-08-12T12:30:00Z  cell=scheduled_macro
+    tickers: 21 | >=5 baseline obs: 16 | 3-4 obs (fallback-descriptive only): 3 | <3 obs: 2
+!!! WARNING: only 16/21 tickers meet the confirmatory baseline. The rest are excluded pair-by-pair (see analysis_real/exclusions.csv). Check that the EXCLUDED tickers are not the economically central ones for this event (e.g. the two teams in a trade).
+
+==============================================================================
+SUMMARY: 40 events | 7 OK | 32 warnings | 1 CRITICAL
+!!! ACTION REQUIRED: resolve every CRITICAL item before analysis — an unexamined CRITICAL here is how Giannis happened.
+==============================================================================

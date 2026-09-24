@@ -1,0 +1,496 @@
+{
+ "run": "h2farexpiry",
+ "events": [
+  {
+   "event_id": "myles_garrett_to_rams_fx",
+   "t0_utc": "2026-06-01T17:19:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26JUL-T0.5",
+    "KXCPI-26JUL-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "aj_brown_to_patriots_fx",
+   "t0_utc": "2026-06-01T20:20:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26JUL-T0.5",
+    "KXCPI-26JUL-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "giannis_to_heat_fx",
+   "t0_utc": "2026-06-23T03:50:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T0.5",
+    "KXCPI-26AUG-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "jaylen_brown_to_76ers_fx",
+   "t0_utc": "2026-07-01T22:20:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T0.5",
+    "KXCPI-26AUG-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "mike_conley_to_celtics_fx",
+   "t0_utc": "2026-07-01T14:58:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T0.5",
+    "KXCPI-26AUG-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "mitchell_robinson_to_celtics_fx",
+   "t0_utc": "2026-07-01T15:39:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T0.5",
+    "KXCPI-26AUG-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "neemias_queta_extension_fx",
+   "t0_utc": "2026-07-03T13:53:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T0.5",
+    "KXCPI-26AUG-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "donovan_mitchell_extension_fx",
+   "t0_utc": "2026-07-07T10:01:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T0.5",
+    "KXCPI-26AUG-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "dlo_six_team_trade_fx",
+   "t0_utc": "2026-07-08T00:53:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T0.5",
+    "KXCPI-26AUG-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "jordan_walsh_extension_fx",
+   "t0_utc": "2026-07-23T12:27:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26OCT-T5.25",
+    "KXFED-26OCT-T5.00",
+    "KXCPI-26SEP-T0.6",
+    "KXCPI-26SEP-T-0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "lebron_to_76ers_fx",
+   "t0_utc": "2026-07-24T20:34:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26OCT-T5.25",
+    "KXFED-26OCT-T5.00",
+    "KXCPI-26SEP-T0.6",
+    "KXCPI-26SEP-T-0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "brian_oneill_extension_fx",
+   "t0_utc": "2026-07-28T14:24:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26OCT-T5.25",
+    "KXFED-26OCT-T5.00",
+    "KXCPI-26SEP-T0.6",
+    "KXCPI-26SEP-T-0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "von_miller_to_cowboys_fx",
+   "t0_utc": "2026-08-17T01:10:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26OCT-T5.25",
+    "KXFED-26OCT-T5.00",
+    "KXCPI-26OCT-T0.5",
+    "KXCPI-26OCT-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "aaron_donald_comeback_fx",
+   "t0_utc": "2026-08-30T17:00:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26DEC-T5.25",
+    "KXFED-26DEC-T5.00",
+    "KXCPI-26OCT-T0.5",
+    "KXCPI-26OCT-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "kawhi_to_raptors_fx",
+   "t0_utc": "2026-09-14T18:56:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_farexpiry",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "far_expiry",
+    "n_per_series": 2,
+    "min_expiry_days": 60
+   },
+   "tickers": [
+    "KXFED-26DEC-T5.25",
+    "KXFED-26DEC-T5.00",
+    "KXCPI-26NOV-T0.5",
+    "KXCPI-26NOV-T0.4"
+   ],
+   "gaps": [],
+   "deselected": []
+  }
+ ],
+ "tickers": {
+  "KXFED-26SEP-T5.25": {
+   "series": "KXFED",
+   "candles": 20,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-09-16T17:55:00Z"
+  },
+  "KXFED-26SEP-T5.00": {
+   "series": "KXFED",
+   "candles": 24,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-09-16T17:55:00Z"
+  },
+  "KXCPI-26JUL-T0.5": {
+   "series": "KXCPI",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T0.4": {
+   "series": "KXCPI",
+   "candles": 54,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.5": {
+   "series": "KXCPI",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.4": {
+   "series": "KXCPI",
+   "candles": 47,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXFED-26OCT-T5.25": {
+   "series": "KXFED",
+   "candles": 41,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T5.00": {
+   "series": "KXFED",
+   "candles": 44,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXCPI-26SEP-T0.6": {
+   "series": "KXCPI",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPI-26SEP-T-0.4": {
+   "series": "KXCPI",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPI-26OCT-T0.5": {
+   "series": "KXCPI",
+   "candles": 36,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPI-26OCT-T0.4": {
+   "series": "KXCPI",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXFED-26DEC-T5.25": {
+   "series": "KXFED",
+   "candles": 36,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T5.00": {
+   "series": "KXFED",
+   "candles": 45,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXCPI-26NOV-T0.5": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPI-26NOV-T0.4": {
+   "series": "KXCPI",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  }
+ }
+}

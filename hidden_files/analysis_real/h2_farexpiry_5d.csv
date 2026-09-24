@@ -1,0 +1,2 @@
+h2_cell,direction,window_days,sample,n_events,n_pairs,tested,mean_abn,mean_abn_logodds,ci95_lo,ci95_hi,t,p,prediction,label
+cross_sports_on_macro,sports news -> macro markets (far-expiry),5,headline_excl_kawhi,12,41,True,-0.05900237889547102,-0.5521992208406988,-0.12804988666452033,0.010045128873578286,-1.8807827328524465,0.08672214147051202,indistinguishable from zero,POST-PREREG SUPPLEMENTARY (D12 re-pull: far-expiry macro contracts)

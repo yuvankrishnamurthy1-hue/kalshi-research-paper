@@ -1,0 +1,35 @@
+INTRADAY CHECK — Kalshi summer pull, 2026-09-23
+
+QUESTION: Are intraday candles available for these series via the public Kalshi API?
+
+ANSWER: Yes, technically — but not collected, so speed-of-adjustment in this
+analysis is DAILY-RESOLUTION ONLY.
+
+Evidence:
+- The candlesticks endpoints used by our own collector
+  (GET /series/{series}/markets/{ticker}/candlesticks and the /historical
+  variant) accept period_interval = 1 (1 minute), 60 (1 hour), or 1440 (1 day).
+  Confirmed via public API docs/SDK references (Kalshi python-sdk MarketsApi /
+  EventsApi: "period_interval ... Must be one minute, one hour, or one day. ...
+  No authorization required"). Our collector requested period_interval=1440.
+- Public GETs need no auth (verified operational notes, 2026-09-04).
+- An independent researcher's notes confirm a 7-day 60-minute and a 24h 1-minute
+  candlestick request both succeeded against the same API.
+
+Caveats for any future intraday pull:
+- The live tier only holds recently-settled/open markets; older history lives
+  under /historical (cutoff observed 2026-07-05 in one audit; our pull already
+  handles both tiers).
+- Newly-listed contracts (the far-dated KXFED/KXCPI expiries that hurt our
+  macro coverage) have short histories AT ANY resolution — intraday cannot
+  backfill a baseline for a contract that did not exist pre-event.
+- Intraday would roughly multiply request volume (60x for hourly vs daily);
+  the pull's 0.5s spacing and retry logic would need re-tuning, and the
+  timeout-driven gaps seen in this pull would likely worsen.
+
+VERDICT FOR THIS ANALYSIS: No intraday data were collected (daily only).
+Per prereg §7 (minute-level analysis restricted to windows with confirmed
+complete candle coverage — of which we have none), speed-of-adjustment
+(time-to-50%) is reported at DAILY resolution throughout. An hourly
+re-pull (period_interval=60) is feasible as follow-up work using the same
+endpoints and no auth, but is NOT part of this analysis cut.

@@ -1,0 +1,700 @@
+== discovery phase ==
+  KXCPI: 69 live + 483 historical (483 new), 552 total
+  KXCPICORE: 66 live + 434 historical (434 new), 500 total
+  KXFED: 269 live + 391 historical (391 new), 660 total
+  KXNBA: 30 live + 60 historical (60 new), 90 total
+  KXSB: 32 live + 36 historical (36 new), 68 total
+
+== myles_garrett_to_rams (2026-06-01T17:19:00Z, unscheduled_sports/unscheduled_sports_trade) ==
+  KXSB: 68 discovered, 32 open in window
+
+== aj_brown_to_patriots (2026-06-01T20:20:00Z, unscheduled_sports/unscheduled_sports_trade) ==
+  KXSB: 68 discovered, 32 open in window
+
+== giannis_to_heat (2026-06-23T03:50:00Z, unscheduled_sports/unscheduled_sports_trade) ==
+  KXNBA: 90 discovered, 38 open in window
+
+== jaylen_brown_to_76ers (2026-07-01T22:20:00Z, unscheduled_sports/unscheduled_sports_trade) ==
+  KXNBA: 90 discovered, 35 open in window
+
+== dlo_six_team_trade (2026-07-08T00:53:00Z, unscheduled_sports/unscheduled_sports_trade) ==
+  KXNBA: 90 discovered, 34 open in window
+
+== kawhi_to_raptors (2026-09-14T18:56:00Z, unscheduled_sports/unscheduled_sports_trade) ==
+  KXNBA: 90 discovered, 30 open in window
+
+== mike_conley_to_celtics (2026-07-01T14:58:00Z, unscheduled_sports/unscheduled_sports_signing) ==
+  KXNBA: 90 discovered, 35 open in window
+
+== mitchell_robinson_to_celtics (2026-07-01T15:39:00Z, unscheduled_sports/unscheduled_sports_signing) ==
+  KXNBA: 90 discovered, 35 open in window
+
+== lebron_to_76ers (2026-07-24T20:34:00Z, unscheduled_sports/unscheduled_sports_signing) ==
+  KXNBA: 90 discovered, 32 open in window
+
+== von_miller_to_cowboys (2026-08-17T01:10:00Z, unscheduled_sports/unscheduled_sports_signing) ==
+  KXSB: 68 discovered, 32 open in window
+
+== neemias_queta_extension (2026-07-03T13:53:00Z, unscheduled_sports/unscheduled_sports_extension) ==
+  KXNBA: 90 discovered, 34 open in window
+
+== donovan_mitchell_extension (2026-07-07T10:01:00Z, unscheduled_sports/unscheduled_sports_extension) ==
+  KXNBA: 90 discovered, 34 open in window
+
+== jordan_walsh_extension (2026-07-23T12:27:00Z, unscheduled_sports/unscheduled_sports_extension) ==
+  KXNBA: 90 discovered, 32 open in window
+
+== brian_oneill_extension (2026-07-28T14:24:00Z, unscheduled_sports/unscheduled_sports_extension) ==
+  KXSB: 68 discovered, 32 open in window
+
+== aaron_donald_comeback (2026-08-30T17:00:00Z, unscheduled_sports/unscheduled_sports_other) ==
+  KXSB: 68 discovered, 32 open in window
+
+== nba_schedule_release (2026-08-13T19:08:00Z, scheduled_sports/scheduled_sports) ==
+  KXNBA: 90 discovered, 30 open in window
+
+== nfl_kickoff (2026-09-10T00:20:00Z, scheduled_sports/scheduled_sports) ==
+  KXSB: 68 discovered, 32 open in window
+
+== nba_opening_night (2026-10-20, scheduled_sports/scheduled_sports) ==
+  KXNBA: 90 discovered, 30 open in window
+
+== nfl_trade_deadline (2026-11-10T21:00:00Z, scheduled_sports/scheduled_sports) ==
+  KXSB: 68 discovered, 32 open in window
+
+== hormuz_retaliation_threat (2026-09-08, unscheduled_macro/unscheduled_macro) ==
+  KXCPI: 552 discovered, 64 open in window
+  KXCPICORE: 500 discovered, 55 open in window
+  KXFED: 660 discovered, 98 open in window
+
+== canada_proclamations (2026-09-08, unscheduled_macro/unscheduled_macro) ==
+  KXCPI: 552 discovered, 64 open in window
+  KXCPICORE: 500 discovered, 55 open in window
+
+== perim_island_seized (2026-09-11, unscheduled_macro/unscheduled_macro) ==
+  KXCPI: 552 discovered, 69 open in window
+  KXCPICORE: 500 discovered, 66 open in window
+  KXFED: 660 discovered, 269 open in window
+
+== hormuz_strike_pipeline_shutdown (2026-09-13, unscheduled_macro/unscheduled_macro) ==
+  KXCPI: 552 discovered, 69 open in window
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.7: URLError
+  !! candle fetch failed (historical) for KXCPI-26OCT-T0.7: URLError
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.6: URLError
+  !! candle fetch failed (historical) for KXCPI-26OCT-T0.6: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.9: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.9: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.8: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.8: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.7: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.7: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.6: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.6: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.5: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.5: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.4: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.4: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.3: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.3: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.2: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.2: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.1: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.1: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T-0.1: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T-0.1: URLError
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.0: URLError
+  !! candle fetch failed (historical) for KXCPI-26DEC-T0.0: URLError
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.9: URLError
+  !! candle fetch failed (historical) for KXCPI-26SEP-T0.9: URLError
+  !! candle fetch failed (live) for KXCPI-26AUG-T1.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.9: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.8: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.7: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.6: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.6: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.4: IncompleteRead
+  !! candle fetch failed (historical) for KXCPI-26SEP-T-0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.4: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPI-26AUG-T-0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.3: IncompleteRead
+  !! candle fetch failed (historical) for KXCPI-26JUL-T-0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T-0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T-0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.5: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.4: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.4: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.0: IncompleteRead
+  KXCPICORE: 500 discovered, 66 open in window
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T1.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.7: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.6: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.1: IncompleteRead
+  !! candle fetch failed (historical) for KXCPICORE-26NOV-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T1.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.8: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.7: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.6: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.0: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPICORE-26OCT-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.9: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPICORE-26SEP-T0.9: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.6: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.8: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.7: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.6: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26JUL-T0.8: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26JUL-T0.5: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26JUL-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26JUL-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26JUL-T0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26JUL-T0.0: IncompleteRead
+  KXFED: 660 discovered, 258 open in window
+  !! candle fetch failed (live) for KXFED-27APR-T6.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T6.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T5.50: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27JAN-T5.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T6.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-28JAN-T6.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T5.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T2.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T0.75: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-28JAN-T0.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T0.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27DEC-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27DEC-T2.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27DEC-T1.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27DEC-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T5.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T2.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27OCT-T2.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T1.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T1.50: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27OCT-T1.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T0.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27SEP-T3.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27SEP-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27SEP-T2.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27SEP-T0.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JUL-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JUL-T2.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27JUL-T2.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JUL-T1.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JUL-T0.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JUN-T5.50: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27JUN-T5.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JUN-T2.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.75: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27APR-T1.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T1.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T0.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T0.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T0.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T0.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T4.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27MAR-T4.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T3.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T3.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T2.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T2.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T2.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T1.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T1.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T1.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T0.25: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27MAR-T0.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T4.00: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27JAN-T4.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T3.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T3.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T2.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T2.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T2.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T1.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T1.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T1.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T1.00: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27JAN-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T0.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T0.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T0.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T0.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27JAN-T0.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T4.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T3.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T2.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T4.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T4.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T5.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-26SEP-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T5.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T4.50: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-26SEP-T4.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T4.25: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-26SEP-T4.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T2.75: RemoteDisconnected
+
+== tariff_eu_threat (2026-09-16, unscheduled_macro/unscheduled_macro) ==
+  KXFED: 660 discovered, 258 open in window
+  !! candle fetch failed (live) for KXFED-27MAR-T6.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T6.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T1.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T1.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-28JAN-T0.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-28JAN-T0.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27DEC-T5.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27DEC-T4.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27DEC-T4.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27DEC-T3.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27DEC-T2.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27DEC-T1.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T6.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27OCT-T3.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27SEP-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27SEP-T4.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JUL-T0.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JUN-T3.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27JUN-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T4.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27APR-T4.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27APR-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T0.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T0.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T0.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27APR-T0.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27APR-T0.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T2.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T2.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T2.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T2.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T1.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T1.50: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27MAR-T1.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T1.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27MAR-T1.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T4.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T4.00: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27JAN-T4.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T3.75: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27JAN-T3.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T3.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T2.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T2.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T2.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T1.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T1.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T1.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T1.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T0.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T0.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T0.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T0.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T5.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-26DEC-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T4.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T4.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T3.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T3.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-26DEC-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T4.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T4.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T4.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T3.75: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-26OCT-T3.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T3.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-26OCT-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T2.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T4.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T2.75: IncompleteRead
+  KXCPI: 552 discovered, 69 open in window
+  !! candle fetch failed (live) for KXCPI-26DEC-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T1.0: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.9: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.8: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.6: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.6: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.4: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.4: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPI-26AUG-T-0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.2: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPI-26JUL-T-0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.2: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPI-26NOV-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T-0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.2: IncompleteRead
+  !! candle fetch failed (historical) for KXCPI-26OCT-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T-0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.4: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.1: IncompleteRead
+  !! candle fetch failed (historical) for KXCPI-26SEP-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.0: IncompleteRead
+  !! candle fetch failed (historical) for KXCPI-26SEP-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.4: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.4: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPI-26JUL-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.1: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPI-26JUL-T-0.1: RemoteDisconnected
+  KXCPICORE: 500 discovered, 66 open in window
+  !! candle fetch failed (live) for KXCPICORE-26DEC-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.9: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.8: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.7: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.6: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.5: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPICORE-26NOV-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26NOV-T0.1: IncompleteRead
+  !! candle fetch failed (historical) for KXCPICORE-26NOV-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T1.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.9: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.8: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.7: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.5: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPICORE-26OCT-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26OCT-T0.0: IncompleteRead
+  !! candle fetch failed (historical) for KXCPICORE-26SEP-T1.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.7: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.6: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26SEP-T0.0: IncompleteRead
+  !! candle fetch failed (historical) for KXCPICORE-26SEP-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.8: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPICORE-26AUG-T0.8: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.6: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.5: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPICORE-26AUG-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.4: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26AUG-T0.0: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPICORE-26AUG-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPICORE-26JUL-T0.5: IncompleteRead
+  !! candle fetch failed (live) for KXCPICORE-26JUL-T0.4: RemoteDisconnected
+
+== russia_sanctions_bill (2026-09-16, unscheduled_macro/unscheduled_macro) ==
+  KXFED: 660 discovered, 258 open in window
+  KXCPI: 552 discovered, 69 open in window
+  KXCPICORE: 500 discovered, 66 open in window
+
+== trump_truth_fed (2026-09-16, unscheduled_macro/unscheduled_macro) ==
+  KXFED: 660 discovered, 258 open in window
+
+== nvda_earnings (2026-08-26, unscheduled_macro/unscheduled_macro) ==
+  KXFED: 660 discovered, 98 open in window
+  !! candle fetch failed (live) for KXFED-27APR-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T3.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T2.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T1.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T0.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T0.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T0.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27APR-T0.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T4.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T4.00: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27MAR-T4.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T2.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T1.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T1.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T1.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27MAR-T0.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T0.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27MAR-T0.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T4.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T3.25: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27JAN-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T3.00: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27JAN-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T2.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T2.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T2.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T1.50: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27JAN-T1.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T1.25: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-27JAN-T1.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T1.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T0.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-27JAN-T0.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T0.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-27JAN-T0.00: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-27JAN-T0.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T5.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T4.75: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-26DEC-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26DEC-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26DEC-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T4.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T4.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T3.75: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-26OCT-T3.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26OCT-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26OCT-T2.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T5.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T5.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T4.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T4.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T4.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T4.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.50: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T3.25: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26SEP-T3.00: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26SEP-T2.75: IncompleteRead
+  !! candle fetch failed (historical) for KXFED-26SEP-T2.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26JUL-T5.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26JUL-T4.75: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26JUL-T4.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26JUL-T3.75: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26JUL-T3.50: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26JUL-T3.25: IncompleteRead
+  !! candle fetch failed (live) for KXFED-26JUL-T3.00: RemoteDisconnected
+  !! candle fetch failed (live) for KXFED-26JUL-T2.75: RemoteDisconnected
+  !! candle fetch failed (historical) for KXFED-26JUL-T2.75: RemoteDisconnected
+  KXCPI: 552 discovered, 59 open in window
+  !! candle fetch failed (live) for KXCPI-26AUG-T1.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.8: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.7: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.6: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.6: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.4: RemoteDisconnected
+  !! candle fetch failed (historical) for KXCPI-26JUL-T-0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26JUL-T-0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26NOV-T0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26NOV-T-0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.5: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.3: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26OCT-T-0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26OCT-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.4: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.2: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T-0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26SEP-T0.0: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.5: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.4: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.3: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.2: IncompleteRead
+  !! candle fetch failed (historical) for KXCPI-26AUG-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.1: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26AUG-T-0.1: IncompleteRead
+  !! candle fetch failed (historical) for KXCPI-26AUG-T-0.1: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26AUG-T0.0: IncompleteRead
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.5: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.4: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.2: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUL-T0.0: RemoteDisconnected
+  !! candle fetch failed (live) for KXCPI-26JUN-T-0.1: RemoteDisconnected
+
+== fomc_sep_hike (2026-09-16, scheduled_macro/scheduled_macro) ==
+  KXFED: 660 discovered, 258 open in window
+
+DONE: 483 tickers, 17680 candle-rows, 956 gaps
+wrote /home/hatch/workspace/kalshi-paper/kalshi_api_data_summer/market_data.csv etc.

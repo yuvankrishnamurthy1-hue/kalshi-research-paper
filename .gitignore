@@ -1,0 +1,10 @@
+# Regenerable raw API caches (re-pull via collect_*.py); committed CSVs are the record
+*/raw/
+# Python bytecode
+__pycache__/
+*.pyc
+# Local backups
+*.bak
+*.d11_bak
+# OS / editor noise
+.DS_Store

@@ -1,0 +1,13 @@
+cell,metric,H,p,tiers_compared,n_events
+cross_macro_on_sports,abs_abnormal,,,1,8
+cross_macro_on_sports,t50,,,1,8
+cross_sports_on_macro,abs_abnormal,,,1,14
+cross_sports_on_macro,t50,,,1,14
+sched_macro,abs_abnormal,,,0,1
+sched_macro,t50,,,0,1
+sched_sports,abs_abnormal,,,1,4
+sched_sports,t50,,,1,4
+unsched_macro,abs_abnormal,2.1084337349397577,0.14648918393520458,2,8
+unsched_macro,t50,0.035714285714283686,0.85010673913853,2,8
+unsched_sports,abs_abnormal,,,1,14
+unsched_sports,t50,,,1,14

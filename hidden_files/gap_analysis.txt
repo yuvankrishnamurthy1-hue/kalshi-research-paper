@@ -1,0 +1,100 @@
+GAP ANALYSIS — Kalshi summer pull (collection 2026-09-23, run 6)
+Generated 2026-09-23. Source: kalshi_api_data_summer/collection_log.json + market_data.csv.
+
+1. WHAT "GAPS" ARE
+The 956 gaps in collection_log.json are ticker-level, not day-level: each gap is
+an (event, ticker) pair for which NO candles were fetched for that event's
+[T-45, T+10] window (fetch failed with URLError/IncompleteRead/RemoteDisconnected
+after retries). All 956 gap tickers DO have candle data from other events'
+windows — the tickers exist and trade; the failure is in our collection, not the
+market. Missingness is therefore a property of fetch batches, not of liquidity.
+
+2. DAY-LEVEL COMPLETENESS (separate issue, more important)
+For still-open (unsettled) contracts the Kalshi live candlesticks endpoint
+returned only recent history (e.g. KXFED-27APR-T4.50: 5 candles, 2026-09-19..24;
+KXCPICORE-26SEP-T0.5: 26 candles from 2026-08-29). This is consistent with those
+contracts having been LISTED recently (Kalshi lists new Fed/CPI expiries as old
+ones settle — e.g. post-Sept-16-FOMC), i.e. the history genuinely does not
+exist. Settled/settling series (KXCPI-26SEP, KXFED-26SEP) returned full windows
+via the historical endpoint.
+Consequence: many (event, ticker) pairs have <5 baseline observations and are
+excluded by the analysis script (insufficient_baseline_history), independent of
+the 956 fetch gaps.
+
+3. PER-EVENT ANALYZABILITY (tickers with >=5 baseline obs in T-30..T-5 or
+fallback T-45..T-5; 3-day window needs in-window data too)
+
+SPORTS (excellent except where noted):
+- 13 of 15 unscheduled sports events: 30-35/30-35 tickers analyzable, 0 gaps.
+- giannis_to_heat: only 7/38 analyzable (all KXNBA-26, the about-to-settle
+  2025-26 championship contracts). The 31 excluded are KXNBA-27 (2026-27)
+  futures listed ~June 20 with <5 pre-event days. SELECTION ISSUE: the
+  economically relevant contracts for a June 23 trade (next-season futures)
+  are exactly the ones excluded; the event's estimate rests on stale
+  about-to-settle contracts. Flag in paper.
+- nba_schedule_release, nfl_kickoff: 30-32/30-32 analyzable, 0 gaps.
+  (nfl_kickoff missing only the T+10 day; 3-day window [T0,T+3] is complete.)
+- nba_opening_night (T0=2026-10-20, future): 30 tickers have baseline history
+  but ZERO post-event data exist yet -> all pairs will be excluded
+  (no_window_data) for every window. Contributes nothing until after Oct 20.
+- nfl_trade_deadline (T0=2026-11-10, future): 0 tickers, 32 gaps -> excluded
+  from analysis entirely.
+
+MACRO (two tiers):
+- hormuz_retaliation_threat (Sep 8): 203/203 analyzable, 14 fetch gaps. GOOD.
+- canada_proclamations (Sep 8): 105/105 analyzable, 14 fetch gaps. GOOD.
+- perim_island_seized (Sep 11): 190/404 analyzable (87 KXFED, 53 KXCPICORE,
+  50 KXCPI); 214 excluded (newly-listed contracts, no pre-event history).
+- hormuz_strike_pipeline_shutdown (Sep 13): 24/180 analyzable (15 KXCPICORE +
+  9 KXCPI; ZERO usable KXFED — all 120 KXFED were fetch gaps or newly-listed);
+  156 excluded + 213 fetch gaps.
+- tariff_eu_threat (Sep 16): 29/216 analyzable (21 KXCPICORE + 7 KXCPI + 1 KXFED);
+  187 excluded + 177 fetch gaps.
+- russia_sanctions_bill (Sep 16): 29/216 analyzable (identical composition to
+  tariff_eu_threat — same T0, same fetch batches); 187 excluded + 177 gaps.
+- trump_truth_fed (Sep 16): 1/156 analyzable; 155 excluded + 102 gaps.
+  EFFECTIVELY DEAD for inference (single-ticker event).
+- nvda_earnings (Aug 26): 23/32 analyzable (16 KXFED + 7 KXCPI); 9 excluded +
+  125 fetch gaps (mostly KXFED-27APR and KXCPI buckets lost to timeouts).
+- fomc_sep_hike (Sep 16): 1/156 analyzable; 155 excluded + 102 gaps.
+  EFFECTIVELY DEAD — and it is the ONLY scheduled_macro event.
+
+4. IS THE MISSINGNESS RANDOM?
+- The 956 fetch gaps: bucket distribution of gaps vs fetched is roughly uniform
+  across strikes within an event (e.g. hormuz_strike gaps span T-0.1..T6.00 in
+  similar proportions to fetched), and gap expiries overlap fetched expiries.
+  Verdict: approximately random conditional on (event, series) — driven by
+  timeout bursts during specific fetch batches. Not obviously correlated with
+  price outcomes. Benign for event-level means.
+- The newly-listed-contract exclusions: SYSTEMATIC. Missingness correlates with
+  contract tenor (far-dated Fed/CPI contracts listed recently). The analyzable
+  sample for the Sept 11-16 macro events is selected toward near-term/settling
+  contracts. Near-term buckets are the most reactive (and the economically
+  relevant ones for CPI/Fed news), so event-level abnormal-move estimates remain
+  interpretable, but (a) H3 tier-gradient tests for macro are compromised —
+  tail buckets (M2/M3) are underrepresented; (b) cross-event comparability of
+  "the macro market reaction" is weakened because different events are measured
+  on different contract sets.
+- Overlap/contamination (separate from missingness): the Sept 8-16 macro
+  cluster shares contracts and [T-45,T+10] windows overlap heavily (468 of 483
+  tickers appear in >1 event). Baseline windows for later events contain earlier
+  events' windows. The analysis script's placebo contamination exclusion and
+  the prereg's disclosure cover this partially; recommend an additional
+  robustness check dropping events whose baseline contains another event's T0,
+  or narrowing baselines — documented in prereg_deviations.md.
+
+5. VERDICT
+Missingness does NOT threaten identification for: all sports events except
+giannis_to_heat (selection caveat), hormuz_retaliation_threat,
+canada_proclamations, perim_island_seized, nvda_earnings (reduced but usable).
+It DOES effectively kill: trump_truth_fed, fomc_sep_hike (1 ticker each),
+nfl_trade_deadline (no data), nba_opening_night (no post data yet).
+It WEAKENS but does not kill: hormuz_strike_pipeline_shutdown, tariff_eu_threat,
+russia_sanctions_bill (24-29 analyzable tickers each, CPI-only — no Fed leg),
+giannis_to_heat (7 stale contracts).
+Net effect on cells: unsched_macro = 8 events but 2 effectively dead
+(trump_truth_fed marginal) -> 6-7 usable, still >=5 so TESTABLE with caveats.
+sched_macro = 1 event with 1 ticker -> DESCRIPTIVE ONLY (was already expected).
+sched_sports = 3 events with data (nfl_kickoff full, nba_schedule_release full,
+nba_opening_night none usable yet) -> DESCRIPTIVE ONLY.
+unsched_sports = 15 events, 14 strong + giannis weak -> TESTABLE.

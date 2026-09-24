@@ -1,0 +1,6146 @@
+{
+ "run": "extended",
+ "events": [
+  {
+   "event_id": "hormuz_retaliation_threat_xd",
+   "t0_utc": "2026-09-07T13:53:00Z",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-PHI",
+    "KXNBA-27-MIA",
+    "KXNBA-27-ORL",
+    "KXNBA-27-MEM",
+    "KXNBA-27-MIN",
+    "KXNBA-27-LAL",
+    "KXNBA-27-NYK",
+    "KXNBA-27-GSW",
+    "KXSB-27-DAL",
+    "KXSB-27-SF",
+    "KXSB-27-LAR",
+    "KXSB-27-CIN",
+    "KXSB-27-BUF",
+    "KXSB-27-CHI",
+    "KXSB-27-NYG",
+    "KXSB-27-HOU"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-SAS",
+     "series": "KXNBA",
+     "window_volume": 442031.71
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 404742.36
+    },
+    {
+     "ticker": "KXNBA-27-POR",
+     "series": "KXNBA",
+     "window_volume": 367420.85
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 289880.03
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 232907.3
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 211912.97
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 207419.92
+    },
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 204055.77
+    },
+    {
+     "ticker": "KXNBA-27-HOU",
+     "series": "KXNBA",
+     "window_volume": 202086.8
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 197614.43
+    },
+    {
+     "ticker": "KXNBA-27-DAL",
+     "series": "KXNBA",
+     "window_volume": 191120.66
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 148549.61
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 131859.55
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 106726.31
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 40895.79
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 31055.71
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 24321.69
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 19993.91
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 11963.91
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 10521.65
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 6014.26
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 3870.21
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 2943775.44
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 2516065.62
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 2514260.59
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 2468725.06
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 2468590.51
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 2352444.52
+    },
+    {
+     "ticker": "KXSB-27-MIN",
+     "series": "KXSB",
+     "window_volume": 2049211.87
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2046666.95
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 2006034.8
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 1962304.05
+    },
+    {
+     "ticker": "KXSB-27-GB",
+     "series": "KXSB",
+     "window_volume": 1734701.87
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 1500770.22
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 1156633.47
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 1141242.65
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 1140624.27
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 639086.07
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 596902.96
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 562260.41
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 404189.23
+    },
+    {
+     "ticker": "KXSB-27-ATL",
+     "series": "KXSB",
+     "window_volume": 358698.29
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 335630.14
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 331736.02
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 191894.94
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 138947.09
+    }
+   ]
+  },
+  {
+   "event_id": "canada_proclamations_xd",
+   "t0_utc": "2026-09-08",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-PHI",
+    "KXNBA-27-MIA",
+    "KXNBA-27-ORL",
+    "KXNBA-27-MEM",
+    "KXNBA-27-MIN",
+    "KXNBA-27-LAL",
+    "KXNBA-27-NYK",
+    "KXNBA-27-GSW",
+    "KXSB-27-DAL",
+    "KXSB-27-SF",
+    "KXSB-27-LAR",
+    "KXSB-27-CIN",
+    "KXSB-27-BUF",
+    "KXSB-27-CHI",
+    "KXSB-27-NYG",
+    "KXSB-27-HOU"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-SAS",
+     "series": "KXNBA",
+     "window_volume": 442031.71
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 404742.36
+    },
+    {
+     "ticker": "KXNBA-27-POR",
+     "series": "KXNBA",
+     "window_volume": 367420.85
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 289880.03
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 232907.3
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 211912.97
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 207419.92
+    },
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 204055.77
+    },
+    {
+     "ticker": "KXNBA-27-HOU",
+     "series": "KXNBA",
+     "window_volume": 202086.8
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 197614.43
+    },
+    {
+     "ticker": "KXNBA-27-DAL",
+     "series": "KXNBA",
+     "window_volume": 191120.66
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 148549.61
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 131859.55
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 106726.31
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 40895.79
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 31055.71
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 24321.69
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 19993.91
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 11963.91
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 10521.65
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 6014.26
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 3870.21
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 2943775.44
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 2516065.62
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 2514260.59
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 2468725.06
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 2468590.51
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 2352444.52
+    },
+    {
+     "ticker": "KXSB-27-MIN",
+     "series": "KXSB",
+     "window_volume": 2049211.87
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2046666.95
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 2006034.8
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 1962304.05
+    },
+    {
+     "ticker": "KXSB-27-GB",
+     "series": "KXSB",
+     "window_volume": 1734701.87
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 1500770.22
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 1156633.47
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 1141242.65
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 1140624.27
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 639086.07
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 596902.96
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 562260.41
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 404189.23
+    },
+    {
+     "ticker": "KXSB-27-ATL",
+     "series": "KXSB",
+     "window_volume": 358698.29
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 335630.14
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 331736.02
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 191894.94
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 138947.09
+    }
+   ]
+  },
+  {
+   "event_id": "hormuz_strike_pipeline_shutdown_xd",
+   "t0_utc": "2026-09-10",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-PHI",
+    "KXNBA-27-MIA",
+    "KXNBA-27-MEM",
+    "KXNBA-27-MIN",
+    "KXNBA-27-ORL",
+    "KXNBA-27-LAL",
+    "KXNBA-27-GSW",
+    "KXNBA-27-SAS",
+    "KXSB-27-DAL",
+    "KXSB-27-SF",
+    "KXSB-27-LAR",
+    "KXSB-27-BUF",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-NYG",
+    "KXSB-27-HOU"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-NYK",
+     "series": "KXNBA",
+     "window_volume": 355249.31
+    },
+    {
+     "ticker": "KXNBA-27-POR",
+     "series": "KXNBA",
+     "window_volume": 355082.16
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 340399.73
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 310460.78
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 210959.52
+    },
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 189521.29
+    },
+    {
+     "ticker": "KXNBA-27-HOU",
+     "series": "KXNBA",
+     "window_volume": 182811.92
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 168601.81
+    },
+    {
+     "ticker": "KXNBA-27-DAL",
+     "series": "KXNBA",
+     "window_volume": 156244.54
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 145899.34
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 121631.96
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 121374.78
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 112106.3
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 91859.56
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 33214.71
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 27384.17
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 14602.26
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 13307.55
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 10191.73
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 5827.24
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 5366.38
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 3762.29
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 2947627.71
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 2675424.8
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 2631845.09
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 2629446.28
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 2491178.11
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2375710.67
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 2372795.39
+    },
+    {
+     "ticker": "KXSB-27-MIN",
+     "series": "KXSB",
+     "window_volume": 2067519.24
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 2016482.7
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 1902479.75
+    },
+    {
+     "ticker": "KXSB-27-GB",
+     "series": "KXSB",
+     "window_volume": 1761824.86
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 1539581.41
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 1171495.19
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 1154421.01
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 1145680.53
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 638996.08
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 598517.87
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 573689.62
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 415125.41
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 370273.6
+    },
+    {
+     "ticker": "KXSB-27-ATL",
+     "series": "KXSB",
+     "window_volume": 364122.8
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 356532.06
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 191708.84
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 138194.67
+    }
+   ]
+  },
+  {
+   "event_id": "perim_island_seized_xd",
+   "t0_utc": "2026-09-11",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-PHI",
+    "KXNBA-27-MEM",
+    "KXNBA-27-MIA",
+    "KXNBA-27-MIN",
+    "KXNBA-27-ORL",
+    "KXNBA-27-LAL",
+    "KXNBA-27-GSW",
+    "KXNBA-27-SAS",
+    "KXSB-27-DAL",
+    "KXSB-27-SF",
+    "KXSB-27-BUF",
+    "KXSB-27-LAR",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-NYG",
+    "KXSB-27-HOU"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-POR",
+     "series": "KXNBA",
+     "window_volume": 351410.59
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 327833.64
+    },
+    {
+     "ticker": "KXNBA-27-NYK",
+     "series": "KXNBA",
+     "window_volume": 319625.26
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 304171.0
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 214678.39
+    },
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 184366.25
+    },
+    {
+     "ticker": "KXNBA-27-HOU",
+     "series": "KXNBA",
+     "window_volume": 181008.62
+    },
+    {
+     "ticker": "KXNBA-27-DAL",
+     "series": "KXNBA",
+     "window_volume": 152913.45
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 145673.74
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 120894.39
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 119052.74
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 112356.43
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 110379.45
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 91759.74
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 31457.66
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 27374.82
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 13988.72
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 12954.52
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 6858.73
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 6366.04
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 5827.24
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 2634.1
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 2932277.97
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 2762306.38
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 2760125.9
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 2649200.13
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 2493076.7
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 2383254.91
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2353504.32
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 2211951.47
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 2076529.69
+    },
+    {
+     "ticker": "KXSB-27-MIN",
+     "series": "KXSB",
+     "window_volume": 2070980.91
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 1911855.03
+    },
+    {
+     "ticker": "KXSB-27-GB",
+     "series": "KXSB",
+     "window_volume": 1796493.01
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 1552880.48
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 1158350.78
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 1112801.16
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 637271.65
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 599283.48
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 574524.62
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 426948.15
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 400257.96
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 363151.7
+    },
+    {
+     "ticker": "KXSB-27-ATL",
+     "series": "KXSB",
+     "window_volume": 362235.65
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 192392.5
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 133567.4
+    }
+   ]
+  },
+  {
+   "event_id": "tariff_eu_threat_xd",
+   "t0_utc": "2026-09-16",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-PHI",
+    "KXNBA-27-MEM",
+    "KXNBA-27-MIN",
+    "KXNBA-27-ORL",
+    "KXNBA-27-LAL",
+    "KXNBA-27-MIA",
+    "KXNBA-27-GSW",
+    "KXNBA-27-SAS",
+    "KXSB-27-DAL",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-SF",
+    "KXSB-27-BUF",
+    "KXSB-27-NYG",
+    "KXSB-27-LAR",
+    "KXSB-27-HOU"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-POR",
+     "series": "KXNBA",
+     "window_volume": 337970.85
+    },
+    {
+     "ticker": "KXNBA-27-NYK",
+     "series": "KXNBA",
+     "window_volume": 288280.98
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 282557.1
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 267895.1
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 208345.85
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 169789.81
+    },
+    {
+     "ticker": "KXNBA-27-HOU",
+     "series": "KXNBA",
+     "window_volume": 167908.9
+    },
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 158483.56
+    },
+    {
+     "ticker": "KXNBA-27-DAL",
+     "series": "KXNBA",
+     "window_volume": 139547.09
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 128698.78
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 108698.86
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 91130.79
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 74946.75
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 58275.43
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 29930.06
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 25057.89
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 21635.95
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 14147.76
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 5704.7
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 4110.91
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 2890.61
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 2513.47
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 3100799.33
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 3006859.45
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 3000392.67
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 2988259.4
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 2983314.05
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 2910194.65
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 2910140.75
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 2372111.58
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 2365926.28
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 2324721.78
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2315780.47
+    },
+    {
+     "ticker": "KXSB-27-MIN",
+     "series": "KXSB",
+     "window_volume": 2215079.22
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 2207411.08
+    },
+    {
+     "ticker": "KXSB-27-GB",
+     "series": "KXSB",
+     "window_volume": 1840587.8
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 1186691.17
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 831134.88
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 741673.69
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 657814.8
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 593337.42
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 449215.12
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 405280.96
+    },
+    {
+     "ticker": "KXSB-27-ATL",
+     "series": "KXSB",
+     "window_volume": 337544.81
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 183734.03
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 138473.05
+    }
+   ]
+  },
+  {
+   "event_id": "russia_sanctions_bill_xd",
+   "t0_utc": "2026-09-16",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-PHI",
+    "KXNBA-27-MEM",
+    "KXNBA-27-MIN",
+    "KXNBA-27-ORL",
+    "KXNBA-27-LAL",
+    "KXNBA-27-MIA",
+    "KXNBA-27-GSW",
+    "KXNBA-27-SAS",
+    "KXSB-27-DAL",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-SF",
+    "KXSB-27-BUF",
+    "KXSB-27-NYG",
+    "KXSB-27-LAR",
+    "KXSB-27-HOU"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-POR",
+     "series": "KXNBA",
+     "window_volume": 337970.85
+    },
+    {
+     "ticker": "KXNBA-27-NYK",
+     "series": "KXNBA",
+     "window_volume": 288280.98
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 282557.1
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 267895.1
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 208345.85
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 169789.81
+    },
+    {
+     "ticker": "KXNBA-27-HOU",
+     "series": "KXNBA",
+     "window_volume": 167908.9
+    },
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 158483.56
+    },
+    {
+     "ticker": "KXNBA-27-DAL",
+     "series": "KXNBA",
+     "window_volume": 139547.09
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 128698.78
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 108698.86
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 91130.79
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 74946.75
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 58275.43
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 29930.06
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 25057.89
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 21635.95
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 14147.76
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 5704.7
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 4110.91
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 2890.61
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 2513.47
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 3100799.33
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 3006859.45
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 3000392.67
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 2988259.4
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 2983314.05
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 2910194.65
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 2910140.75
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 2372111.58
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 2365926.28
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 2324721.78
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2315780.47
+    },
+    {
+     "ticker": "KXSB-27-MIN",
+     "series": "KXSB",
+     "window_volume": 2215079.22
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 2207411.08
+    },
+    {
+     "ticker": "KXSB-27-GB",
+     "series": "KXSB",
+     "window_volume": 1840587.8
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 1186691.17
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 831134.88
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 741673.69
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 657814.8
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 593337.42
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 449215.12
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 405280.96
+    },
+    {
+     "ticker": "KXSB-27-ATL",
+     "series": "KXSB",
+     "window_volume": 337544.81
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 183734.03
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 138473.05
+    }
+   ]
+  },
+  {
+   "event_id": "trump_truth_fed_xd",
+   "t0_utc": "2026-09-16",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-PHI",
+    "KXNBA-27-MEM",
+    "KXNBA-27-MIN",
+    "KXNBA-27-ORL",
+    "KXNBA-27-LAL",
+    "KXNBA-27-MIA",
+    "KXNBA-27-GSW",
+    "KXNBA-27-SAS",
+    "KXSB-27-DAL",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-SF",
+    "KXSB-27-BUF",
+    "KXSB-27-NYG",
+    "KXSB-27-LAR",
+    "KXSB-27-HOU"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-POR",
+     "series": "KXNBA",
+     "window_volume": 337970.85
+    },
+    {
+     "ticker": "KXNBA-27-NYK",
+     "series": "KXNBA",
+     "window_volume": 288280.98
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 282557.1
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 267895.1
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 208345.85
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 169789.81
+    },
+    {
+     "ticker": "KXNBA-27-HOU",
+     "series": "KXNBA",
+     "window_volume": 167908.9
+    },
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 158483.56
+    },
+    {
+     "ticker": "KXNBA-27-DAL",
+     "series": "KXNBA",
+     "window_volume": 139547.09
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 128698.78
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 108698.86
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 91130.79
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 74946.75
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 58275.43
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 29930.06
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 25057.89
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 21635.95
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 14147.76
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 5704.7
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 4110.91
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 2890.61
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 2513.47
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 3100799.33
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 3006859.45
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 3000392.67
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 2988259.4
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 2983314.05
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 2910194.65
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 2910140.75
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 2372111.58
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 2365926.28
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 2324721.78
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2315780.47
+    },
+    {
+     "ticker": "KXSB-27-MIN",
+     "series": "KXSB",
+     "window_volume": 2215079.22
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 2207411.08
+    },
+    {
+     "ticker": "KXSB-27-GB",
+     "series": "KXSB",
+     "window_volume": 1840587.8
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 1186691.17
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 831134.88
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 741673.69
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 657814.8
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 593337.42
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 449215.12
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 405280.96
+    },
+    {
+     "ticker": "KXSB-27-ATL",
+     "series": "KXSB",
+     "window_volume": 337544.81
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 183734.03
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 138473.05
+    }
+   ]
+  },
+  {
+   "event_id": "nvda_earnings_xd",
+   "t0_utc": "2026-08-26",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-PHI",
+    "KXNBA-27-MIA",
+    "KXNBA-27-ORL",
+    "KXNBA-27-MEM",
+    "KXNBA-27-LAL",
+    "KXNBA-27-MIN",
+    "KXNBA-27-GSW",
+    "KXNBA-27-NYK",
+    "KXSB-27-DAL",
+    "KXSB-27-LAR",
+    "KXSB-27-HOU",
+    "KXSB-27-BUF",
+    "KXSB-27-DEN",
+    "KXSB-27-SF",
+    "KXSB-27-MIN",
+    "KXSB-27-CIN"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-SAS",
+     "series": "KXNBA",
+     "window_volume": 479588.07
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 419352.05
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 416431.37
+    },
+    {
+     "ticker": "KXNBA-27-POR",
+     "series": "KXNBA",
+     "window_volume": 410197.21
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 407939.73
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 325088.2
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 304671.93
+    },
+    {
+     "ticker": "KXNBA-27-DAL",
+     "series": "KXNBA",
+     "window_volume": 222427.02
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 211463.01
+    },
+    {
+     "ticker": "KXNBA-27-HOU",
+     "series": "KXNBA",
+     "window_volume": 151145.26
+    },
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 144218.88
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 134123.78
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 83454.24
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 80662.92
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 51642.78
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 46635.97
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 33405.95
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 27046.51
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 25431.42
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 12235.63
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 7401.36
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 3481.87
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 1549472.5
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 1477024.58
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 1467476.36
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 1329622.72
+    },
+    {
+     "ticker": "KXSB-27-CHI",
+     "series": "KXSB",
+     "window_volume": 1311070.43
+    },
+    {
+     "ticker": "KXSB-27-GB",
+     "series": "KXSB",
+     "window_volume": 1284858.3
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 1131632.15
+    },
+    {
+     "ticker": "KXSB-27-NYG",
+     "series": "KXSB",
+     "window_volume": 978871.71
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 965957.58
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 955687.46
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 938391.27
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 872035.95
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 734672.98
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 631806.54
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 627826.37
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 420911.15
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 262380.21
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 252935.6
+    },
+    {
+     "ticker": "KXSB-27-ATL",
+     "series": "KXSB",
+     "window_volume": 248853.1
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 244516.15
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 207429.47
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 182602.03
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 146883.94
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 135385.66
+    }
+   ]
+  },
+  {
+   "event_id": "myles_garrett_to_rams_xd",
+   "t0_utc": "2026-06-01T17:19:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUN-T5.25",
+    "KXFED-26JUN-T5.00",
+    "KXCPI-26MAY-T-0.3",
+    "KXCPI-26MAY-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "aj_brown_to_patriots_xd",
+   "t0_utc": "2026-06-01T20:20:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUN-T5.25",
+    "KXFED-26JUN-T5.00",
+    "KXCPI-26MAY-T-0.3",
+    "KXCPI-26MAY-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "giannis_to_heat_xd",
+   "t0_utc": "2026-06-23T03:50:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUN-T-0.3",
+    "KXCPI-26JUN-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "jaylen_brown_to_76ers_xd",
+   "t0_utc": "2026-07-01T22:20:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUN-T-0.3",
+    "KXCPI-26JUN-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "mike_conley_to_celtics_xd",
+   "t0_utc": "2026-07-01T14:58:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUN-T-0.3",
+    "KXCPI-26JUN-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "mitchell_robinson_to_celtics_xd",
+   "t0_utc": "2026-07-01T15:39:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUN-T-0.3",
+    "KXCPI-26JUN-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "neemias_queta_extension_xd",
+   "t0_utc": "2026-07-03T13:53:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUN-T-0.3",
+    "KXCPI-26JUN-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "donovan_mitchell_extension_xd",
+   "t0_utc": "2026-07-07T10:01:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUN-T-0.3",
+    "KXCPI-26JUN-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "dlo_six_team_trade_xd",
+   "t0_utc": "2026-07-08T00:53:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUN-T-0.3",
+    "KXCPI-26JUN-T-0.2"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "jordan_walsh_extension_xd",
+   "t0_utc": "2026-07-23T12:27:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUL-T-0.4",
+    "KXCPI-26JUL-T-0.3"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "lebron_to_76ers_xd",
+   "t0_utc": "2026-07-24T20:34:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUL-T-0.4",
+    "KXCPI-26JUL-T-0.3"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "brian_oneill_extension_xd",
+   "t0_utc": "2026-07-28T14:24:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXCPI-26JUL-T-0.4",
+    "KXCPI-26JUL-T-0.3"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "von_miller_to_cowboys_xd",
+   "t0_utc": "2026-08-17T01:10:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T1.0",
+    "KXCPI-26AUG-T0.9"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "aaron_donald_comeback_xd",
+   "t0_utc": "2026-08-30T17:00:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26AUG-T1.0",
+    "KXCPI-26AUG-T0.9"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "kawhi_to_raptors_xd",
+   "t0_utc": "2026-09-14T18:56:00Z",
+   "cell": "unscheduled_sports",
+   "category": "crossdomain_macro_contracts",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {
+    "select": "nearest_expiry",
+    "n_per_series": 2
+   },
+   "tickers": [
+    "KXFED-26SEP-T5.25",
+    "KXFED-26SEP-T5.00",
+    "KXCPI-26SEP-T0.9",
+    "KXCPI-26SEP-T0.8"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_aug_release",
+   "t0_utc": "2026-09-11T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26AUG"
+   },
+   "tickers": [
+    "KXCPI-26AUG-T1.0",
+    "KXCPI-26AUG-T0.9",
+    "KXCPI-26AUG-T0.8",
+    "KXCPI-26AUG-T0.7",
+    "KXCPI-26AUG-T0.6",
+    "KXCPI-26AUG-T-0.4",
+    "KXCPI-26AUG-T-0.3",
+    "KXCPI-26AUG-T-0.2",
+    "KXCPI-26AUG-T0.5",
+    "KXCPI-26AUG-T0.4",
+    "KXCPI-26AUG-T0.3",
+    "KXCPI-26AUG-T0.2",
+    "KXCPI-26AUG-T0.1",
+    "KXCPI-26AUG-T-0.1",
+    "KXCPI-26AUG-T0.0",
+    "KXCPICORE-26AUG-T1.0",
+    "KXCPICORE-26AUG-T0.9",
+    "KXCPICORE-26AUG-T0.8",
+    "KXCPICORE-26AUG-T0.7",
+    "KXCPICORE-26AUG-T0.6",
+    "KXCPICORE-26AUG-T0.5",
+    "KXCPICORE-26AUG-T0.4",
+    "KXCPICORE-26AUG-T0.3",
+    "KXCPICORE-26AUG-T0.2",
+    "KXCPICORE-26AUG-T0.1",
+    "KXCPICORE-26AUG-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "nba_draft_lottery_2026",
+   "t0_utc": "2026-05-11",
+   "cell": "scheduled_sports",
+   "category": "scheduled_sports",
+   "series": [
+    "KXNBA"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXNBA-26-WAS",
+    "KXNBA-26-UTA",
+    "KXNBA-26-TOR",
+    "KXNBA-26-SAS",
+    "KXNBA-26-SAC",
+    "KXNBA-26-POR",
+    "KXNBA-26-PHX",
+    "KXNBA-26-PHI",
+    "KXNBA-26-ORL",
+    "KXNBA-26-OKC",
+    "KXNBA-26-NYK",
+    "KXNBA-26-NOP",
+    "KXNBA-26-MIN",
+    "KXNBA-26-MIL",
+    "KXNBA-26-MIA",
+    "KXNBA-26-MEM",
+    "KXNBA-26-LAL",
+    "KXNBA-26-LAC",
+    "KXNBA-26-IND",
+    "KXNBA-26-HOU",
+    "KXNBA-26-GSW",
+    "KXNBA-26-DET",
+    "KXNBA-26-DEN",
+    "KXNBA-26-DAL",
+    "KXNBA-26-CLE",
+    "KXNBA-26-CHI",
+    "KXNBA-26-CHA",
+    "KXNBA-26-BOS",
+    "KXNBA-26-BKN",
+    "KXNBA-26-ATL"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "nba_draft_2026",
+   "t0_utc": "2026-06-24",
+   "cell": "scheduled_sports",
+   "category": "scheduled_sports",
+   "series": [
+    "KXNBA"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXNBA-27-WAS",
+    "KXNBA-27-UTA",
+    "KXNBA-27-TOR",
+    "KXNBA-27-SAS",
+    "KXNBA-27-SAC",
+    "KXNBA-27-POR",
+    "KXNBA-27-PHX",
+    "KXNBA-27-PHI",
+    "KXNBA-27-ORL",
+    "KXNBA-27-OKC",
+    "KXNBA-27-NYK",
+    "KXNBA-27-NOP",
+    "KXNBA-27-MIN",
+    "KXNBA-27-MIL",
+    "KXNBA-27-MIA",
+    "KXNBA-27-MEM",
+    "KXNBA-27-LAL",
+    "KXNBA-27-LAC",
+    "KXNBA-27-IND",
+    "KXNBA-27-HOU",
+    "KXNBA-27-GSW",
+    "KXNBA-27-DET",
+    "KXNBA-27-DEN",
+    "KXNBA-27-DAL",
+    "KXNBA-27-CLE",
+    "KXNBA-27-CHI",
+    "KXNBA-27-CHA",
+    "KXNBA-27-BOS",
+    "KXNBA-27-BKN",
+    "KXNBA-27-ATL",
+    "KXNBA-26-SAS",
+    "KXNBA-26-PHI",
+    "KXNBA-26-OKC",
+    "KXNBA-26-NYK",
+    "KXNBA-26-MIN",
+    "KXNBA-26-LAL",
+    "KXNBA-26-DET",
+    "KXNBA-26-CLE"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "mlb_allstar_2026",
+   "t0_utc": "2026-07-14",
+   "cell": "scheduled_sports",
+   "category": "scheduled_sports",
+   "series": [
+    "KXMLB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXMLB-26-WSH",
+    "KXMLB-26-TOR",
+    "KXMLB-26-TEX",
+    "KXMLB-26-TB",
+    "KXMLB-26-STL",
+    "KXMLB-26-SF",
+    "KXMLB-26-SEA",
+    "KXMLB-26-SD",
+    "KXMLB-26-PIT",
+    "KXMLB-26-PHI",
+    "KXMLB-26-NYY",
+    "KXMLB-26-NYM",
+    "KXMLB-26-MIN",
+    "KXMLB-26-MIL",
+    "KXMLB-26-MIA",
+    "KXMLB-26-LAD",
+    "KXMLB-26-LAA",
+    "KXMLB-26-KC",
+    "KXMLB-26-HOU",
+    "KXMLB-26-DET",
+    "KXMLB-26-CWS",
+    "KXMLB-26-COL",
+    "KXMLB-26-CLE",
+    "KXMLB-26-CIN",
+    "KXMLB-26-CHC",
+    "KXMLB-26-BOS",
+    "KXMLB-26-BAL",
+    "KXMLB-26-AZ",
+    "KXMLB-26-ATL",
+    "KXMLB-26-ATH"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "fomc_2026_01_supp",
+   "t0_utc": "2026-01-28T18:00:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXFED"
+   ],
+   "opts": {
+    "ticker_contains": "26JAN"
+   },
+   "tickers": [
+    "KXFED-26JAN-T5.25",
+    "KXFED-26JAN-T5.00",
+    "KXFED-26JAN-T4.75",
+    "KXFED-26JAN-T4.50",
+    "KXFED-26JAN-T4.25",
+    "KXFED-26JAN-T4.00",
+    "KXFED-26JAN-T3.75",
+    "KXFED-26JAN-T3.50",
+    "KXFED-26JAN-T3.25",
+    "KXFED-26JAN-T3.00",
+    "KXFED-26JAN-T2.75"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "fomc_2026_03_supp",
+   "t0_utc": "2026-03-18T18:00:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXFED"
+   ],
+   "opts": {
+    "ticker_contains": "26MAR"
+   },
+   "tickers": [
+    "KXFED-26MAR-T5.25",
+    "KXFED-26MAR-T5.00",
+    "KXFED-26MAR-T4.75",
+    "KXFED-26MAR-T4.50",
+    "KXFED-26MAR-T4.25",
+    "KXFED-26MAR-T4.00",
+    "KXFED-26MAR-T3.75",
+    "KXFED-26MAR-T3.50",
+    "KXFED-26MAR-T3.25",
+    "KXFED-26MAR-T3.00",
+    "KXFED-26MAR-T2.75"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "fomc_2026_04_supp",
+   "t0_utc": "2026-04-29T18:00:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXFED"
+   ],
+   "opts": {
+    "ticker_contains": "26APR"
+   },
+   "tickers": [
+    "KXFED-26APR-T5.25",
+    "KXFED-26APR-T5.00",
+    "KXFED-26APR-T4.75",
+    "KXFED-26APR-T4.50",
+    "KXFED-26APR-T4.25",
+    "KXFED-26APR-T4.00",
+    "KXFED-26APR-T3.75",
+    "KXFED-26APR-T3.50",
+    "KXFED-26APR-T3.25",
+    "KXFED-26APR-T3.00",
+    "KXFED-26APR-T2.75"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "fomc_2026_06_supp",
+   "t0_utc": "2026-06-17T18:00:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXFED"
+   ],
+   "opts": {
+    "ticker_contains": "26JUN"
+   },
+   "tickers": [
+    "KXFED-26JUN-T5.25",
+    "KXFED-26JUN-T5.00",
+    "KXFED-26JUN-T4.75",
+    "KXFED-26JUN-T4.50",
+    "KXFED-26JUN-T4.25",
+    "KXFED-26JUN-T4.00",
+    "KXFED-26JUN-T3.75",
+    "KXFED-26JUN-T3.50",
+    "KXFED-26JUN-T3.25",
+    "KXFED-26JUN-T3.00",
+    "KXFED-26JUN-T2.75"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "fomc_2026_07_supp",
+   "t0_utc": "2026-07-29T18:00:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXFED"
+   ],
+   "opts": {
+    "ticker_contains": "26JUL"
+   },
+   "tickers": [
+    "KXFED-26JUL-T5.25",
+    "KXFED-26JUL-T5.00",
+    "KXFED-26JUL-T4.75",
+    "KXFED-26JUL-T4.50",
+    "KXFED-26JUL-T4.25",
+    "KXFED-26JUL-T4.00",
+    "KXFED-26JUL-T3.75",
+    "KXFED-26JUL-T3.50",
+    "KXFED-26JUL-T3.25",
+    "KXFED-26JUL-T3.00",
+    "KXFED-26JUL-T2.75"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_2026_01_supp",
+   "t0_utc": "2026-01-13T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "25DEC"
+   },
+   "tickers": [
+    "KXCPI-25DEC-T0.4",
+    "KXCPI-25DEC-T0.3",
+    "KXCPI-25DEC-T0.2",
+    "KXCPI-25DEC-T0.1",
+    "KXCPI-25DEC-T-0.1",
+    "KXCPI-25DEC-T0.0",
+    "KXCPICORE-25DECT-T0.5",
+    "KXCPICORE-25DECT-T0.4",
+    "KXCPICORE-25DECT-T0.3",
+    "KXCPICORE-25DECT-T0.2",
+    "KXCPICORE-25DECT-T0.1",
+    "KXCPICORE-25DECT-T0.0",
+    "KXCPICORE-25DEC-T0.3",
+    "KXCPICORE-25DEC-T0.2",
+    "KXCPICORE-25DEC-T0.1",
+    "KXCPICORE-25DEC-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_2026_02_supp",
+   "t0_utc": "2026-02-13T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26JAN"
+   },
+   "tickers": [
+    "KXCPI-26JAN-T0.4",
+    "KXCPI-26JAN-T0.3",
+    "KXCPI-26JAN-T0.2",
+    "KXCPI-26JAN-T0.1",
+    "KXCPI-26JAN-T-0.1",
+    "KXCPI-26JAN-T0.0",
+    "KXCPICORE-26JAN-T0.5",
+    "KXCPICORE-26JAN-T0.4",
+    "KXCPICORE-26JAN-T0.3",
+    "KXCPICORE-26JAN-T0.2",
+    "KXCPICORE-26JAN-T0.1",
+    "KXCPICORE-26JAN-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_2026_03_supp",
+   "t0_utc": "2026-03-11T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26FEB"
+   },
+   "tickers": [
+    "KXCPI-26FEB-T0.4",
+    "KXCPI-26FEB-T0.3",
+    "KXCPI-26FEB-T0.2",
+    "KXCPI-26FEB-T0.1",
+    "KXCPI-26FEB-T-0.1",
+    "KXCPI-26FEB-T0.0",
+    "KXCPICORE-26FEB-T0.5",
+    "KXCPICORE-26FEB-T0.4",
+    "KXCPICORE-26FEB-T0.3",
+    "KXCPICORE-26FEB-T0.2",
+    "KXCPICORE-26FEB-T0.1",
+    "KXCPICORE-26FEB-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_2026_04_supp",
+   "t0_utc": "2026-04-10T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26MAR"
+   },
+   "tickers": [
+    "KXCPI-26MAR-T1.3",
+    "KXCPI-26MAR-T1.2",
+    "KXCPI-26MAR-T1.1",
+    "KXCPI-26MAR-T1.0",
+    "KXCPI-26MAR-T0.9",
+    "KXCPI-26MAR-T0.8",
+    "KXCPI-26MAR-T0.7",
+    "KXCPI-26MAR-T0.6",
+    "KXCPI-26MAR-T0.5",
+    "KXCPI-26MAR-T0.4",
+    "KXCPI-26MAR-T0.3",
+    "KXCPI-26MAR-T0.2",
+    "KXCPI-26MAR-T0.1",
+    "KXCPI-26MAR-T-0.1",
+    "KXCPI-26MAR-T0.0",
+    "KXCPICORE-26MAR-T0.7",
+    "KXCPICORE-26MAR-T0.6",
+    "KXCPICORE-26MAR-T0.5",
+    "KXCPICORE-26MAR-T0.4",
+    "KXCPICORE-26MAR-T0.3",
+    "KXCPICORE-26MAR-T0.2",
+    "KXCPICORE-26MAR-T0.1",
+    "KXCPICORE-26MAR-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_2026_05_supp",
+   "t0_utc": "2026-05-12T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26APR"
+   },
+   "tickers": [
+    "KXCPI-26APR-T1.0",
+    "KXCPI-26APR-T0.9",
+    "KXCPI-26APR-T0.8",
+    "KXCPI-26APR-T0.7",
+    "KXCPI-26APR-T0.6",
+    "KXCPI-26APR-T0.5",
+    "KXCPI-26APR-T0.4",
+    "KXCPI-26APR-T0.3",
+    "KXCPI-26APR-T0.2",
+    "KXCPI-26APR-T0.1",
+    "KXCPI-26APR-T-0.1",
+    "KXCPI-26APR-T0.0",
+    "KXCPICORE-26APR-T1.5",
+    "KXCPICORE-26APR-T1.4",
+    "KXCPICORE-26APR-T1.3",
+    "KXCPICORE-26APR-T1.2",
+    "KXCPICORE-26APR-T1.1",
+    "KXCPICORE-26APR-T1.0",
+    "KXCPICORE-26APR-T0.9",
+    "KXCPICORE-26APR-T0.8",
+    "KXCPICORE-26APR-T0.7",
+    "KXCPICORE-26APR-T0.6",
+    "KXCPICORE-26APR-T0.5",
+    "KXCPICORE-26APR-T0.4",
+    "KXCPICORE-26APR-T0.3",
+    "KXCPICORE-26APR-T0.2",
+    "KXCPICORE-26APR-T0.1",
+    "KXCPICORE-26APR-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_2026_06_supp",
+   "t0_utc": "2026-06-10T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26MAY"
+   },
+   "tickers": [
+    "KXCPI-26MAY-T-0.3",
+    "KXCPI-26MAY-T-0.2",
+    "KXCPI-26MAY-T1.0",
+    "KXCPI-26MAY-T0.9",
+    "KXCPI-26MAY-T0.8",
+    "KXCPI-26MAY-T0.7",
+    "KXCPI-26MAY-T0.6",
+    "KXCPI-26MAY-T0.5",
+    "KXCPI-26MAY-T0.4",
+    "KXCPI-26MAY-T0.3",
+    "KXCPI-26MAY-T0.2",
+    "KXCPI-26MAY-T0.1",
+    "KXCPI-26MAY-T-0.1",
+    "KXCPI-26MAY-T0.0",
+    "KXCPICORE-26MAY-T1.0",
+    "KXCPICORE-26MAY-T0.9",
+    "KXCPICORE-26MAY-T0.8",
+    "KXCPICORE-26MAY-T0.7",
+    "KXCPICORE-26MAY-T0.6",
+    "KXCPICORE-26MAY-T0.5",
+    "KXCPICORE-26MAY-T0.4",
+    "KXCPICORE-26MAY-T0.3",
+    "KXCPICORE-26MAY-T0.2",
+    "KXCPICORE-26MAY-T0.1",
+    "KXCPICORE-26MAY-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_2026_07_supp",
+   "t0_utc": "2026-07-14T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26JUN"
+   },
+   "tickers": [
+    "KXCPI-26JUN-T-0.3",
+    "KXCPI-26JUN-T-0.2",
+    "KXCPI-26JUN-T0.5",
+    "KXCPI-26JUN-T0.4",
+    "KXCPI-26JUN-T0.3",
+    "KXCPI-26JUN-T0.2",
+    "KXCPI-26JUN-T0.1",
+    "KXCPI-26JUN-T-0.1",
+    "KXCPI-26JUN-T0.0",
+    "KXCPICORE-26JUN-T1.0",
+    "KXCPICORE-26JUN-T0.9",
+    "KXCPICORE-26JUN-T0.8",
+    "KXCPICORE-26JUN-T0.7",
+    "KXCPICORE-26JUN-T0.6",
+    "KXCPICORE-26JUN-T0.5",
+    "KXCPICORE-26JUN-T0.4",
+    "KXCPICORE-26JUN-T0.3",
+    "KXCPICORE-26JUN-T0.2",
+    "KXCPICORE-26JUN-T0.1",
+    "KXCPICORE-26JUN-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_2026_08_supp",
+   "t0_utc": "2026-08-12T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro_supplementary",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26JUL"
+   },
+   "tickers": [
+    "KXCPI-26JUL-T-0.4",
+    "KXCPI-26JUL-T-0.3",
+    "KXCPI-26JUL-T-0.2",
+    "KXCPI-26JUL-T0.5",
+    "KXCPI-26JUL-T0.4",
+    "KXCPI-26JUL-T0.3",
+    "KXCPI-26JUL-T0.2",
+    "KXCPI-26JUL-T0.1",
+    "KXCPI-26JUL-T-0.1",
+    "KXCPI-26JUL-T0.0",
+    "KXCPICORE-26JUL-T1.0",
+    "KXCPICORE-26JUL-T0.9",
+    "KXCPICORE-26JUL-T0.8",
+    "KXCPICORE-26JUL-T0.7",
+    "KXCPICORE-26JUL-T0.6",
+    "KXCPICORE-26JUL-T0.5",
+    "KXCPICORE-26JUL-T0.4",
+    "KXCPICORE-26JUL-T0.3",
+    "KXCPICORE-26JUL-T0.2",
+    "KXCPICORE-26JUL-T0.1",
+    "KXCPICORE-26JUL-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  }
+ ],
+ "tickers": {
+  "KXNBA-27-PHI": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-MIA": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-ORL": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-MEM": {
+   "series": "KXNBA",
+   "candles": 17,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-MIN": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-LAL": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-NYK": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-GSW": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXSB-27-DAL": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-SF": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-LAR": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-CIN": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-BUF": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-CHI": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-NYG": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-HOU": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXNBA-27-SAS": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXSB-27-DEN": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-MIN": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXFED-26JUN-T5.25": {
+   "series": "KXFED",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T5.00": {
+   "series": "KXFED",
+   "candles": 29,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXCPI-26MAY-T-0.3": {
+   "series": "KXCPI",
+   "candles": 33,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T19:30:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T-0.2": {
+   "series": "KXCPI",
+   "candles": 36,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T19:30:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXFED-26JUL-T5.25": {
+   "series": "KXFED",
+   "candles": 25,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T5.00": {
+   "series": "KXFED",
+   "candles": 26,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXCPI-26JUN-T-0.3": {
+   "series": "KXCPI",
+   "candles": 36,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-06-08T22:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUN-T-0.2": {
+   "series": "KXCPI",
+   "candles": 37,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-06-08T22:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUL-T-0.4": {
+   "series": "KXCPI",
+   "candles": 45,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-16T17:45:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T-0.3": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-16T17:45:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXFED-26SEP-T5.25": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-09-16T17:55:00Z"
+  },
+  "KXFED-26SEP-T5.00": {
+   "series": "KXFED",
+   "candles": 43,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-09-16T17:55:00Z"
+  },
+  "KXCPI-26AUG-T1.0": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-23T21:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.9": {
+   "series": "KXCPI",
+   "candles": 41,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-23T21:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26SEP-T0.9": {
+   "series": "KXCPI",
+   "candles": 7,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPI-26SEP-T0.8": {
+   "series": "KXCPI",
+   "candles": 7,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.8": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-23T21:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.7": {
+   "series": "KXCPI",
+   "candles": 43,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-23T21:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.6": {
+   "series": "KXCPI",
+   "candles": 43,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-23T21:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T-0.4": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T-0.3": {
+   "series": "KXCPI",
+   "candles": 41,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T-0.2": {
+   "series": "KXCPI",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.5": {
+   "series": "KXCPI",
+   "candles": 43,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.4": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.3": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.2": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.1": {
+   "series": "KXCPI",
+   "candles": 45,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T-0.1": {
+   "series": "KXCPI",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPI-26AUG-T0.0": {
+   "series": "KXCPI",
+   "candles": 40,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 7,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 28,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 45,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXCPICORE-26AUG-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 40,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T18:30:00Z",
+   "close_time": "2026-09-11T12:25:00Z"
+  },
+  "KXNBA-26-WAS": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:18:51Z"
+  },
+  "KXNBA-26-UTA": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:18:51Z"
+  },
+  "KXNBA-26-TOR": {
+   "series": "KXNBA",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-04T02:47:42Z"
+  },
+  "KXNBA-26-SAS": {
+   "series": "KXNBA",
+   "candles": 36,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-06-14T03:32:24Z"
+  },
+  "KXNBA-26-SAC": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:18:51Z"
+  },
+  "KXNBA-26-POR": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-29T04:29:42Z"
+  },
+  "KXNBA-26-PHX": {
+   "series": "KXNBA",
+   "candles": 34,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-28T04:26:09Z"
+  },
+  "KXNBA-26-PHI": {
+   "series": "KXNBA",
+   "candles": 2,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-10T22:14:11Z"
+  },
+  "KXNBA-26-ORL": {
+   "series": "KXNBA",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-03T22:19:44Z"
+  },
+  "KXNBA-26-OKC": {
+   "series": "KXNBA",
+   "candles": 22,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-31T02:50:41Z"
+  },
+  "KXNBA-26-NYK": {
+   "series": "KXNBA",
+   "candles": 36,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-06-14T03:32:24Z"
+  },
+  "KXNBA-26-NOP": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:18:51Z"
+  },
+  "KXNBA-26-MIN": {
+   "series": "KXNBA",
+   "candles": 8,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-16T04:33:40Z"
+  },
+  "KXNBA-26-MIL": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:17:01Z"
+  },
+  "KXNBA-26-MIA": {
+   "series": "KXNBA",
+   "candles": 21,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-15T04:49:43Z"
+  },
+  "KXNBA-26-MEM": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:18:51Z"
+  },
+  "KXNBA-26-LAL": {
+   "series": "KXNBA",
+   "candles": 4,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-12T05:34:06Z"
+  },
+  "KXNBA-26-LAC": {
+   "series": "KXNBA",
+   "candles": 22,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-16T05:04:54Z"
+  },
+  "KXNBA-26-IND": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:18:51Z"
+  },
+  "KXNBA-26-HOU": {
+   "series": "KXNBA",
+   "candles": 38,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-02T04:27:15Z"
+  },
+  "KXNBA-26-GSW": {
+   "series": "KXNBA",
+   "candles": 24,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-18T04:53:46Z"
+  },
+  "KXNBA-26-DET": {
+   "series": "KXNBA",
+   "candles": 9,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-18T02:50:39Z"
+  },
+  "KXNBA-26-DEN": {
+   "series": "KXNBA",
+   "candles": 37,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-01T04:25:34Z"
+  },
+  "KXNBA-26-DAL": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:18:51Z"
+  },
+  "KXNBA-26-CLE": {
+   "series": "KXNBA",
+   "candles": 17,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-26T02:32:20Z"
+  },
+  "KXNBA-26-CHI": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:17:14Z"
+  },
+  "KXNBA-26-CHA": {
+   "series": "KXNBA",
+   "candles": 23,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-18T02:25:40Z"
+  },
+  "KXNBA-26-BOS": {
+   "series": "KXNBA",
+   "candles": 38,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-03T02:12:59Z"
+  },
+  "KXNBA-26-BKN": {
+   "series": "KXNBA",
+   "candles": 15,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-04-09T18:18:51Z"
+  },
+  "KXNBA-26-ATL": {
+   "series": "KXNBA",
+   "candles": 36,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-01T01:52:36Z"
+  },
+  "KXNBA-27-WAS": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-UTA": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-TOR": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-SAC": {
+   "series": "KXNBA",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-POR": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-PHX": {
+   "series": "KXNBA",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-OKC": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-NOP": {
+   "series": "KXNBA",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-MIL": {
+   "series": "KXNBA",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-LAC": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-IND": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-HOU": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-DET": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-DEN": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-DAL": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-CLE": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-CHI": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-CHA": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-BOS": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-BKN": {
+   "series": "KXNBA",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-ATL": {
+   "series": "KXNBA",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXMLB-26-WSH": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-18T15:59:03Z"
+  },
+  "KXMLB-26-TOR": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-23T21:59:48Z"
+  },
+  "KXMLB-26-TEX": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-TB": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-STL": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-21T15:23:45Z"
+  },
+  "KXMLB-26-SF": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-18T15:59:03Z"
+  },
+  "KXMLB-26-SEA": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-SD": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-PIT": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-21T15:23:45Z"
+  },
+  "KXMLB-26-PHI": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-NYY": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-NYM": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-18T15:59:03Z"
+  },
+  "KXMLB-26-MIN": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-21T15:23:45Z"
+  },
+  "KXMLB-26-MIL": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-MIA": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-21T15:23:46Z"
+  },
+  "KXMLB-26-LAD": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-LAA": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-18T15:59:03Z"
+  },
+  "KXMLB-26-KC": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-18T15:59:03Z"
+  },
+  "KXMLB-26-HOU": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-DET": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-21T15:23:45Z"
+  },
+  "KXMLB-26-CWS": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-COL": {
+   "series": "KXMLB",
+   "candles": 54,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-18T15:59:03Z"
+  },
+  "KXMLB-26-CLE": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-CIN": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-18T15:59:03Z"
+  },
+  "KXMLB-26-CHC": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-BOS": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-BAL": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-AZ": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-ATL": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2028-10-31T04:00:00Z"
+  },
+  "KXMLB-26-ATH": {
+   "series": "KXMLB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-12-17T15:00:00Z",
+   "close_time": "2026-09-18T15:59:03Z"
+  },
+  "KXFED-26JAN-T5.25": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T5.00": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T4.75": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T4.50": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T4.25": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T4.00": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T3.75": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T3.50": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T3.25": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T3.00": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26JAN-T2.75": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-01-28T18:55:00Z"
+  },
+  "KXFED-26MAR-T5.25": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T5.00": {
+   "series": "KXFED",
+   "candles": 38,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T4.75": {
+   "series": "KXFED",
+   "candles": 38,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T4.50": {
+   "series": "KXFED",
+   "candles": 31,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T4.25": {
+   "series": "KXFED",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T4.00": {
+   "series": "KXFED",
+   "candles": 40,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T3.75": {
+   "series": "KXFED",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T3.50": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T3.25": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T3.00": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26MAR-T2.75": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:00:00Z",
+   "close_time": "2026-03-18T17:55:00Z"
+  },
+  "KXFED-26APR-T5.25": {
+   "series": "KXFED",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T5.00": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T4.75": {
+   "series": "KXFED",
+   "candles": 43,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T4.50": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T4.25": {
+   "series": "KXFED",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T4.00": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T3.75": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T3.50": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T3.25": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T3.00": {
+   "series": "KXFED",
+   "candles": 44,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26APR-T2.75": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-04-29T17:55:00Z"
+  },
+  "KXFED-26JUN-T4.75": {
+   "series": "KXFED",
+   "candles": 28,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T4.50": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T4.25": {
+   "series": "KXFED",
+   "candles": 36,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T4.00": {
+   "series": "KXFED",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T3.75": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T3.50": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T3.25": {
+   "series": "KXFED",
+   "candles": 44,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T3.00": {
+   "series": "KXFED",
+   "candles": 36,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUN-T2.75": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-06-17T17:55:00Z"
+  },
+  "KXFED-26JUL-T4.75": {
+   "series": "KXFED",
+   "candles": 26,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T4.50": {
+   "series": "KXFED",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T4.25": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T4.00": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T3.75": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T3.50": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T3.25": {
+   "series": "KXFED",
+   "candles": 43,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T3.00": {
+   "series": "KXFED",
+   "candles": 41,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXFED-26JUL-T2.75": {
+   "series": "KXFED",
+   "candles": 44,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-07-29T17:55:00Z"
+  },
+  "KXCPI-25DEC-T0.4": {
+   "series": "KXCPI",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-18T21:30:00Z",
+   "close_time": "2026-01-13T13:29:00Z"
+  },
+  "KXCPI-25DEC-T0.3": {
+   "series": "KXCPI",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-18T21:30:00Z",
+   "close_time": "2026-01-13T13:29:00Z"
+  },
+  "KXCPI-25DEC-T0.2": {
+   "series": "KXCPI",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-18T21:30:00Z",
+   "close_time": "2026-01-13T13:29:00Z"
+  },
+  "KXCPI-25DEC-T0.1": {
+   "series": "KXCPI",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-18T21:30:00Z",
+   "close_time": "2026-01-13T13:29:00Z"
+  },
+  "KXCPI-25DEC-T-0.1": {
+   "series": "KXCPI",
+   "candles": 26,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-18T21:30:00Z",
+   "close_time": "2026-01-13T13:29:00Z"
+  },
+  "KXCPI-25DEC-T0.0": {
+   "series": "KXCPI",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-18T21:30:00Z",
+   "close_time": "2026-01-13T13:29:00Z"
+  },
+  "KXCPICORE-25DECT-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 13,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-01T15:00:00Z",
+   "close_time": "2026-01-13T13:25:00Z"
+  },
+  "KXCPICORE-25DECT-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 13,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-01T15:00:00Z",
+   "close_time": "2026-01-13T13:25:00Z"
+  },
+  "KXCPICORE-25DECT-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 13,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-01T15:00:00Z",
+   "close_time": "2026-01-13T13:25:00Z"
+  },
+  "KXCPICORE-25DECT-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 13,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-01T15:00:00Z",
+   "close_time": "2026-01-13T13:25:00Z"
+  },
+  "KXCPICORE-25DECT-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 13,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-01T15:00:00Z",
+   "close_time": "2026-01-13T13:25:00Z"
+  },
+  "KXCPICORE-25DECT-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 13,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-01T15:00:00Z",
+   "close_time": "2026-01-13T13:25:00Z"
+  },
+  "KXCPICORE-25DEC-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 2,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-23T03:00:00Z",
+   "close_time": "2025-12-29T20:13:36.935Z"
+  },
+  "KXCPICORE-25DEC-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 2,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-23T03:00:00Z",
+   "close_time": "2025-12-29T20:13:36.935Z"
+  },
+  "KXCPICORE-25DEC-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 2,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-23T03:00:00Z",
+   "close_time": "2025-12-29T20:13:36.935Z"
+  },
+  "KXCPICORE-25DEC-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 2,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-12-23T03:00:00Z",
+   "close_time": "2025-12-29T20:13:36.935Z"
+  },
+  "KXCPI-26JAN-T0.4": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:29:00Z"
+  },
+  "KXCPI-26JAN-T0.3": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:29:00Z"
+  },
+  "KXCPI-26JAN-T0.2": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:29:00Z"
+  },
+  "KXCPI-26JAN-T0.1": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:29:00Z"
+  },
+  "KXCPI-26JAN-T-0.1": {
+   "series": "KXCPI",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:29:00Z"
+  },
+  "KXCPI-26JAN-T0.0": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:29:00Z"
+  },
+  "KXCPICORE-26JAN-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:25:00Z"
+  },
+  "KXCPICORE-26JAN-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 31,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:25:00Z"
+  },
+  "KXCPICORE-26JAN-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:25:00Z"
+  },
+  "KXCPICORE-26JAN-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 28,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:25:00Z"
+  },
+  "KXCPICORE-26JAN-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 26,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:25:00Z"
+  },
+  "KXCPICORE-26JAN-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 23,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-02-13T13:25:00Z"
+  },
+  "KXCPI-26FEB-T0.4": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:29:00Z"
+  },
+  "KXCPI-26FEB-T0.3": {
+   "series": "KXCPI",
+   "candles": 41,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:29:00Z"
+  },
+  "KXCPI-26FEB-T0.2": {
+   "series": "KXCPI",
+   "candles": 41,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:29:00Z"
+  },
+  "KXCPI-26FEB-T0.1": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:29:00Z"
+  },
+  "KXCPI-26FEB-T-0.1": {
+   "series": "KXCPI",
+   "candles": 34,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:29:00Z"
+  },
+  "KXCPI-26FEB-T0.0": {
+   "series": "KXCPI",
+   "candles": 34,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:29:00Z"
+  },
+  "KXCPICORE-26FEB-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 34,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:25:00Z"
+  },
+  "KXCPICORE-26FEB-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:25:00Z"
+  },
+  "KXCPICORE-26FEB-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:25:00Z"
+  },
+  "KXCPICORE-26FEB-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 40,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:25:00Z"
+  },
+  "KXCPICORE-26FEB-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:25:00Z"
+  },
+  "KXCPICORE-26FEB-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-01-13T21:00:00Z",
+   "close_time": "2026-03-11T12:25:00Z"
+  },
+  "KXCPI-26MAR-T1.3": {
+   "series": "KXCPI",
+   "candles": 25,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-17T15:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T1.2": {
+   "series": "KXCPI",
+   "candles": 25,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-17T15:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T1.1": {
+   "series": "KXCPI",
+   "candles": 25,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-17T15:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T1.0": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-10T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.9": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-10T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.8": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-10T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.7": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-10T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.6": {
+   "series": "KXCPI",
+   "candles": 32,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-10T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.5": {
+   "series": "KXCPI",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-17T22:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.4": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-17T22:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.3": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-17T22:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.2": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-17T22:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.1": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-17T22:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T-0.1": {
+   "series": "KXCPI",
+   "candles": 44,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-17T22:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26MAR-T0.0": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-17T22:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAR-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAR-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAR-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAR-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 31,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAR-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 31,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAR-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 31,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAR-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 31,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAR-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T14:00:00Z",
+   "close_time": "2026-04-10T12:25:00Z"
+  },
+  "KXCPI-26APR-T1.0": {
+   "series": "KXCPI",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.9": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.8": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.7": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.6": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.5": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.4": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.3": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.2": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.1": {
+   "series": "KXCPI",
+   "candles": 41,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T-0.1": {
+   "series": "KXCPI",
+   "candles": 44,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26APR-T0.0": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T1.5": {
+   "series": "KXCPICORE",
+   "candles": 25,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T1.4": {
+   "series": "KXCPICORE",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T1.3": {
+   "series": "KXCPICORE",
+   "candles": 27,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T1.2": {
+   "series": "KXCPICORE",
+   "candles": 26,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T1.1": {
+   "series": "KXCPICORE",
+   "candles": 26,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 26,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 26,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 26,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 29,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 37,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 37,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 37,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPICORE-26APR-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 29,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-11T20:00:00Z",
+   "close_time": "2026-05-12T12:25:00Z"
+  },
+  "KXCPI-26MAY-T1.0": {
+   "series": "KXCPI",
+   "candles": 41,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.9": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.8": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.7": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.6": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-18T17:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.5": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.4": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.3": {
+   "series": "KXCPI",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.2": {
+   "series": "KXCPI",
+   "candles": 43,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.1": {
+   "series": "KXCPI",
+   "candles": 35,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T-0.1": {
+   "series": "KXCPI",
+   "candles": 40,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26MAY-T0.0": {
+   "series": "KXCPI",
+   "candles": 38,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 33,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 20,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 30,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 34,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 33,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 41,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 42,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 40,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 43,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPICORE-26MAY-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 33,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-03-13T22:00:00Z",
+   "close_time": "2026-06-10T12:25:00Z"
+  },
+  "KXCPI-26JUN-T0.5": {
+   "series": "KXCPI",
+   "candles": 42,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUN-T0.4": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUN-T0.3": {
+   "series": "KXCPI",
+   "candles": 42,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUN-T0.2": {
+   "series": "KXCPI",
+   "candles": 44,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUN-T0.1": {
+   "series": "KXCPI",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUN-T-0.1": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUN-T0.0": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 10,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 21,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 28,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 19,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 26,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 29,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 44,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 43,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPICORE-26JUN-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 45,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2026-04-10T14:00:00Z",
+   "close_time": "2026-07-14T12:25:00Z"
+  },
+  "KXCPI-26JUL-T-0.2": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-16T17:45:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T0.5": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T0.4": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T0.3": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T0.2": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T0.1": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T-0.1": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPI-26JUL-T0.0": {
+   "series": "KXCPI",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 29,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 31,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 44,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 45,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  },
+  "KXCPICORE-26JUL-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-05-12T16:00:00Z",
+   "close_time": "2026-08-12T12:25:00Z"
+  }
+ }
+}

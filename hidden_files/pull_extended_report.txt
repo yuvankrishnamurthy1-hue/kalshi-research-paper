@@ -1,0 +1,132 @@
+EXTENDED PULL REPORT — kalshi_api_data_extended/
+================================================
+Run: collect_extended.py (derived from collect_kalshi_summer.py + selection opts)
+Pull windows: [T-45d, T+10d] daily candles, same as summer pull.
+Runs: (1) initial run 2026-09-24 ~04:17 UTC — killed by VM reboot at ~04:28 UTC
+         (run 1 reached batch A1 event 8/8; 185 raw ticker files survived in
+         kalshi_api_data_extended/raw/);
+      (2) restart after reboot — completed 04:46 UTC, 342 tickers /
+         13,520 rows, BUT historical-endpoint rows parsed empty (schema bug);
+      (3) re-run with parser fix — completed 2026-09-24 ~05:05 UTC.
+Final: DONE: 342 tickers, 13,523 candle-rows, 0 gaps, 368 deselected
+Files: kalshi_api_data_extended/market_data.csv
+       kalshi_api_data_extended/market_metadata.csv
+       kalshi_api_data_extended/collection_log.json
+       (raw per-ticker JSON in kalshi_api_data_extended/raw/; run log in
+       hidden_files/extended_pull.log)
+Data quality: 0 rows without any price (bid/ask/last all present or quotable);
+no duplicate (timestamp, ticker) rows. Candle sources: 284 live + 240
+historical event-ticker pairs in metadata.
+
+BATCH A — H2 cross-domain falsification
+--------------------------------------
+A1: 8 unscheduled_macro events (registry T0s) x sports basket.
+    Selection: top 8 by summed window volume PER SERIES (8 KXNBA + 8 KXSB =
+    16 tickers/event; 46 deselected/event). All 8 events: 16/16 tickers with
+    data on both sides of T0. ~875 candles/event.
+    NOTE on interpretation: "top ~8" was implemented as 8 per series, not 8
+    combined, to keep a balanced cross-sport basket.
+A2: 15 unscheduled_sports events (registry T0s) x macro contracts.
+    Selection: nearest-expiry, 2 per series (<=4 tickers/event), preferring
+    contracts live at T0. All 15 events: 4/4 tickers, data both sides of T0
+    except kawhi_to_raptors_xd (see snags).
+
+BATCH B — August CPI release (prereg-mandated, never registered)
+----------------------------------------------------------------
+cpi_aug_release, T0 2026-09-11T12:30:00Z (8:30am ET), cell scheduled_macro.
+26 tickers (15 KXCPI-26AUG + 11 KXCPICORE-26AUG), 989 candles, full window
+coverage, 0 gaps.
+
+BATCH C — new scheduled sports
+------------------------------
+nba_draft_lottery_2026 (T0 2026-05-11 APPROX — web search was unavailable at
+  pull time, date taken from standard May timing; see snags): 30 KXNBA
+  tickers, 955 candles. Only 8/30 span T0 — the other 22 are KXNBA-26
+  championship contracts of teams eliminated before May 11 (contracts settle
+  on elimination, e.g. WAS settled 2026-04-09), so they have pre-T0 data only.
+nba_draft_2026 (T0 2026-06-24, per brief): 38 tickers (KXNBA-26 stragglers +
+  KXNBA-27), 695 candles. 30/38 span T0. KXNBA-27 series was first listed
+  2026-06-15, so pre-event history is only ~9 days (same thin-baseline
+  situation as the Giannis exclusion).
+mlb_allstar_2026 (T0 2026-07-14 APPROX — web search unavailable; brief gave
+  no date): 30 KXMLB tickers (World Series futures — KXMLB exists on Kalshi;
+  used instead of KXNBA/KXSB as the appropriate baseball championship
+  future), 1649 candles, 30/30 span T0, full windows.
+
+BATCH D — supplementary scheduled macro back to 2026-01-01
+----------------------------------------------------------
+FOMC decisions (KXFED, meeting-specific tickers, T0 18:00 UTC ~2pm ET):
+  fomc_2026_01_supp (2026-01-28): 11 tickers, 506 candles, full window
+  fomc_2026_03_supp (2026-03-18): 11 tickers, 431 candles, full window
+  fomc_2026_04_supp (2026-04-29): 11 tickers, 487 candles, full window
+  fomc_2026_06_supp (2026-06-17): 11 tickers, 416 candles, full window
+  fomc_2026_07_supp (2026-07-29): 11 tickers, 420 candles, full window
+  (2026-09-16 excluded — already pulled as fomc_sep_hike; 2026-10-28 and
+  2026-12-09 excluded as future, no data yet.)
+CPI releases (KXCPI + KXCPICORE, release-month tickers, T0 12:30 UTC):
+  cpi_2026_01_supp (2026-01-13, ref Dec-25): 16 tickers, 247 candles
+      (contracts listed ~Dec 19, so pre-window starts there; 4/16 pre-only)
+  cpi_2026_02_supp (2026-02-13): 12 tickers, 360 candles, full
+  cpi_2026_03_supp (2026-03-11): 12 tickers, 416 candles, full
+  cpi_2026_04_supp (2026-04-10): 23 tickers, 798 candles, full
+  cpi_2026_05_supp (2026-05-12): 28 tickers, 1059 candles, full
+  cpi_2026_06_supp (2026-06-10): 25 tickers, 974 candles, full
+  cpi_2026_07_supp (2026-07-14): 20 tickers, 726 candles, full
+  cpi_2026_08_supp (2026-08-12): 21 tickers, 854 candles, full
+  (2026-09-11 = batch B cpi_aug_release; Oct/Nov/Dec releases future.)
+Meeting/release dates for batch D were derived from Kalshi's own market
+close_time metadata (KXFED closes 2026-01-28/03-18/04-29/06-17/07-29/09-16;
+KXCPI+KXCPICORE close 2026-01-13/02-13/03-11/04-10/05-12/06-10/07-14/08-12/
+09-11), cross-checked against the registry's Sep entries.
+
+SNAGS (with reasons)
+--------------------
+1. VM reboot killed run 1 (~04:28 UTC, mid batch-A1). Reason: host restart,
+   /tmp wiped (run log lost). Restarted immediately; resumed from the 185
+   surviving raw ticker files. No data loss — the collector re-fetches any
+   window the cache cannot fully cover.
+2. Historical-endpoint schema mismatch (CAUGHT AND FIXED). Kalshi's
+   /historical candlesticks use close/volume/open_interest keys; the live
+   endpoint uses close_dollars/volume_fp/open_interest_fp. The inherited
+   parser read only the live keys, so all 240 historical event-ticker pairs
+   came back price-less (8,818 empty rows). Fixed with a dual-schema parser
+   (px_field) and re-ran the full pull. Final CSV: 0 price-less rows.
+   *** ALSO AFFECTS THE SUMMER PULL: 17 tickers / 176 rows in
+   kalshi_api_data_summer/market_data.csv (candle_source=historical) are
+   fully empty for the same reason. Summer files were NOT modified (out of
+   scope); the analysis should either re-parse those raw files with the
+   dual-schema reader or treat the 176 rows as missing. ***
+3. Batch C dates unverified. browser_search was down (401 credential
+   expired) at pull time, so: NBA draft lottery = 2026-05-11 approx
+   (standard mid-May timing; candidate_events.md lists lottery in May),
+   MLB All-Star Game = 2026-07-14 approx (no date in brief). NBA draft =
+   2026-06-24 per brief. If exact dates matter, re-verify and shift T0 —
+   windows are 55 days wide, so a few days' error is immaterial for daily
+   candles, but the lottery T0 should be confirmed before publication.
+4. KXNBA-27 listed 2026-06-15 → nba_draft_2026 (T0 Jun 24) has only ~9
+   pre-event trading days per ticker. Same thin-baseline condition that
+   excluded Giannis from the confirmatory sample. Usable descriptively;
+   not prereg-baseline-eligible.
+5. KXNBA championship contracts settle on team elimination, not at the
+   Finals (e.g. KXNBA-26-WAS settled 2026-04-09). For nba_draft_lottery_2026,
+   22/30 tickers therefore end before T0 (pre-only). Not a data error —
+   but the analysis must not read "no post data" as missing data.
+6. kawhi_to_raptors_xd: nearest-expiry picked 2 KXCPI-26SEP contracts that
+   were first listed 2026-09-17, three days AFTER T0 (Sep 14) — they have
+   post-only data. Reason: at selection time they were the closest-expiring
+   KXCPI contracts at/after T0, but they did not exist yet at T0. The 2
+   KXFED-26SEP picks are fine (full windows). Recommend dropping the 2
+   post-only tickers in analysis or documenting as no-pre-data.
+7. cpi_2026_01_supp: December-2025-reference contracts were listed
+   ~2026-12-19, so 4/16 tickers start mid-pre-window (pre-only within the
+   listing, both-sides relative to T0 for 12/16). Mild left-truncation,
+   disclosed.
+8. Batch D "expected partial failure" did NOT occur: Kalshi's historical
+   candles extend back to at least 2025-12-15 (FOMC Jan window fully
+   covered). All 13 supplementary events have complete data. The residual
+   risk is quote staleness on zero-volume days, not missing candles.
+9. A1 basket = 16 tickers/event (8 KXNBA + 8 KXSB by volume), a reading of
+   "top ~8" as per-series. If the H2 design wants 8 combined, re-filter
+   from collection_log.json "deselected"/kept lists — no re-pull needed.
+10. Nothing was edited outside the new files: preregistration.md, the
+    event registry, summer data, and analysis outputs are untouched.
