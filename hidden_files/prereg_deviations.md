@@ -489,3 +489,43 @@ maximum selects the largest move); T0-anchored are lower bounds (stale candles,
 missed leaks). The formal H1c test stays T0-anchored — re-testing on selected
 maxima would be circular. Paper §4 carries the timing table; "What's shaky" §4
 updated with measured lead/lag.
+
+## D20 — Post-prereg scheduled-macro extension packaged as supplementary (2026-09-24/25, at Yuvan's explicit direction)
+
+Yuvan approved (2026-09-24) analyzing scheduled macro releases from Jan–Sep 2026
+— 5 pre-window FOMC decisions (Jan 28, Mar 18, Apr 29, Jun 17, Jul 29) and 8
+pre-window CPI releases (Jan 13 – Aug 12) — as SUPPLEMENTARY/EXPLORATORY only.
+This is exploratory rather than confirmatory because the Jan–Aug events were
+selected after confirmatory results were already observed (D14 had already run
+the numbers). The preregistration window (FOMC Sep 16 + CPI Sep 11, batch B)
+stands unchanged; preregistration.md and paper_v2.md untouched.
+
+Packaging completed 2026-09-25:
+- 14 registry rows added to hidden_files/event_registry.csv: 13 exploratory
+  (fomc_2026_01_supp, fomc_2026_03_supp, fomc_2026_04_supp, fomc_2026_06_supp,
+  fomc_2026_07_supp, cpi_2026_01_supp–cpi_2026_08_supp) + cpi_aug_release kept
+  CONFIRMATORY (batch B; was missing from the registry — added, not relabelled).
+- T0s verified against official schedules: Fed fomccalendars.htm (2:00 PM ET ->
+  18:00Z), BLS cpi.htm schedule (8:30 AM ET -> 12:30Z). Feb-2026 CPI released
+  Feb 13 (delayed 2 days by brief government shutdown); a stale search snippet
+  showed Feb 11 — the live official schedule confirms Feb 13.
+- Consensus recorded in hidden_files/extended_macro_consensus.csv (12 new rows,
+  native m/m). UNVERIFIED after two search rounds: Dec-2025 CPI (Jan 13) and
+  Mar-2026 CPI (Apr 10) headline consensus — surprise not recorded for those.
+- D16 coverage precheck: all 13 events usable. 4 KXCPICORE-25DEC pairs excluded
+  for insufficient_baseline_history (guard worked); 1 thin/fallback pair in
+  cpi_2026_07_supp retained and flagged.
+- No re-pull: reused D14 artifacts (pairs/market_data combined, 2026-09-24).
+  Spot-check: independently recomputed 3-day abnormal moves for cpi_2026_07_supp
+  (-0.63c) and fomc_2026_04_supp (-0.14c) from raw candles — match to <1e-12.
+  Reporting convention: n_pairs = pairs passing baseline filter; event mean
+  drops pairs with no window data; both counts reported per event.
+
+Results (hidden_files/analysis_real/scheduled_macro_supp_3d.csv; 3-day,
+event-level, exploratory):
+- Supplementary-only (13 events): mean +1.96c, SD 4.30c
+- Confirmatory-only (2 events):   mean +3.86c, SD 5.36c
+- Combined (15 events):           mean +2.21c, SD 4.50c (matches D14)
+- H1a supplementary: unscheduled macro +4.55c (n=8) vs scheduled macro +2.21c
+  (n=15) — direction as predicted, Welch p~0.170, not significant.
+- Run log: hidden_files/analysis_real/run_log_supp_3d.txt

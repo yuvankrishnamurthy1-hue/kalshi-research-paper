@@ -1,0 +1,16 @@
+event_id,t0_utc,subsample,cell,window_days,n_pairs_baseline,n_pairs_with_window_data,abn_event_cents,designation
+cpi_2026_01_supp,2026-01-13T12:30:00Z,supplementary,sched_macro,3,11,8,13.16,exploratory
+cpi_2026_02_supp,2026-02-13T12:30:00Z,supplementary,sched_macro,3,12,10,9.05,exploratory
+cpi_2026_03_supp,2026-03-11T12:30:00Z,supplementary,sched_macro,3,11,9,-1.25,exploratory
+cpi_2026_04_supp,2026-04-10T12:30:00Z,supplementary,sched_macro,3,23,15,1.01,exploratory
+cpi_2026_05_supp,2026-05-12T12:30:00Z,supplementary,sched_macro,3,20,12,5.48,exploratory
+cpi_2026_06_supp,2026-06-10T12:30:00Z,supplementary,sched_macro,3,20,12,-1.36,exploratory
+cpi_2026_07_supp,2026-07-14T12:30:00Z,supplementary,sched_macro,3,18,9,-0.63,exploratory
+cpi_2026_08_supp,2026-08-12T12:30:00Z,supplementary,sched_macro,3,16,14,-0.43,exploratory
+fomc_2026_01_supp,2026-01-28T18:00:00Z,supplementary,sched_macro,3,11,11,0.12,exploratory
+fomc_2026_03_supp,2026-03-18T18:00:00Z,supplementary,sched_macro,3,11,9,0.25,exploratory
+fomc_2026_04_supp,2026-04-29T18:00:00Z,supplementary,sched_macro,3,11,10,-0.14,exploratory
+fomc_2026_06_supp,2026-06-17T18:00:00Z,supplementary,sched_macro,3,8,8,-0.09,exploratory
+fomc_2026_07_supp,2026-07-29T18:00:00Z,supplementary,sched_macro,3,10,8,0.30,exploratory
+cpi_aug_release,2026-09-11T12:30:00Z,confirmatory,sched_macro,3,20,9,-1.50,confirmatory
+fomc_sep_hike,2026-09-16T18:00:00Z,confirmatory,sched_macro,3,82,79,9.23,confirmatory

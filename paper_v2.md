@@ -192,7 +192,7 @@ The scheduled cells are too thin for clean confirmatory tests — that's a data 
 
 **But D16 plus the extended sample makes H1b testable for the first time:** adding the draft, lottery, and All-Star Game takes scheduled sports to 5 events. Result: 15 surprise (−0.15¢) vs 5 scheduled (+0.38¢), p = 0.41 — **not significant**. The first real test of "do surprise roster moves move markets more than scheduled sports events" comes back null. (This uses post-plan data additions, so it's labeled accordingly — but the answer is now an actual answer, not a shrug.)
 
-**H1a's best available shot** (8 surprise vs 15 scheduled macro events back to January, supplementary): +4.8¢ vs +2.2¢, p = 0.17 — the predicted direction, not significant. "Scheduled news is already priced in" is not established by this study.
+**H1a's best available shot** (D20, supplementary — 13 pre-window events added at Yuvan's direction, labeled post-prereg because the data came after seeing results): 8 surprise (+4.55¢) vs 15 scheduled macro (+2.21¢, sd 4.50¢), Welch p = 0.170 — the predicted direction, not significant. The 13 supplementary events alone averaged +1.96¢; the 2 confirmatory ones +3.86¢. Two consensus rows (Dec-2025 and Mar-2026 CPI) couldn't be verified and are recorded as unverified, not imputed. "Scheduled news is already priced in" is not established by this study.
 
 ### 6. Cross-domain check (H2): leakage is economically nil one way, untestable the other
 

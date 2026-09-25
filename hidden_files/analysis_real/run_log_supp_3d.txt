@@ -1,0 +1,61 @@
+D20 SUPPLEMENTARY RUN LOG — scheduled-macro 3-day analysis
+Date: 2026-09-25 (subagent, post-prereg supplementary packaging)
+Approval: Yuvan Krishnamurthy, 2026-09-24
+
+1. EVENT REGISTRY
+   - Added 14 rows to hidden_files/event_registry.csv:
+     * 13 supplementary (exploratory) pre-window events: fomc_2026_01_supp,
+       fomc_2026_03_supp, fomc_2026_04_supp, fomc_2026_06_supp, fomc_2026_07_supp,
+       cpi_2026_01_supp..cpi_2026_08_supp
+     * 1 confirmatory row: cpi_aug_release (batch B, prereg-mandated; was missing
+       from registry; kept confirmatory, NOT relabelled)
+   - T0 timestamps verified 2026-09-25 against official sources:
+     * FOMC: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+       (decisions ~2:00 PM ET -> 18:00:00Z)
+     * CPI: https://www.bls.gov/schedule/news_release/cpi.htm
+       (releases 8:30 AM ET -> 12:30:00Z)
+   - Consensus/expectation notes verified 2026-09-24/25 from First Trust Economic
+     Research, FactSet/Dow Jones via secondary reporting, tradingeconomics,
+     Zacks, wichitaliberty.org. Consensus UNVERIFIED for: Dec-2025 CPI (Jan 13)
+     and Mar-2026 CPI (Apr 10) headline prints. Recorded in
+     hidden_files/extended_macro_consensus.csv (12 new rows, native m/m units).
+
+2. COVERAGE PRECHECK (D16 rules: >=3 obs in [T-30,T-5]; 3-4 thin; fallback >=5 pre-T0)
+   - All 13 supplementary events PASS at the pair level except 4 pairs of
+     cpi_2026_01_supp (KXCPICORE-25DEC T0.0/T0.1/T0.2/T0.3, 2 pre-T0 obs each),
+     which were ALREADY excluded in the v2supp run as insufficient_baseline_history
+     (exclusions_v2supp.csv). Event retains 12 baseline-passing pairs: usable.
+   - cpi_2026_07_supp had 1 thin/fallback pair (KXCPICORE-26JUN-T0.9, n_base=5);
+     retained per D16 (flagged thin, not dropped).
+   - FOMC events: 11 pairs each, all >=5 baseline obs. No failures.
+
+3. ANALYSIS
+   - No new data pulled. Reused D14 artifacts built 2026-09-24 05:09-05:11 UTC:
+     pairs_combined.csv, market_data_combined.csv,
+     analysis_real/event_results_v2supp.csv, pair_results_v2supp.csv,
+     exclusions_v2supp.csv (standard analyze_kalshi.py, full run incl. exploratory).
+   - SPOT CHECK: independently reimplemented analyze_pair in plain Python and
+     recomputed 3-day abnormal moves from raw candles for cpi_2026_07_supp and
+     fomc_2026_04_supp. Means match event_results_v2supp.csv to <1e-12
+     (cpi_2026_07_supp = -0.6313c over 9 with-window pairs; fomc_2026_04_supp =
+     -0.1428c over 10 with-window pairs).
+   - Reporting convention confirmed: n_pairs in event_results counts pairs passing
+     the baseline (>=5 obs) filter; the event mean drops pairs with no window data.
+     Both counts are reported per event in scheduled_macro_supp_3d.csv.
+
+4. RESULTS (3-day window, event-level, cents)
+   - Supplementary-only (13 events): mean +1.96c, SD 4.30c
+   - Confirmatory-only (2 events):  mean +3.86c, SD 5.36c
+   - Combined (15 events):          mean +2.21c, SD 4.50c  (matches D14)
+   - H1a supplementary contrast vs unscheduled macro (+4.55c, n=8): direction
+     favors unscheduled (as predicted); earlier Welch p~0.170, not significant.
+   - Output: hidden_files/analysis_real/scheduled_macro_supp_3d.csv
+     (15 event rows with t0, n_baseline, n_with_window_data, abn cents, designation)
+
+5. SNAGS
+   - None blocking. Two honest gaps: (a) Dec-2025 and Mar-2026 CPI headline
+     consensus unverified after two search rounds — recorded as unverified;
+     (b) a stale search snippet showed BLS Feb-2026 CPI as Feb 11, but the live
+     official BLS schedule shows Feb 13 (delayed by the brief shutdown); Feb 13
+     used, consistent with the existing collector.
+   - paper_v2.md untouched. preregistration.md untouched.
