@@ -1,0 +1,5 @@
+analysis,n_macro,mean_macro_c,sd_macro_c,n_other,mean_other_c,welch_t,p
+H1c_involved_uncollapsed,8,4.55,3.65,11,1.79,-1.99,0.077
+H1c_involved_cluster_collapsed,6,3.21,3.12,11,1.79,-1.03,0.338
+H1a_uncollapsed,8,4.55,3.65,15,2.21,1.43,0.17
+H1a_cluster_collapsed,6,3.21,3.12,15,2.21,0.58,0.571

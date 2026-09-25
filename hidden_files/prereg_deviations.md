@@ -529,3 +529,51 @@ event-level, exploratory):
 - H1a supplementary: unscheduled macro +4.55c (n=8) vs scheduled macro +2.21c
   (n=15) — direction as predicted, Welch p~0.170, not significant.
 - Run log: hidden_files/analysis_real/run_log_supp_3d.txt
+
+## D20-fix — unverified CPI consensus rows resolved (2026-09-24)
+
+Three headline-consensus gaps left by the D20 pass are now filled from fresh
+searches (all values m/m, rounded): Dec-2025 CPI (rel. Jan 13): headline +0.3%
+actual vs +0.3% FactSet consensus (0.0pp), core +0.2% vs +0.3% (-0.1pp). Mar-2026
+CPI (rel. Apr 10, Iran-war energy shock): headline +0.9% vs +0.9% (0.0pp), core
++0.2% vs +0.3% (-0.1pp). Apr-2026 CPI (rel. May 12): headline +0.6% matched
+consensus (0.0pp; was "unverified"). extended_macro_consensus.csv now 21 rows,
+0 unverified. No analysis changes (D20 used abnormal moves, not surprise-scaled
+moves); this is documentation completeness.
+
+## D21 — batch-C T0 corrections + registry completion (2026-09-24)
+
+- **Snag:** the D14 batch-C pull ran while web search was down and used
+  approximate T0s for all three added scheduled-sports events. Verified
+  2026-09-24 against USA Today / NBC Sports / ESPN:
+  - `nba_draft_lottery_2026`: was 2026-05-11 → **2026-05-10** (Sun, 3pm ET).
+  - `nba_draft_2026`: was 2026-06-24 (round 2) → **2026-06-23** (round 1,
+    8pm ET — the news night for futures).
+  - `mlb_allstar_2026`: 2026-07-14 confirmed correct.
+- **Fix:** re-ran all three events through the pipeline's own
+  `analyze_d16.analyze_pair` (same D16 baseline rules) with corrected T0s
+  (`hidden_files/rerun_d21_t0fix.py`). Results: lottery +2.62¢ (8 pairs,
+  strict), draft −0.54¢ (26 pairs, thin_d16), all-star −0.00¢ (30 pairs,
+  strict) — the all-star moved from −0.03¢ to −0.00¢ on time-of-day only.
+  **H1b extended is unchanged in substance:** 15 surprise (−0.15¢) vs 5
+  scheduled (+0.38¢), Welch p = 0.40 (was 0.41) — still not significant.
+- **Registry gap closed:** the three batch-C events were analyzed in D14 but
+  never added to `event_registry.csv`. Added now with verified T0s,
+  `t0_confidence=verified`, exploratory designation, and the lottery's
+  playoff-confound flag in `expectation_note`.
+
+## D22 — September-16 cluster-collapsed sensitivity (2026-09-24)
+
+- **What:** tariff_eu_threat, russia_sanctions_bill, trump_truth_fed all hit
+  2026-09-16 on the same contracts, overlapping the scheduled FOMC decision —
+  not independent observations. Collapsed the three into one observation at
+  their mean (+8.57c) and re-ran both macro contrasts on event-level means.
+- **Results** (`hidden_files/analysis_real/cluster_collapsed_sensitivity.csv`):
+  - H1c involved-teams: macro +3.21c (n=6, sd 3.12) vs sports +1.79c (n=11),
+    Welch p = 0.338 (was p = 0.077 uncollapsed).
+  - H1a: unsched macro +3.21c (n=6) vs sched macro +2.21c (n=15),
+    Welch p = 0.571 (was p = 0.170 uncollapsed).
+- **Reading:** the sensitivity goes the *wrong way* for the headline — the
+  macro edge was partly triple-counted September 16. Paper's "What's shaky"
+  section updated; verdict unchanged (not decisive), now with less room for
+  a generous reading.
