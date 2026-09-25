@@ -167,3 +167,13 @@ The preregistration's power rule: any comparison cell with fewer than 5 unique e
 ## 12. The one-paragraph version
 
 Every result in the paper is an average of (after − before) price differences, where "before" is the month leading up to the news and "after" is the 3 days starting at the news. Averages get compared across groups with a t-test that accounts for each group's noisiness and size; the p-value says how often luck alone would produce a gap that big. Small samples mean wide uncertainty (wide confidence intervals), many tests need correction (Holm), significant doesn't mean important (H2's 0.16¢), and averages can hide concentrated effects (Giannis). And the D18 lesson: *what* you average is a bigger decision than *how* you test — the fair aggregation (involved teams: sports +1.79¢ vs macro +4.55¢, p=0.077) tells a more modest story than the diluted one (p=0.008). The paper reports the checks that could have killed each finding — different windows, liquid-only contracts, both baseline rules, all three aggregations, quiet-day placebos — and the ones that came back uncomfortable are in the text, not the footnotes.
+
+---
+
+## 13. The one-sample t-test (D23's H2 intraday check)
+
+Every other test in the paper compares *two groups* (Welch t-test: sports vs macro). D23 asks a simpler question about *one* group: the 6 announcement-time jumps in macro prices are 0.0, −1.0, 0.0, 0.0, −2.0, 0.0 cents. Is their average (−0.5¢) distinguishable from exactly zero?
+
+The one-sample t-test does this: t = (mean − 0) / (standard error of the mean). Here t = −1.46 with n = 6 (5 degrees of freedom), which gives p ≈ 0.20. Translation: if the true average jump were exactly zero, random wiggle alone would produce an average at least this far from zero about 20% of the time. That's not rare enough to claim an effect — the convention is 5%. So: cannot reject zero, no evidence of leakage.
+
+Two honest caveats, both in the paper: n = 6 is small (the test has limited power — it could miss a truly tiny effect), and the −2.0¢ observation is same-day FOMC drift, not sports news. Drop it and the mean is −0.2¢ across 5 events. Either way, the answer is "nothing detectable," which is what a falsification test *wants* to find.

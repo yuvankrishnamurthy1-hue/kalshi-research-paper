@@ -1,0 +1,8 @@
+event,ticker,n_pre,n_post,vol_6h,jump_c,verdict
+giannis_to_heat,KXFED-26JUL-T3.75,8,4,331.1,0.0,TESTED
+dlo_six_team_trade,KXFED-26JUL-T3.75,2,1,47706.6,,TOO_SPARSE
+kawhi_to_raptors,KXFED-26SEP-T3.75,21,12,63095.0,-1.0,TESTED
+neemias_queta_extension,KXFED-26JUL-T3.75,9,9,1149.4,0.0,TESTED
+jordan_walsh_extension,KXFED-26JUL-T3.50,12,5,39347.1,0.0,TESTED
+brian_oneill_extension,KXFED-26JUL-T3.75,13,20,8583.5,-2.0,TESTED
+aaron_donald_comeback,KXFED-26SEP-T3.75,3,7,1135.7,0.0,TESTED

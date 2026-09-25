@@ -577,3 +577,38 @@ moves); this is documentation completeness.
   macro edge was partly triple-counted September 16. Paper's "What's shaky"
   section updated; verdict unchanged (not decisive), now with less room for
   a generous reading.
+
+## D23 — H2 sports→macro intraday test (2026-09-25, at Yuvan's direction)
+
+- **What:** Yuvan asked to fix the one open scientific item — H2 sports→macro,
+  untestable with daily data after two failed attempts (D12, D15). Kalshi's
+  candlestick API supports `period_interval=1` (minute) and `60` (hour), so a
+  tight-window intraday test is possible. Design, fixed before seeing prices:
+  for each of the 15 unscheduled sports events, take the most-active
+  nearest-expiry macro contract (KXFED/KXCPI legs) and pull minute candles in
+  [T0−3h, T0+3h]. Liquidity screen: total 6h volume ≥ 500 contracts with median
+  spread ≤ 5c, or ≥ 10 traded minutes with spread ≤ 3c. Metric: median midpoint
+  in [T0+5min, T0+60min] minus median midpoint in [T0−60min, T0−5min].
+- **Feasibility result:** 24 of 30 event×contract pairs are UNTESTABLE —
+  zero trades and stub quotes (13–58c spreads) in the window; no real price
+  discovery exists that far from macro releases. 6 pairs pass the screen.
+- **Test result** (`hidden_files/analysis_real/d23_h2_final.csv`): T0 jumps
+  (c): Giannis 0.0, Kawhi −1.0, Queta 0.0, Walsh 0.0, O'Neill −2.0, Donald 0.0.
+  Mean −0.50c, one-sample t vs 0 = −1.46, p ≈ 0.20 — cannot reject zero.
+  The −2.0 (O'Neill) is FOMC-meeting contamination, not a sports effect:
+  T0 = 2026-07-28 14:24Z, day one of the July FOMC meeting (contracts closed
+  2026-07-29 17:55Z); the contract was flat at 25.5c straight through T0 and
+  drifted down 30+ minutes later over two hours — macro digestion, wrong shape
+  for a news jump, on an offensive-lineman extension. Excluding it: mean −0.20c
+  (n=5). A 7th qualitative null: the D'Angelo Russell trade night had 47k
+  contracts of Fed volume with the midpoint pinned at 15.5c across T0
+  (too sparse for the formal window but visually flat).
+- **Reading:** the falsification leg now has a real answer instead of
+  "untestable": where macro contracts have genuine intraday price discovery,
+  sports news does not move them at announcement time. Consistent with H2's
+  prediction (no cross-domain leakage sports→macro). n=6 is small and the
+  testable subset is selected by the macro calendar, not cherry-picked on
+  outcomes — reported as a completed one-way test with that caveat, not as
+  a high-powered null.
+- **Paper updates:** §1 finding 5, §6 sports→macro bullet, and "What's shaky"
+  #6 rewritten; the "no intraday H2 test" limitation is retired.

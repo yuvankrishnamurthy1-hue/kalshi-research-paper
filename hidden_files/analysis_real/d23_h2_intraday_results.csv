@@ -1,0 +1,31 @@
+event,series,ticker,verdict,jump_c,n_placebo,rank_of_jump,note
+giannis_to_heat,KXFED,KXFED-26JUL-T3.75,UNTESTABLE,,,,"illiquid: 27 min-candles, 6 w/ trades, spread 3.0c"
+giannis_to_heat,KXCPI,KXCPI-26JUL-T0.1,UNTESTABLE,,,,"illiquid: 32 min-candles, 0 w/ trades, spread 45.0c"
+myles_garrett_to_rams,KXFED,KXFED-26JUL-T3.50,UNTESTABLE,,,,"illiquid: 16 min-candles, 1 w/ trades, spread 3.0c"
+myles_garrett_to_rams,KXCPI,KXCPI-26JUL-T0.5,UNTESTABLE,,,,"illiquid: 4 min-candles, 1 w/ trades, spread 13.0c"
+aj_brown_to_patriots,KXFED,KXFED-26JUL-T3.50,UNTESTABLE,,,,"illiquid: 16 min-candles, 1 w/ trades, spread 3.0c"
+aj_brown_to_patriots,KXCPI,KXCPI-26JUL-T0.5,UNTESTABLE,,,,"illiquid: 3 min-candles, 1 w/ trades, spread 13.0c"
+jaylen_brown_to_76ers,KXFED,KXFED-26JUL-T2.75,UNTESTABLE,,,,"illiquid: 0 min-candles, 0 w/ trades, spread 99.0c"
+jaylen_brown_to_76ers,KXCPI,KXCPI-26JUL-T0.1,UNTESTABLE,,,,"illiquid: 17 min-candles, 2 w/ trades, spread 5.0c"
+dlo_six_team_trade,KXFED,KXFED-26JUL-T3.75,UNTESTABLE,,,,too sparse: 39 min-points in 6h
+dlo_six_team_trade,KXCPI,KXCPI-26JUL-T0.1,UNTESTABLE,,,,"illiquid: 0 min-candles, 0 w/ trades, spread 99.0c"
+kawhi_to_raptors,KXFED,KXFED-26SEP-T3.75,TESTED,-1.0,10,10/11,110 min-points
+kawhi_to_raptors,KXCPI,KXCPI-26AUG-T0.2,UNTESTABLE,,,,"illiquid: 0 min-candles, 0 w/ trades, spread 99.0c"
+lebron_to_76ers,KXFED,KXFED-26JUL-T3.50,UNTESTABLE,,,,too sparse: 6 min-points in 6h
+lebron_to_76ers,KXCPI,KXCPI-26AUG-T0.2,UNTESTABLE,,,,"illiquid: 28 min-candles, 1 w/ trades, spread 53.0c"
+von_miller_to_cowboys,KXFED,KXFED-26SEP-T3.75,UNTESTABLE,,,,"illiquid: 82 min-candles, 2 w/ trades, spread 1.0c"
+von_miller_to_cowboys,KXCPI,KXCPI-26AUG-T0.3,UNTESTABLE,,,,"illiquid: 12 min-candles, 1 w/ trades, spread 7.0c"
+mitchell_robinson_to_celtics,KXFED,KXFED-26JUL-T2.75,UNTESTABLE,,,,"illiquid: 0 min-candles, 0 w/ trades, spread 99.0c"
+mitchell_robinson_to_celtics,KXCPI,KXCPI-26JUL-T0.1,UNTESTABLE,,,,"illiquid: 115 min-candles, 1 w/ trades, spread 4.0c"
+mike_conley_to_celtics,KXFED,KXFED-26JUL-T2.75,UNTESTABLE,,,,"illiquid: 0 min-candles, 0 w/ trades, spread 99.0c"
+mike_conley_to_celtics,KXCPI,KXCPI-26JUL-T0.1,UNTESTABLE,,,,"illiquid: 111 min-candles, 1 w/ trades, spread 4.0c"
+donovan_mitchell_extension,KXFED,KXFED-26JUL-T3.75,UNTESTABLE,,,,too sparse: 20 min-points in 6h
+donovan_mitchell_extension,KXCPI,KXCPI-26JUL-T0.1,UNTESTABLE,,,,"illiquid: 1 min-candles, 0 w/ trades, spread 4.0c"
+neemias_queta_extension,KXFED,KXFED-26JUL-T3.75,TESTED,0.0,6,7/7,45 min-points
+neemias_queta_extension,KXCPI,KXCPI-26JUL-T0.1,UNTESTABLE,,,,"illiquid: 53 min-candles, 0 w/ trades, spread 14.0c"
+jordan_walsh_extension,KXFED,KXFED-26JUL-T3.50,TESTED,0.0,6,7/7,50 min-points
+jordan_walsh_extension,KXCPI,KXCPI-26AUG-T0.2,UNTESTABLE,,,,"illiquid: 303 min-candles, 0 w/ trades, spread 58.0c"
+brian_oneill_extension,KXFED,KXFED-26JUL-T3.75,TESTED,-2.0,10,5/11,120 min-points
+brian_oneill_extension,KXCPI,KXCPI-26AUG-T0.2,UNTESTABLE,,,,"illiquid: 102 min-candles, 0 w/ trades, spread 55.0c"
+aaron_donald_comeback,KXFED,KXFED-26SEP-T3.75,UNTESTABLE,,,,too sparse: 48 min-points in 6h
+aaron_donald_comeback,KXCPI,KXCPI-26AUG-T0.3,UNTESTABLE,,,,"illiquid: 36 min-candles, 11 w/ trades, spread 4.0c"
