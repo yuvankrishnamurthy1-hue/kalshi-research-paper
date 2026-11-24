@@ -1,0 +1,11 @@
+event_id,cell,window_days,baseline_rule,event_type,market_kind,n_pairs,tier,abn_event,abn_event_logodds,t50_event
+canada_proclamations_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,16,S1,0.0027368421052631556,0.04181492782041071,4.0
+hormuz_retaliation_threat_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,16,S1,0.0027368421052631556,0.04181492782041071,14.116666666666667
+hormuz_strike_pipeline_shutdown_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,16,S1,0.0006499999999999988,0.057378410614369366,28.0
+hormuz_tanker_mines_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,16,S1,0.003749999999999998,0.05573449918406086,5.0
+nvda_earnings_q3_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,16,S1,0.005033333333333336,0.06573259736101979,5.0
+nvda_earnings_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,16,S1,5.0735294117645164e-05,0.037930055843708246,4.0
+perim_island_seized_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,16,S1,0.0005321428571428562,0.05192551148986399,4.0
+russia_sanctions_bill_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,15,S1,0.002106666666666667,0.0799629565389761,4.0
+tariff_eu_threat_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,15,S1,0.002106666666666667,0.0799629565389761,4.0
+trump_truth_fed_xd,cross_macro_on_sports,3,strict,unscheduled_macro,sports_future,15,S1,0.002106666666666667,0.0799629565389761,4.0

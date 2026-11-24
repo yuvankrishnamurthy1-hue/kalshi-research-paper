@@ -1,8 +1,38 @@
 # How Kalshi Prediction Markets React to News
 
-**Yuvan Krishnamurthy — draft v3, 2026-09-24**
+**Yuvan Krishnamurthy — draft v4, 2026-11-24** (v3: 2026-09-24)
 
-*Written strictly from computed results. The preregistration (locked 2026-09-21, `preregistration.md`) was never edited. Anything done after the lock is labeled plainly.*
+*Written strictly from computed results. The preregistration (locked 2026-09-21, `preregistration.md`) was never edited. Anything done after the lock is labeled plainly. Because several changes (D16–D24) were made after results were seen, this study is now **exploratory**: a pilot, not a confirmatory test.*
+
+---
+
+## 0. Update, Nov 24 (D24): the headline changed
+
+**Short version: once sports and macro moves are measured the same way, and the Fed-hike day stops counting as a "surprise," there is no detectable difference between how Kalshi reacts to sports news and to macro news.** Sections 1–7 below are the v3 text, kept for the record. Where they conflict with this section, this section wins.
+
+**What changed and why.**
+
+1. **Same ruler for both sides.** v3's sports numbers (§1, §4) averaged three daily prices starting at midnight on the news day, so one of the three was usually from *before* the news. The macro numbers used the price at the *end* of the 3-day window, measured from the exact news time. Measured the macro way, the involved teams moved more: 76ers +6.4¢ on Jaylen Brown (v3: +3.2¢), 76ers +5.8¢ on LeBron (v3: +3.9¢), Rams +4.7¢ on Garrett (v3: +3.4¢), Heat +4.7¢ on Giannis (v3: +4.3¢).
+2. **The Sept 16 "surprises" were the Fed hike.** Three of the eight surprise-macro events (EU tariff threat, Russia sanctions bill, Trump's Fed post) fell on FOMC day and were measured on the same Fed contracts. Their moves (+8.1¢, +8.1¢, +9.5¢) are the hike's own move (+9.3¢). The paper already drops sports events whose windows overlap a bigger story (the Boston signings), and the same rule now applies to macro.
+3. **Two more months of data.** Added: the Oct 14 and Nov 10 CPI releases; the Oct 28 FOMC hold; NBA opening night and the NFL trade deadline; eight fall NFL trades; Nvidia's Nov 17 earnings and the Nov 18 Hormuz tanker mines; and the **Wembanyama extension (Jul 10), which the original sample missed** even though it falls in the summer window.
+
+**The numbers** (3-day window; `hidden_files/analysis_real/d24_contrasts.csv`):
+
+| Comparison | Sports (involved teams) | Surprise macro | p (Welch / permutation) |
+|---|---|---|---|
+| v3 headline (D18) | +1.79¢ (n=11) | +4.55¢ (n=8) | 0.077 / 0.043 |
+| Same ruler | +2.49¢ (11) | +4.55¢ (8) | 0.19 / 0.16 |
+| Same ruler, Sept-16 dropped | +2.49¢ (11) | +2.14¢ (5) | 0.77 / 0.80 |
+| **All data through Nov 24, Sept-16 dropped** | **+1.58¢ (20)** | **+0.94¢ (7)** | **0.59 / 0.59** |
+| Same, size of move only (ignoring direction) | 2.36¢ | 2.23¢ | 0.85 |
+
+- **Scheduled vs. surprise macro (H1a):** no difference (p = 0.64). By size of move, scheduled releases moved *more* (4.1¢ vs 2.2¢, p = 0.27), the opposite of the prediction. But scheduled Fed and CPI contracts settle at the release itself, so part of their "move" is just the contract resolving. That comparison is biased in their favor.
+- **Scheduled vs. surprise sports (H1b):** no difference (p = 0.35, 20 vs 7 events).
+- **Macro news leaking into sports odds (H2):** +0.22¢ (10 events), statistically real but tiny, about a tenth of the own-market move.
+
+**What it means.** Big trades clearly move the involved teams' odds, and surprise macro news clearly moves Fed and CPI contracts. This study can't tell the two apart: the gaps are a fraction of a cent, with confidence intervals about ±2¢ wide. To detect a 1.5¢ difference you'd need roughly 35–50 events per group. `REVIEW.md` lays out a redesign: minute-level data, a measure of how much the *whole* market's probability distribution shifts, measured surprise instead of the calendar, and a new preregistration on future events.
+
+**New caveats.** Fall NFL trades happen in-season, when futures also move on weekly game results (the Chiefs' odds *fell* 2.3¢ around the Downs trade). The Spurs' odds drifted −3.4¢ around Wembanyama's extension, which shows the 30-day-average baseline picking up drift rather than news.
 
 ---
 
@@ -67,6 +97,8 @@ Earlier work had a confound: every scheduled event studied was macro, every surp
 ## What we found
 
 ### 1. The headline, corrected: the prereg's aggregation was unfair to sports (H1c)
+
+> **Superseded by §0 (D24).** The sports numbers in this section use a different measurement than the macro numbers, and the macro cell includes three FOMC-day events.
 
 The locked plan averaged **all ~30 team contracts** per sports event. That's the wrong aggregation: a trade mechanically reprices 2 teams, not 30 — so the sports cell was diluted by construction in a way the macro cell (every FED contract bets on the same decision) was not. At Yuvan's direction we re-ran the headline test the fair way **(D18)**: the sports sample is the **involved teams' contracts** — one observation per event for the acquiring/keeping team (both sides are reported; they're not averaged together, and the give side is floor-muted, see §4).
 
@@ -239,13 +271,16 @@ The preregistration (`preregistration.md`) was locked 2026-09-21 and never edite
 - **D16 — Giannis amendment.** Baseline minimum 5→3 observations (thin ones flagged); fallback to the full 30-day pre-window when needed (flagged). Exists because the old rule excluded the sample's most informative event over a 1-observation shortfall. The headline is reported under both rules; it survives both. Side effect: the macro placebo gate flips from marginal-pass to marginal-fail — a stable background drift, not a thin-baseline artifact (see "What's shaky" §3).
 - **D17 — Involved-teams supplementary estimand.** The prereg's event-level average (all 30-odd teams) structurally dilutes sports trades, which mechanically reprice ~2 teams. Added a post-prereg supplementary analysis: abnormal moves of involved teams' contracts only (acquiring/keeping vs. giving), teams picked from registry descriptions before computing. Four Boston observations dropped as contaminated (they read off the July-1 Jaylen Brown trade, not their own news). Result: acquirers +1.8¢ (n=11), givers −1.0¢ (n=6). Data: `hidden_files/analysis_real/involved_teams_3d.csv`.
 - **D18 — Involved-teams becomes the H1c estimand (2026-09-24, at Yuvan's direction).** Yuvan's objection stands: the all-teams average was the wrong aggregation, not a defensible choice — it biases the sports cell toward zero by construction. H1c re-tested with the D17 involved-teams sample (acquiring/keeping side, one observation per event; both sides reported, not averaged together): +1.79¢ (n=11) vs +4.55¢ (n=8), Welch t=−1.99, **p=0.077** — not significant at 5%. The original p=0.008 is still reported (it answers "did the average contract move?"), but the paper's verdict follows the fair aggregation: direction favors macro, evidence is not decisive. All three aggregations are shown side by side in §1. Numbers: `hidden_files/analysis_real/contrast_d18_involved.csv`.
+- **D20–D23.** Jan–Sep scheduled-macro supplementary sample; CPI consensus gaps filled; T0 corrections for the draft and lottery; the Sept-16 cluster-collapsed sensitivity; the intraday sports→macro test. Details are in `hidden_files/prereg_deviations.md`.
+- **D24 — Same-ruler estimand, Sept-16 contamination, cutoff extended to Nov 24.** See §0. Sports involved-team moves recomputed with the same code as macro (`analyze_d24.py`, which also reproduces the D18 numbers exactly). The three Sept-16 "surprise" events are dropped as FOMC-contaminated. Fourteen events added, including the missed Wembanyama extension.
 - **D19 — Market-time anchoring / jump detection (2026-09-24, at Yuvan's direction).** Reported timestamps are report times, not market times. For each involved team, the jump day = largest single-day midpoint move in [T0−10, T0+5] (Kawhi located manually: the true jump was the 2026-06-30 framework agreement, 76 days before the "official" T0 — outside any mechanical window — verified 0.5¢→2.5¢ that day, 4.5¢ by Jul-02, on 570× volume). Findings: 7 of 11 acquiring-team jumps land within ±2 days of the report (the +1d lag is the midnight-ET candle artifact; 100–900× volume spikes confirm news-driven repricing); Boston leaked 7 days early, Cleveland priced the Mitchell extension 6 days early at free-agency open. Jump-anchored abnormal moves (baseline [J−30,J−5], window [J,J+2]) are reported as a labeled sensitivity — they are **upper bounds** (anchoring on the observed max selects the largest move); T0-anchored are lower bounds. The formal H1c test stays T0-anchored; re-testing on selected maxima would be circular. Data: `hidden_files/analysis_real/jump_timing_3d.csv`.
 
 ---
 
 ## Reproducibility
 
-- Plan: `preregistration.md` (locked, unedited). Deviations: `hidden_files/prereg_deviations.md` (D1–D16).
+- Plan: `preregistration.md` (locked, unedited). Deviations: `hidden_files/prereg_deviations.md` (D1–D24).
+- Current headline tests: `analyze_d24.py` → `hidden_files/analysis_real/d24_*.csv` (uses `collect_d24.py` data in `kalshi_api_data_d24/`).
 - Events: `hidden_files/event_registry.csv` (+ `event_registry_extended.csv`). Expectations/rumor trails: `hidden_files/expectations.md`.
 - Data: `kalshi_api_data_summer/` (confirmatory), `kalshi_api_data_extended/`, `kalshi_api_data_h2farexpiry/`, combined `hidden_files/market_data_combined.csv`.
 - Code: `analyze_kalshi_fixed.py` (strict rule), `analyze_d16.py` (amended rule), collectors `collect_kalshi_summer.py` / `collect_extended.py` / `collect_h2farexpiry.py`, guard `hidden_files/coverage_precheck.py`, fallback `hidden_files/analyze_fallback.py`.

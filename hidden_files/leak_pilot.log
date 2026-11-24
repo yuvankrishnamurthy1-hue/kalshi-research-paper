@@ -1,0 +1,78 @@
+giannis_to_heat KXNBA-27-MIA {'mid_T-7d': np.float64(0.025), 'mid_T-1h': np.float64(0.035), 'mid_T+24h': np.float64(0.075), 'pre_c': np.float64(1.0), 'pre24_c': np.float64(1.0), 'post_c': np.float64(4.0), 'total_c': np.float64(5.0), 'prs': np.float64(0.2), 'z24': nan, 'sd24_c': nan}
+giannis_to_heat KXNBA-27-MIL {'mid_T-7d': np.float64(0.005), 'mid_T-1h': np.float64(0.005), 'mid_T+24h': np.float64(0.005), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(0.0), 'prs': nan, 'z24': nan, 'sd24_c': nan}
+jaylen_brown_to_76ers KXNBA-27-PHI {'mid_T-7d': np.float64(0.015), 'mid_T-1h': np.float64(0.015), 'mid_T+24h': np.float64(0.06), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(4.5), 'total_c': np.float64(4.5), 'prs': np.float64(0.0), 'z24': np.float64(0.0), 'sd24_c': np.float64(6.363)}
+jaylen_brown_to_76ers KXNBA-27-BOS {'mid_T-7d': np.float64(0.11), 'mid_T-1h': np.float64(0.095), 'mid_T+24h': np.float64(0.08), 'pre_c': np.float64(-1.5), 'pre24_c': np.float64(0.0), 'post_c': np.float64(-1.5), 'total_c': np.float64(-3.0), 'prs': np.float64(0.5), 'z24': np.float64(-0.0), 'sd24_c': np.float64(5.041)}
+dlo_six_team_trade KXNBA-27-MEM {'mid_T-7d': np.float64(0.005), 'mid_T-1h': np.float64(0.005), 'mid_T+24h': np.float64(0.005), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(0.0), 'prs': nan, 'z24': nan, 'sd24_c': np.float64(4.989)}
+kawhi_to_raptors KXNBA-27-TOR {'mid_T-7d': np.float64(0.025), 'mid_T-1h': np.float64(0.025), 'mid_T+24h': np.float64(0.025), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(0.0), 'prs': nan, 'z24': nan, 'sd24_c': np.float64(0.0)}
+kawhi_to_raptors KXNBA-27-LAC {'mid_T-7d': np.float64(0.005), 'mid_T-1h': np.float64(0.005), 'mid_T+24h': np.float64(0.005), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(0.0), 'prs': nan, 'z24': nan, 'sd24_c': np.float64(0.0)}
+lebron_to_76ers KXNBA-27-PHI {'mid_T-7d': np.float64(0.075), 'mid_T-1h': np.float64(0.115), 'mid_T+24h': np.float64(0.115), 'pre_c': np.float64(4.0), 'pre24_c': np.float64(6.0), 'post_c': np.float64(0.0), 'total_c': np.float64(4.0), 'prs': np.float64(1.0), 'z24': np.float64(4.875), 'sd24_c': np.float64(1.231)}
+lebron_to_76ers KXNBA-27-LAL {'mid_T-7d': np.float64(0.035), 'mid_T-1h': np.float64(0.025), 'mid_T+24h': np.float64(0.025), 'pre_c': np.float64(-1.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(-1.0), 'prs': np.float64(1.0), 'z24': np.float64(-0.0), 'sd24_c': np.float64(0.252)}
+donovan_mitchell_extension KXNBA-27-CLE {'mid_T-7d': np.float64(0.025), 'mid_T-1h': np.float64(0.065), 'mid_T+24h': np.float64(0.05), 'pre_c': np.float64(4.0), 'pre24_c': np.float64(-0.5), 'post_c': np.float64(-1.5), 'total_c': np.float64(2.5), 'prs': np.float64(1.6), 'z24': np.float64(-0.456), 'sd24_c': np.float64(1.097)}
+myles_garrett_to_rams KXSB-27-LAR {'mid_T-7d': np.float64(0.105), 'mid_T-1h': np.float64(0.105), 'mid_T+24h': np.float64(0.155), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(5.0), 'total_c': np.float64(5.0), 'prs': np.float64(0.0), 'z24': np.float64(0.0), 'sd24_c': np.float64(0.499)}
+myles_garrett_to_rams KXSB-27-CLE {'mid_T-7d': np.float64(0.005), 'mid_T-1h': np.float64(0.005), 'mid_T+24h': np.float64(0.005), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(0.0), 'prs': nan, 'z24': nan, 'sd24_c': np.float64(0.0)}
+aj_brown_to_patriots KXSB-27-NE {'mid_T-7d': np.float64(0.035), 'mid_T-1h': np.float64(0.035), 'mid_T+24h': np.float64(0.045), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(1.0), 'total_c': np.float64(1.0), 'prs': nan, 'z24': nan, 'sd24_c': np.float64(0.0)}
+aj_brown_to_patriots KXSB-27-PHI {'mid_T-7d': np.float64(0.045), 'mid_T-1h': np.float64(0.045), 'mid_T+24h': np.float64(0.045), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(0.0), 'prs': nan, 'z24': nan, 'sd24_c': np.float64(0.213)}
+von_miller_to_cowboys KXSB-27-DAL {'mid_T-7d': np.float64(0.035), 'mid_T-1h': np.float64(0.045), 'mid_T+24h': np.float64(0.045), 'pre_c': np.float64(1.0), 'pre24_c': np.float64(1.0), 'post_c': np.float64(0.0), 'total_c': np.float64(1.0), 'prs': nan, 'z24': nan, 'sd24_c': np.float64(0.0)}
+brian_oneill_extension KXSB-27-MIN {'mid_T-7d': np.float64(0.015), 'mid_T-1h': np.float64(0.015), 'mid_T+24h': np.float64(0.015), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(0.0), 'prs': nan, 'z24': nan, 'sd24_c': np.float64(0.0)}
+aaron_donald_comeback KXSB-27-LAR {'mid_T-7d': np.float64(0.155), 'mid_T-1h': np.float64(0.155), 'mid_T+24h': np.float64(0.165), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(1.0), 'total_c': np.float64(1.0), 'prs': np.float64(0.0), 'z24': np.float64(0.0), 'sd24_c': np.float64(0.497)}
+cpi_2026_01 KXFED-26JAN-T3.50 {'mid_T-7d': np.float64(0.845), 'mid_T-1h': np.float64(0.955), 'mid_T+24h': np.float64(0.945), 'pre_c': np.float64(11.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(-1.0), 'total_c': np.float64(10.0), 'prs': np.float64(1.1), 'z24': np.float64(0.0), 'sd24_c': np.float64(4.323)}
+fomc_2026_01 KXFED-26MAR-T3.50 {'mid_T-7d': np.float64(0.645), 'mid_T-1h': np.float64(0.745), 'mid_T+24h': np.float64(0.88), 'pre_c': np.float64(10.0), 'pre24_c': np.float64(4.5), 'post_c': np.float64(13.5), 'total_c': np.float64(23.5), 'prs': np.float64(0.426), 'z24': np.float64(1.399), 'sd24_c': np.float64(3.216)}
+cpi_2026_02 KXFED-26MAR-T3.50 {'mid_T-7d': np.float64(0.89), 'mid_T-1h': np.float64(0.925), 'mid_T+24h': np.float64(0.925), 'pre_c': np.float64(3.5), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.0), 'total_c': np.float64(3.5), 'prs': np.float64(1.0), 'z24': np.float64(0.0), 'sd24_c': np.float64(3.88)}
+cpi_2026_03 KXFED-26MAR-T3.50 {'mid_T-7d': np.float64(0.97), 'mid_T-1h': np.float64(0.98), 'mid_T+24h': np.float64(0.985), 'pre_c': np.float64(1.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.5), 'total_c': np.float64(1.5), 'prs': np.float64(0.667), 'z24': np.float64(0.0), 'sd24_c': np.float64(3.262)}
+fomc_2026_03 KXFED-26APR-T3.75 {'mid_T-7d': np.float64(0.11), 'mid_T-1h': np.float64(0.09), 'mid_T+24h': np.float64(0.03), 'pre_c': np.float64(-2.0), 'pre24_c': np.float64(3.5), 'post_c': np.float64(-6.0), 'total_c': np.float64(-8.0), 'prs': np.float64(0.25), 'z24': np.float64(-0.402), 'sd24_c': np.float64(8.717)}
+cpi_2026_04 KXFED-26APR-T3.50 {'mid_T-7d': np.float64(0.975), 'mid_T-1h': np.float64(0.99), 'mid_T+24h': np.float64(0.985), 'pre_c': np.float64(1.5), 'pre24_c': np.float64(0.0), 'post_c': np.float64(-0.5), 'total_c': np.float64(1.0), 'prs': np.float64(1.5), 'z24': np.float64(0.0), 'sd24_c': np.float64(0.977)}
+fomc_2026_04 KXFED-26JUN-T3.50 {'mid_T-7d': np.float64(0.88), 'mid_T-1h': np.float64(0.915), 'mid_T+24h': np.float64(0.955), 'pre_c': np.float64(3.5), 'pre24_c': np.float64(1.0), 'post_c': np.float64(4.0), 'total_c': np.float64(7.5), 'prs': np.float64(0.467), 'z24': np.float64(0.349), 'sd24_c': np.float64(2.866)}
+cpi_2026_05 KXFED-26JUN-T3.50 {'mid_T-7d': np.float64(0.965), 'mid_T-1h': np.float64(0.965), 'mid_T+24h': np.float64(0.97), 'pre_c': np.float64(0.0), 'pre24_c': np.float64(0.0), 'post_c': np.float64(0.5), 'total_c': np.float64(0.5), 'prs': nan, 'z24': np.float64(0.0), 'sd24_c': np.float64(1.371)}
+cpi_2026_06 KXFED-26JUN-T3.50 {'mid_T-7d': np.float64(0.98), 'mid_T-1h': np.float64(0.985), 'mid_T+24h': np.float64(0.995), 'pre_c': np.float64(0.5), 'pre24_c': np.float64(0.0), 'post_c': np.float64(1.0), 'total_c': np.float64(1.5), 'prs': np.float64(0.333), 'z24': np.float64(0.0), 'sd24_c': np.float64(0.56)}
+fomc_2026_06 KXFED-26JUL-T4.00 {'mid_T-7d': np.float64(0.08), 'mid_T-1h': np.float64(0.05), 'mid_T+24h': np.float64(0.025), 'pre_c': np.float64(-3.0), 'pre24_c': np.float64(-0.5), 'post_c': np.float64(-2.5), 'total_c': np.float64(-5.5), 'prs': np.float64(0.545), 'z24': np.float64(0.305), 'sd24_c': np.float64(1.641)}
+cpi_2026_07 KXFED-26JUL-T3.75 {'mid_T-7d': np.float64(0.155), 'mid_T-1h': np.float64(0.33), 'mid_T+24h': np.float64(0.065), 'pre_c': np.float64(17.5), 'pre24_c': np.float64(12.5), 'post_c': np.float64(-26.5), 'total_c': np.float64(-9.0), 'prs': np.float64(-1.944), 'z24': np.float64(-3.086), 'sd24_c': np.float64(4.05)}
+fomc_2026_07 KXFED-26SEP-T3.75 {'mid_T-7d': np.float64(0.605), 'mid_T-1h': np.float64(0.695), 'mid_T+24h': np.float64(0.565), 'pre_c': np.float64(9.0), 'pre24_c': np.float64(3.5), 'post_c': np.float64(-13.0), 'total_c': np.float64(-4.0), 'prs': np.float64(-2.25), 'z24': np.float64(-0.425), 'sd24_c': np.float64(8.244)}
+cpi_2026_08 KXFED-26SEP-T3.75 {'mid_T-7d': np.float64(0.495), 'mid_T-1h': np.float64(0.385), 'mid_T+24h': np.float64(0.345), 'pre_c': np.float64(-11.0), 'pre24_c': np.float64(-6.0), 'post_c': np.float64(-4.0), 'total_c': np.float64(-15.0), 'prs': np.float64(0.733), 'z24': np.float64(0.808), 'sd24_c': np.float64(7.429)}
+cpi_2026_09 KXFED-26SEP-T3.75 {'mid_T-7d': np.float64(0.435), 'mid_T-1h': np.float64(0.615), 'mid_T+24h': np.float64(0.805), 'pre_c': np.float64(18.0), 'pre24_c': np.float64(7.0), 'post_c': np.float64(19.0), 'total_c': np.float64(37.0), 'prs': np.float64(0.486), 'z24': np.float64(1.31), 'sd24_c': np.float64(5.342)}
+fomc_2026_09 KXFED-26OCT-T3.75 {'mid_T-7d': np.float64(0.63), 'mid_T-1h': np.float64(0.93), 'mid_T+24h': np.float64(0.99), 'pre_c': np.float64(30.0), 'pre24_c': np.float64(2.0), 'post_c': np.float64(6.0), 'total_c': np.float64(36.0), 'prs': np.float64(0.833), 'z24': np.float64(0.545), 'sd24_c': np.float64(3.671)}
+cpi_2026_10 KXFED-26OCT-T4.00 {'mid_T-7d': np.float64(0.18), 'mid_T-1h': np.float64(0.205), 'mid_T+24h': np.float64(0.275), 'pre_c': np.float64(2.5), 'pre24_c': np.float64(2.0), 'post_c': np.float64(7.0), 'total_c': np.float64(9.5), 'prs': np.float64(0.263), 'z24': np.float64(0.223), 'sd24_c': np.float64(8.968)}
+fomc_2026_10 KXFED-26DEC-T4.00 {'mid_T-7d': np.float64(0.815), 'mid_T-1h': np.float64(0.825), 'mid_T+24h': np.float64(0.785), 'pre_c': np.float64(1.0), 'pre24_c': np.float64(-8.0), 'post_c': np.float64(-4.0), 'total_c': np.float64(-3.0), 'prs': np.float64(-0.333), 'z24': np.float64(2.057), 'sd24_c': np.float64(3.89)}
+cpi_2026_11 KXFED-26DEC-T4.00 {'mid_T-7d': np.float64(0.745), 'mid_T-1h': np.float64(0.915), 'mid_T+24h': np.float64(0.955), 'pre_c': np.float64(17.0), 'pre24_c': np.float64(15.0), 'post_c': np.float64(4.0), 'total_c': np.float64(21.0), 'prs': np.float64(0.81), 'z24': np.float64(3.785), 'sd24_c': np.float64(3.963)}
+
+                   event_id domain            ticker               role  pre_c  pre24_c  post_c  total_c    prs    z24
+           giannis_to_heat sports      KXNBA-27-MIA                get    1.0      1.0     4.0      5.0  0.200    NaN
+           giannis_to_heat sports      KXNBA-27-MIL               give    0.0      0.0     0.0      0.0    NaN    NaN
+     jaylen_brown_to_76ers sports      KXNBA-27-PHI                get    0.0      0.0     4.5      4.5  0.000  0.000
+     jaylen_brown_to_76ers sports      KXNBA-27-BOS               give   -1.5      0.0    -1.5     -3.0  0.500 -0.000
+        dlo_six_team_trade sports      KXNBA-27-MEM                get    0.0      0.0     0.0      0.0    NaN    NaN
+          kawhi_to_raptors sports      KXNBA-27-TOR                get    0.0      0.0     0.0      0.0    NaN    NaN
+          kawhi_to_raptors sports      KXNBA-27-LAC               give    0.0      0.0     0.0      0.0    NaN    NaN
+           lebron_to_76ers sports      KXNBA-27-PHI                get    4.0      6.0     0.0      4.0  1.000  4.875
+           lebron_to_76ers sports      KXNBA-27-LAL               give   -1.0      0.0     0.0     -1.0  1.000 -0.000
+donovan_mitchell_extension sports      KXNBA-27-CLE               keep    4.0     -0.5    -1.5      2.5  1.600 -0.456
+     myles_garrett_to_rams sports       KXSB-27-LAR                get    0.0      0.0     5.0      5.0  0.000  0.000
+     myles_garrett_to_rams sports       KXSB-27-CLE               give    0.0      0.0     0.0      0.0    NaN    NaN
+      aj_brown_to_patriots sports        KXSB-27-NE                get    0.0      0.0     1.0      1.0    NaN    NaN
+      aj_brown_to_patriots sports       KXSB-27-PHI               give    0.0      0.0     0.0      0.0    NaN    NaN
+     von_miller_to_cowboys sports       KXSB-27-DAL                get    1.0      1.0     0.0      1.0    NaN    NaN
+    brian_oneill_extension sports       KXSB-27-MIN               keep    0.0      0.0     0.0      0.0    NaN    NaN
+     aaron_donald_comeback sports       KXSB-27-LAR                get    0.0      0.0     1.0      1.0  0.000  0.000
+               cpi_2026_01  macro KXFED-26JAN-T3.50 next_meeting_26JAN   11.0      0.0    -1.0     10.0  1.100  0.000
+              fomc_2026_01  macro KXFED-26MAR-T3.50 next_meeting_26MAR   10.0      4.5    13.5     23.5  0.426  1.399
+               cpi_2026_02  macro KXFED-26MAR-T3.50 next_meeting_26MAR    3.5      0.0     0.0      3.5  1.000  0.000
+               cpi_2026_03  macro KXFED-26MAR-T3.50 next_meeting_26MAR    1.0      0.0     0.5      1.5  0.667  0.000
+              fomc_2026_03  macro KXFED-26APR-T3.75 next_meeting_26APR   -2.0      3.5    -6.0     -8.0  0.250 -0.402
+               cpi_2026_04  macro KXFED-26APR-T3.50 next_meeting_26APR    1.5      0.0    -0.5      1.0  1.500  0.000
+              fomc_2026_04  macro KXFED-26JUN-T3.50 next_meeting_26JUN    3.5      1.0     4.0      7.5  0.467  0.349
+               cpi_2026_05  macro KXFED-26JUN-T3.50 next_meeting_26JUN    0.0      0.0     0.5      0.5    NaN  0.000
+               cpi_2026_06  macro KXFED-26JUN-T3.50 next_meeting_26JUN    0.5      0.0     1.0      1.5  0.333  0.000
+              fomc_2026_06  macro KXFED-26JUL-T4.00 next_meeting_26JUL   -3.0     -0.5    -2.5     -5.5  0.545  0.305
+               cpi_2026_07  macro KXFED-26JUL-T3.75 next_meeting_26JUL   17.5     12.5   -26.5     -9.0 -1.944 -3.086
+              fomc_2026_07  macro KXFED-26SEP-T3.75 next_meeting_26SEP    9.0      3.5   -13.0     -4.0 -2.250 -0.425
+               cpi_2026_08  macro KXFED-26SEP-T3.75 next_meeting_26SEP  -11.0     -6.0    -4.0    -15.0  0.733  0.808
+               cpi_2026_09  macro KXFED-26SEP-T3.75 next_meeting_26SEP   18.0      7.0    19.0     37.0  0.486  1.310
+              fomc_2026_09  macro KXFED-26OCT-T3.75 next_meeting_26OCT   30.0      2.0     6.0     36.0  0.833  0.545
+               cpi_2026_10  macro KXFED-26OCT-T4.00 next_meeting_26OCT    2.5      2.0     7.0      9.5  0.263  0.223
+              fomc_2026_10  macro KXFED-26DEC-T4.00 next_meeting_26DEC    1.0     -8.0    -4.0     -3.0 -0.333  2.057
+               cpi_2026_11  macro KXFED-26DEC-T4.00 next_meeting_26DEC   17.0     15.0     4.0     21.0  0.810  3.785
+
+                             outcome  n_sports  median_sports  n_macro  median_macro  mannwhitney_p  perm_median_p
+pre-report share (PRS, |total|>=1c)       6.0            0.1     17.0         0.486         0.6236         0.1812
+          abnormal last-24h drift z       5.0            0.0     18.0         0.112         0.5644         0.6215
+ sports: median z24 vs 0 (Wilcoxon)       5.0            0.0      NaN           NaN         1.0000            NaN
+  macro: median z24 vs 0 (Wilcoxon)       NaN            NaN     18.0         0.112         0.1361            NaN

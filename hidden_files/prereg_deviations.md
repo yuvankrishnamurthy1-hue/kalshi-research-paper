@@ -612,3 +612,62 @@ moves); this is documentation completeness.
   a high-powered null.
 - **Paper updates:** §1 finding 5, §6 sports→macro bullet, and "What's shaky"
   #6 rewritten; the "no intraday H2 test" limitation is retired.
+
+## D24 — Same-ruler estimand, Sep-16 contamination, cutoff extension to 2026-11-24 (2026-11-24, post-review)
+
+- **Why:** a referee-style review (`REVIEW.md`) found two measurement problems in
+  the D18 headline and asked for the data to be brought up to date.
+- **(a) Estimand mismatch, fixed.** D17/D18 computed involved-team sports moves
+  ad hoc (no committed script): the MEAN of three daily midpoints starting at
+  midnight of the T0 date (usually including a pre-news candle), minus baseline.
+  The macro cell used `analyze_pair`: the midpoint at the END of the 3-day
+  window, anchored at the exact T0 timestamp. `analyze_d24.py` now runs both
+  cells through `analyze_pair`. Legacy numbers are reproduced exactly
+  (1.79c vs 4.55c, p = 0.0771) as section A of the script. Like-for-like:
+  sports involved +2.49c (n=11) vs macro +4.55c (n=8), Welch p = 0.195,
+  permutation p = 0.164. Memphis (DLO trade) sits at the floor (bid 0 / ask 1c),
+  so the pipeline midpoint (bid > 0 required) is missing. It is recorded as
+  0.0, flagged `floor_pinned`, matching the legacy treatment.
+- **(b) Sep-16 contamination.** tariff_eu_threat, russia_sanctions_bill and
+  trump_truth_fed share the 2026-09-16 FOMC-hike date and the same KXFED
+  contracts. Their moves (+8.12, +8.12, +9.47c) are the hike's (+9.26c). By
+  the D17 contamination logic already applied to the Boston sports events,
+  they are dropped in the primary D24 comparison (collapsed version also
+  reported). Like-for-like + Sep-16 dropped: sports +2.49c vs macro +2.14c
+  (n=5), p = 0.77.
+- **(c) Cutoff extension.** Prereg §4 defines scheduled macro and unscheduled
+  sports "through the analysis cutoff", which was never fixed, so extending it
+  is in-protocol for those cells. Added (`collect_d24.py`, data in
+  `kalshi_api_data_d24/`): CPI Sep (Oct 14), FOMC hold (Oct 28), CPI Oct
+  (Nov 10); NBA opening night (Oct 20) and NFL trade deadline (Nov 10),
+  previously registered as "no data yet"; eight in-season NFL trades
+  (McCarthy, Harrison Jr., Buckner, Simmons, Jaguars Davis/Bates, Cousins,
+  Downs, Allen); the Wembanyama extension (Jul 10), a summer event the
+  original registry MISSED; two unscheduled macro shocks (NVIDIA Q3 earnings
+  Nov 17, Hormuz tanker mines Nov 18), each with an H2 sports basket. Size
+  tiers for the new sports events were graded before the pull
+  (`size_tiers_d24.csv`). The Warsh Oct 16 remarks were NOT added: a
+  scheduled speech fails the unscheduled-macro definition.
+- **Results (3-day, `hidden_files/analysis_real/d24_contrasts.csv`):**
+  - H1c extended, Sep-16 dropped: sports +1.58c (n=20) vs macro +0.94c (n=7),
+    p = 0.59. Absolute moves: 2.36c vs 2.23c, p = 0.85. Offseason sports only:
+    +2.00c (n=12), p = 0.43.
+  - H1a in-protocol window (Aug 14 to Nov 24), Sep-16 dropped: unscheduled
+    +0.94c (n=7) vs scheduled −0.38c (n=5), p = 0.64. Absolute: 2.23c vs
+    4.08c, p = 0.27, the OPPOSITE of H1a's direction.
+  - H1b: unscheduled −0.06c (n=20) vs scheduled +0.34c (n=7), p = 0.35.
+  - H2 macro→sports: +0.22c (n=10), p = 0.0014, still about a tenth of the
+    own-domain move.
+- **New caveats found:**
+  - Scheduled-macro contracts are release-specific (e.g. KXFED-26OCT) and
+    SETTLE at the event. Their "abnormal move" includes mechanical convergence
+    to 0/100c, which unscheduled-macro contracts do not have. That biases H1a
+    and H1d (the same issue D12 hit for H2).
+  - In-season NFL futures also move on weekly game results. Two new
+    involved-team moves have the "wrong" sign (KC −2.26c on Downs; SA −3.38c
+    on the Wembanyama extension, an offseason contract drifting). That is the
+    level-baseline problem (REVIEW.md M5) showing up directly.
+- **Reading:** with the same ruler, and with the Fed-hike day no longer
+  counted as a surprise, there is no detectable difference between sports and
+  macro news. The study is exploratory (D16–D24 were post-results). Its value
+  is as a pilot for a prospective design.

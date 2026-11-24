@@ -1,0 +1,5370 @@
+{
+ "run": "extended",
+ "events": [
+  {
+   "event_id": "cpi_sep_release",
+   "t0_utc": "2026-10-14T12:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26SEP"
+   },
+   "tickers": [
+    "KXCPI-26SEP-T0.9",
+    "KXCPI-26SEP-T0.8",
+    "KXCPI-26SEP-T0.7",
+    "KXCPI-26SEP-T0.6",
+    "KXCPI-26SEP-T-0.4",
+    "KXCPI-26SEP-T-0.3",
+    "KXCPI-26SEP-T-0.2",
+    "KXCPI-26SEP-T0.5",
+    "KXCPI-26SEP-T0.4",
+    "KXCPI-26SEP-T0.3",
+    "KXCPI-26SEP-T0.2",
+    "KXCPI-26SEP-T0.1",
+    "KXCPI-26SEP-T-0.1",
+    "KXCPI-26SEP-T0.0",
+    "KXCPICORE-26SEP-T1.0",
+    "KXCPICORE-26SEP-T0.9",
+    "KXCPICORE-26SEP-T0.8",
+    "KXCPICORE-26SEP-T0.7",
+    "KXCPICORE-26SEP-T0.6",
+    "KXCPICORE-26SEP-T0.5",
+    "KXCPICORE-26SEP-T0.4",
+    "KXCPICORE-26SEP-T0.3",
+    "KXCPICORE-26SEP-T0.2",
+    "KXCPICORE-26SEP-T0.1",
+    "KXCPICORE-26SEP-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "fomc_oct_hold",
+   "t0_utc": "2026-10-28T18:00:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro",
+   "series": [
+    "KXFED"
+   ],
+   "opts": {
+    "ticker_contains": "26OCT"
+   },
+   "tickers": [
+    "KXFED-26OCT-T5.25",
+    "KXFED-26OCT-T5.00",
+    "KXFED-26OCT-T4.75",
+    "KXFED-26OCT-T4.50",
+    "KXFED-26OCT-T4.25",
+    "KXFED-26OCT-T4.00",
+    "KXFED-26OCT-T3.75",
+    "KXFED-26OCT-T3.50",
+    "KXFED-26OCT-T3.25",
+    "KXFED-26OCT-T3.00",
+    "KXFED-26OCT-T2.75"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cpi_oct_release",
+   "t0_utc": "2026-11-10T13:30:00Z",
+   "cell": "scheduled_macro",
+   "category": "scheduled_macro",
+   "series": [
+    "KXCPI",
+    "KXCPICORE"
+   ],
+   "opts": {
+    "ticker_contains": "26OCT"
+   },
+   "tickers": [
+    "KXCPI-26OCT-T1.0",
+    "KXCPI-26OCT-T0.9",
+    "KXCPI-26OCT-T0.8",
+    "KXCPI-26OCT-T0.7",
+    "KXCPI-26OCT-T0.6",
+    "KXCPI-26OCT-T0.5",
+    "KXCPI-26OCT-T0.4",
+    "KXCPI-26OCT-T0.3",
+    "KXCPI-26OCT-T0.2",
+    "KXCPI-26OCT-T0.1",
+    "KXCPI-26OCT-T-0.1",
+    "KXCPI-26OCT-T0.0",
+    "KXCPICORE-26OCT-T1.0",
+    "KXCPICORE-26OCT-T0.9",
+    "KXCPICORE-26OCT-T0.8",
+    "KXCPICORE-26OCT-T0.7",
+    "KXCPICORE-26OCT-T0.6",
+    "KXCPICORE-26OCT-T0.5",
+    "KXCPICORE-26OCT-T0.4",
+    "KXCPICORE-26OCT-T0.3",
+    "KXCPICORE-26OCT-T0.2",
+    "KXCPICORE-26OCT-T0.1",
+    "KXCPICORE-26OCT-T0.0"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "nba_opening_night",
+   "t0_utc": "2026-10-20",
+   "cell": "scheduled_sports",
+   "category": "scheduled_sports",
+   "series": [
+    "KXNBA"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXNBA-27-WAS",
+    "KXNBA-27-UTA",
+    "KXNBA-27-TOR",
+    "KXNBA-27-SAS",
+    "KXNBA-27-SAC",
+    "KXNBA-27-POR",
+    "KXNBA-27-PHX",
+    "KXNBA-27-PHI",
+    "KXNBA-27-ORL",
+    "KXNBA-27-OKC",
+    "KXNBA-27-NYK",
+    "KXNBA-27-NOP",
+    "KXNBA-27-MIN",
+    "KXNBA-27-MIL",
+    "KXNBA-27-MIA",
+    "KXNBA-27-MEM",
+    "KXNBA-27-LAL",
+    "KXNBA-27-LAC",
+    "KXNBA-27-IND",
+    "KXNBA-27-HOU",
+    "KXNBA-27-GSW",
+    "KXNBA-27-DET",
+    "KXNBA-27-DEN",
+    "KXNBA-27-DAL",
+    "KXNBA-27-CLE",
+    "KXNBA-27-CHI",
+    "KXNBA-27-CHA",
+    "KXNBA-27-BOS",
+    "KXNBA-27-BKN",
+    "KXNBA-27-ATL"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "nfl_trade_deadline",
+   "t0_utc": "2026-11-10T21:00:00Z",
+   "cell": "scheduled_sports",
+   "category": "scheduled_sports",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "nvda_earnings_q3",
+   "t0_utc": "2026-11-17",
+   "cell": "unscheduled_macro",
+   "category": "unscheduled_macro",
+   "series": [
+    "KXFED",
+    "KXCPI"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXFED-27APR-T6.00",
+    "KXFED-27APR-T5.75",
+    "KXFED-27APR-T5.50",
+    "KXFED-27APR-T5.25",
+    "KXFED-27APR-T5.00",
+    "KXFED-27APR-T4.75",
+    "KXFED-27APR-T4.50",
+    "KXFED-27MAR-T6.00",
+    "KXFED-27MAR-T5.75",
+    "KXFED-27MAR-T5.50",
+    "KXFED-27MAR-T5.25",
+    "KXFED-27MAR-T5.00",
+    "KXFED-27MAR-T4.75",
+    "KXFED-27MAR-T4.50",
+    "KXFED-27JAN-T6.00",
+    "KXFED-27JAN-T5.75",
+    "KXFED-27JAN-T5.50",
+    "KXFED-27JAN-T5.25",
+    "KXFED-27JAN-T5.00",
+    "KXFED-27JAN-T4.75",
+    "KXFED-27JAN-T4.50",
+    "KXFED-28JAN-T6.00",
+    "KXFED-28JAN-T5.75",
+    "KXFED-28JAN-T5.50",
+    "KXFED-28JAN-T5.25",
+    "KXFED-28JAN-T5.00",
+    "KXFED-28JAN-T4.75",
+    "KXFED-28JAN-T4.50",
+    "KXFED-28JAN-T4.25",
+    "KXFED-28JAN-T4.00",
+    "KXFED-28JAN-T3.75",
+    "KXFED-28JAN-T3.50",
+    "KXFED-28JAN-T2.00",
+    "KXFED-28JAN-T1.00",
+    "KXFED-28JAN-T0.75",
+    "KXFED-28JAN-T0.50",
+    "KXFED-28JAN-T0.25",
+    "KXFED-28JAN-T0.00",
+    "KXFED-27DEC-T6.00",
+    "KXFED-27DEC-T5.75",
+    "KXFED-27DEC-T5.50",
+    "KXFED-27DEC-T5.25",
+    "KXFED-27DEC-T5.00",
+    "KXFED-27DEC-T4.75",
+    "KXFED-27DEC-T4.50",
+    "KXFED-27DEC-T4.25",
+    "KXFED-27DEC-T4.00",
+    "KXFED-27DEC-T3.75",
+    "KXFED-27DEC-T3.50",
+    "KXFED-27DEC-T3.25",
+    "KXFED-27DEC-T3.00",
+    "KXFED-27DEC-T2.75",
+    "KXFED-27DEC-T2.50",
+    "KXFED-27DEC-T2.25",
+    "KXFED-27DEC-T2.00",
+    "KXFED-27DEC-T1.75",
+    "KXFED-27DEC-T1.50",
+    "KXFED-27DEC-T1.25",
+    "KXFED-27DEC-T1.00",
+    "KXFED-27DEC-T0.75",
+    "KXFED-27DEC-T0.50",
+    "KXFED-27DEC-T0.25",
+    "KXFED-27DEC-T0.00",
+    "KXFED-27OCT-T6.00",
+    "KXFED-27OCT-T5.75",
+    "KXFED-27OCT-T5.50",
+    "KXFED-27OCT-T5.25",
+    "KXFED-27OCT-T5.00",
+    "KXFED-27OCT-T4.75",
+    "KXFED-27OCT-T4.50",
+    "KXFED-27OCT-T4.25",
+    "KXFED-27OCT-T4.00",
+    "KXFED-27OCT-T3.75",
+    "KXFED-27OCT-T3.50",
+    "KXFED-27OCT-T3.25",
+    "KXFED-27OCT-T3.00",
+    "KXFED-27OCT-T2.75",
+    "KXFED-27OCT-T2.50",
+    "KXFED-27OCT-T2.25",
+    "KXFED-27OCT-T2.00",
+    "KXFED-27OCT-T1.75",
+    "KXFED-27OCT-T1.50",
+    "KXFED-27OCT-T1.25",
+    "KXFED-27OCT-T1.00",
+    "KXFED-27OCT-T0.75",
+    "KXFED-27OCT-T0.50",
+    "KXFED-27OCT-T0.25",
+    "KXFED-27OCT-T0.00",
+    "KXFED-27SEP-T6.00",
+    "KXFED-27SEP-T5.75",
+    "KXFED-27SEP-T5.50",
+    "KXFED-27SEP-T5.25",
+    "KXFED-27SEP-T5.00",
+    "KXFED-27SEP-T4.75",
+    "KXFED-27SEP-T4.50",
+    "KXFED-27SEP-T4.25",
+    "KXFED-27SEP-T4.00",
+    "KXFED-27SEP-T3.75",
+    "KXFED-27SEP-T3.50",
+    "KXFED-27SEP-T3.25",
+    "KXFED-27SEP-T3.00",
+    "KXFED-27SEP-T2.75",
+    "KXFED-27SEP-T2.50",
+    "KXFED-27SEP-T2.25",
+    "KXFED-27SEP-T2.00",
+    "KXFED-27SEP-T1.75",
+    "KXFED-27SEP-T1.50",
+    "KXFED-27SEP-T1.25",
+    "KXFED-27SEP-T1.00",
+    "KXFED-27SEP-T0.75",
+    "KXFED-27SEP-T0.50",
+    "KXFED-27SEP-T0.25",
+    "KXFED-27SEP-T0.00",
+    "KXFED-27JUL-T6.00",
+    "KXFED-27JUL-T5.75",
+    "KXFED-27JUL-T5.50",
+    "KXFED-27JUL-T5.25",
+    "KXFED-27JUL-T5.00",
+    "KXFED-27JUL-T4.75",
+    "KXFED-27JUL-T4.50",
+    "KXFED-27JUL-T4.25",
+    "KXFED-27JUL-T4.00",
+    "KXFED-27JUL-T3.75",
+    "KXFED-27JUL-T3.50",
+    "KXFED-27JUL-T3.25",
+    "KXFED-27JUL-T3.00",
+    "KXFED-27JUL-T2.75",
+    "KXFED-27JUL-T2.50",
+    "KXFED-27JUL-T2.25",
+    "KXFED-27JUL-T2.00",
+    "KXFED-27JUL-T1.75",
+    "KXFED-27JUL-T1.50",
+    "KXFED-27JUL-T1.25",
+    "KXFED-27JUL-T1.00",
+    "KXFED-27JUL-T0.75",
+    "KXFED-27JUL-T0.50",
+    "KXFED-27JUL-T0.25",
+    "KXFED-27JUL-T0.00",
+    "KXFED-27JUN-T6.00",
+    "KXFED-27JUN-T5.75",
+    "KXFED-27JUN-T5.50",
+    "KXFED-27JUN-T5.25",
+    "KXFED-27JUN-T5.00",
+    "KXFED-27JUN-T4.75",
+    "KXFED-27JUN-T4.50",
+    "KXFED-27JUN-T4.25",
+    "KXFED-27JUN-T4.00",
+    "KXFED-27JUN-T3.75",
+    "KXFED-27JUN-T3.50",
+    "KXFED-27JUN-T3.25",
+    "KXFED-27JUN-T3.00",
+    "KXFED-27JUN-T2.75",
+    "KXFED-27JUN-T2.50",
+    "KXFED-27JUN-T2.25",
+    "KXFED-27JUN-T2.00",
+    "KXFED-27JUN-T1.75",
+    "KXFED-27JUN-T1.50",
+    "KXFED-27JUN-T1.25",
+    "KXFED-27JUN-T1.00",
+    "KXFED-27JUN-T0.75",
+    "KXFED-27JUN-T0.50",
+    "KXFED-27JUN-T0.25",
+    "KXFED-27JUN-T0.00",
+    "KXFED-27APR-T4.25",
+    "KXFED-27APR-T4.00",
+    "KXFED-27APR-T3.75",
+    "KXFED-27APR-T3.50",
+    "KXFED-27APR-T3.25",
+    "KXFED-27APR-T3.00",
+    "KXFED-27APR-T2.75",
+    "KXFED-27APR-T2.50",
+    "KXFED-27APR-T2.25",
+    "KXFED-27APR-T2.00",
+    "KXFED-27APR-T1.75",
+    "KXFED-27APR-T1.50",
+    "KXFED-27APR-T1.25",
+    "KXFED-27APR-T1.00",
+    "KXFED-27APR-T0.75",
+    "KXFED-27APR-T0.50",
+    "KXFED-27APR-T0.25",
+    "KXFED-27APR-T0.00",
+    "KXFED-27MAR-T4.25",
+    "KXFED-27MAR-T4.00",
+    "KXFED-27MAR-T3.75",
+    "KXFED-27MAR-T3.50",
+    "KXFED-27MAR-T3.25",
+    "KXFED-27MAR-T3.00",
+    "KXFED-27MAR-T2.75",
+    "KXFED-27MAR-T2.50",
+    "KXFED-27MAR-T2.25",
+    "KXFED-27MAR-T2.00",
+    "KXFED-27MAR-T1.75",
+    "KXFED-27MAR-T1.50",
+    "KXFED-27MAR-T1.25",
+    "KXFED-27MAR-T1.00",
+    "KXFED-27MAR-T0.75",
+    "KXFED-27MAR-T0.50",
+    "KXFED-27MAR-T0.25",
+    "KXFED-27MAR-T0.00",
+    "KXFED-27JAN-T4.25",
+    "KXFED-27JAN-T4.00",
+    "KXFED-27JAN-T3.75",
+    "KXFED-27JAN-T3.50",
+    "KXFED-27JAN-T3.25",
+    "KXFED-27JAN-T3.00",
+    "KXFED-27JAN-T2.75",
+    "KXFED-27JAN-T2.50",
+    "KXFED-27JAN-T2.25",
+    "KXFED-27JAN-T2.00",
+    "KXFED-27JAN-T1.75",
+    "KXFED-27JAN-T1.50",
+    "KXFED-27JAN-T1.25",
+    "KXFED-27JAN-T1.00",
+    "KXFED-27JAN-T0.75",
+    "KXFED-27JAN-T0.50",
+    "KXFED-27JAN-T0.25",
+    "KXFED-27JAN-T0.00",
+    "KXFED-26DEC-T5.25",
+    "KXFED-26DEC-T5.00",
+    "KXFED-26DEC-T4.75",
+    "KXFED-26DEC-T4.50",
+    "KXFED-26DEC-T4.25",
+    "KXFED-26DEC-T4.00",
+    "KXFED-26DEC-T3.75",
+    "KXFED-26DEC-T3.50",
+    "KXFED-26DEC-T3.25",
+    "KXFED-26DEC-T3.00",
+    "KXFED-26DEC-T2.75",
+    "KXFED-26OCT-T5.25",
+    "KXFED-26OCT-T5.00",
+    "KXFED-26OCT-T4.75",
+    "KXFED-26OCT-T4.50",
+    "KXFED-26OCT-T4.25",
+    "KXFED-26OCT-T4.00",
+    "KXFED-26OCT-T3.75",
+    "KXFED-26OCT-T3.50",
+    "KXFED-26OCT-T3.25",
+    "KXFED-26OCT-T3.00",
+    "KXFED-26OCT-T2.75",
+    "KXCPI-26NOV-T-0.3",
+    "KXCPI-26NOV-T-0.2",
+    "KXCPI-26OCT-T1.0",
+    "KXCPI-26OCT-T0.9",
+    "KXCPI-26OCT-T0.8",
+    "KXCPI-26OCT-T0.7",
+    "KXCPI-26OCT-T0.6",
+    "KXCPI-26DEC-T0.9",
+    "KXCPI-26DEC-T0.8",
+    "KXCPI-26DEC-T0.7",
+    "KXCPI-26DEC-T0.6",
+    "KXCPI-26DEC-T0.5",
+    "KXCPI-26DEC-T0.4",
+    "KXCPI-26DEC-T0.3",
+    "KXCPI-26DEC-T0.2",
+    "KXCPI-26DEC-T0.1",
+    "KXCPI-26DEC-T-0.1",
+    "KXCPI-26DEC-T0.0",
+    "KXCPI-26SEP-T0.9",
+    "KXCPI-26SEP-T0.8",
+    "KXCPI-26SEP-T0.7",
+    "KXCPI-26SEP-T0.6",
+    "KXCPI-26SEP-T-0.4",
+    "KXCPI-26SEP-T-0.3",
+    "KXCPI-26SEP-T-0.2",
+    "KXCPI-26NOV-T0.5",
+    "KXCPI-26NOV-T0.4",
+    "KXCPI-26NOV-T0.3",
+    "KXCPI-26NOV-T0.2",
+    "KXCPI-26NOV-T0.1",
+    "KXCPI-26NOV-T-0.1",
+    "KXCPI-26NOV-T0.0",
+    "KXCPI-26OCT-T0.5",
+    "KXCPI-26OCT-T0.4",
+    "KXCPI-26OCT-T0.3",
+    "KXCPI-26OCT-T0.2",
+    "KXCPI-26OCT-T0.1",
+    "KXCPI-26OCT-T-0.1",
+    "KXCPI-26OCT-T0.0",
+    "KXCPI-26SEP-T0.5",
+    "KXCPI-26SEP-T0.4",
+    "KXCPI-26SEP-T0.3",
+    "KXCPI-26SEP-T0.2",
+    "KXCPI-26SEP-T0.1",
+    "KXCPI-26SEP-T-0.1",
+    "KXCPI-26SEP-T0.0"
+   ],
+   "gaps": [
+    "KXFED-28JAN-T3.25",
+    "KXFED-28JAN-T3.00",
+    "KXFED-28JAN-T2.75",
+    "KXFED-28JAN-T2.50",
+    "KXFED-28JAN-T2.25",
+    "KXFED-28JAN-T1.75",
+    "KXFED-28JAN-T1.50",
+    "KXFED-28JAN-T1.25"
+   ],
+   "deselected": []
+  },
+  {
+   "event_id": "hormuz_tanker_mines",
+   "t0_utc": "2026-11-18",
+   "cell": "unscheduled_macro",
+   "category": "unscheduled_macro",
+   "series": [
+    "KXCPI",
+    "KXCPICORE",
+    "KXFED"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXCPI-26NOV-T-0.3",
+    "KXCPI-26NOV-T-0.2",
+    "KXCPI-26OCT-T1.0",
+    "KXCPI-26OCT-T0.9",
+    "KXCPI-26OCT-T0.8",
+    "KXCPI-26OCT-T0.7",
+    "KXCPI-26OCT-T0.6",
+    "KXCPI-26DEC-T0.9",
+    "KXCPI-26DEC-T0.8",
+    "KXCPI-26DEC-T0.7",
+    "KXCPI-26DEC-T0.6",
+    "KXCPI-26DEC-T0.5",
+    "KXCPI-26DEC-T0.4",
+    "KXCPI-26DEC-T0.3",
+    "KXCPI-26DEC-T0.2",
+    "KXCPI-26DEC-T0.1",
+    "KXCPI-26DEC-T-0.1",
+    "KXCPI-26DEC-T0.0",
+    "KXCPI-26SEP-T0.9",
+    "KXCPI-26SEP-T0.8",
+    "KXCPI-26SEP-T0.7",
+    "KXCPI-26SEP-T0.6",
+    "KXCPI-26SEP-T-0.4",
+    "KXCPI-26SEP-T-0.3",
+    "KXCPI-26SEP-T-0.2",
+    "KXCPI-26NOV-T0.5",
+    "KXCPI-26NOV-T0.4",
+    "KXCPI-26NOV-T0.3",
+    "KXCPI-26NOV-T0.2",
+    "KXCPI-26NOV-T0.1",
+    "KXCPI-26NOV-T-0.1",
+    "KXCPI-26NOV-T0.0",
+    "KXCPI-26OCT-T0.5",
+    "KXCPI-26OCT-T0.4",
+    "KXCPI-26OCT-T0.3",
+    "KXCPI-26OCT-T0.2",
+    "KXCPI-26OCT-T0.1",
+    "KXCPI-26OCT-T-0.1",
+    "KXCPI-26OCT-T0.0",
+    "KXCPI-26SEP-T0.5",
+    "KXCPI-26SEP-T0.4",
+    "KXCPI-26SEP-T0.3",
+    "KXCPI-26SEP-T0.2",
+    "KXCPI-26SEP-T0.1",
+    "KXCPI-26SEP-T-0.1",
+    "KXCPI-26SEP-T0.0",
+    "KXCPICORE-26DEC-T1.0",
+    "KXCPICORE-26DEC-T0.9",
+    "KXCPICORE-26DEC-T0.8",
+    "KXCPICORE-26DEC-T0.7",
+    "KXCPICORE-26DEC-T0.6",
+    "KXCPICORE-26DEC-T0.5",
+    "KXCPICORE-26DEC-T0.4",
+    "KXCPICORE-26DEC-T0.3",
+    "KXCPICORE-26DEC-T0.2",
+    "KXCPICORE-26DEC-T0.1",
+    "KXCPICORE-26DEC-T0.0",
+    "KXCPICORE-26NOV-T1.0",
+    "KXCPICORE-26NOV-T0.9",
+    "KXCPICORE-26NOV-T0.8",
+    "KXCPICORE-26NOV-T0.7",
+    "KXCPICORE-26NOV-T0.6",
+    "KXCPICORE-26NOV-T0.5",
+    "KXCPICORE-26NOV-T0.4",
+    "KXCPICORE-26NOV-T0.3",
+    "KXCPICORE-26NOV-T0.2",
+    "KXCPICORE-26NOV-T0.1",
+    "KXCPICORE-26NOV-T0.0",
+    "KXCPICORE-26OCT-T1.0",
+    "KXCPICORE-26OCT-T0.9",
+    "KXCPICORE-26OCT-T0.8",
+    "KXCPICORE-26OCT-T0.7",
+    "KXCPICORE-26OCT-T0.6",
+    "KXCPICORE-26OCT-T0.5",
+    "KXCPICORE-26OCT-T0.4",
+    "KXCPICORE-26OCT-T0.3",
+    "KXCPICORE-26OCT-T0.2",
+    "KXCPICORE-26OCT-T0.1",
+    "KXCPICORE-26OCT-T0.0",
+    "KXCPICORE-26SEP-T1.0",
+    "KXCPICORE-26SEP-T0.9",
+    "KXCPICORE-26SEP-T0.8",
+    "KXCPICORE-26SEP-T0.7",
+    "KXCPICORE-26SEP-T0.6",
+    "KXCPICORE-26SEP-T0.5",
+    "KXCPICORE-26SEP-T0.4",
+    "KXCPICORE-26SEP-T0.3",
+    "KXCPICORE-26SEP-T0.2",
+    "KXCPICORE-26SEP-T0.1",
+    "KXCPICORE-26SEP-T0.0",
+    "KXFED-27APR-T6.00",
+    "KXFED-27APR-T5.75",
+    "KXFED-27APR-T5.50",
+    "KXFED-27APR-T5.25",
+    "KXFED-27APR-T5.00",
+    "KXFED-27APR-T4.75",
+    "KXFED-27APR-T4.50",
+    "KXFED-27MAR-T6.00",
+    "KXFED-27MAR-T5.75",
+    "KXFED-27MAR-T5.50",
+    "KXFED-27MAR-T5.25",
+    "KXFED-27MAR-T5.00",
+    "KXFED-27MAR-T4.75",
+    "KXFED-27MAR-T4.50",
+    "KXFED-27JAN-T6.00",
+    "KXFED-27JAN-T5.75",
+    "KXFED-27JAN-T5.50",
+    "KXFED-27JAN-T5.25",
+    "KXFED-27JAN-T5.00",
+    "KXFED-27JAN-T4.75",
+    "KXFED-27JAN-T4.50",
+    "KXFED-28JAN-T6.00",
+    "KXFED-28JAN-T5.75",
+    "KXFED-28JAN-T5.50",
+    "KXFED-28JAN-T5.25",
+    "KXFED-28JAN-T5.00",
+    "KXFED-28JAN-T4.75",
+    "KXFED-28JAN-T4.50",
+    "KXFED-28JAN-T4.25",
+    "KXFED-28JAN-T4.00",
+    "KXFED-28JAN-T3.75",
+    "KXFED-28JAN-T3.50",
+    "KXFED-28JAN-T2.00",
+    "KXFED-28JAN-T1.00",
+    "KXFED-28JAN-T0.75",
+    "KXFED-28JAN-T0.50",
+    "KXFED-28JAN-T0.25",
+    "KXFED-28JAN-T0.00",
+    "KXFED-27DEC-T6.00",
+    "KXFED-27DEC-T5.75",
+    "KXFED-27DEC-T5.50",
+    "KXFED-27DEC-T5.25",
+    "KXFED-27DEC-T5.00",
+    "KXFED-27DEC-T4.75",
+    "KXFED-27DEC-T4.50",
+    "KXFED-27DEC-T4.25",
+    "KXFED-27DEC-T4.00",
+    "KXFED-27DEC-T3.75",
+    "KXFED-27DEC-T3.50",
+    "KXFED-27DEC-T3.25",
+    "KXFED-27DEC-T3.00",
+    "KXFED-27DEC-T2.75",
+    "KXFED-27DEC-T2.50",
+    "KXFED-27DEC-T2.25",
+    "KXFED-27DEC-T2.00",
+    "KXFED-27DEC-T1.75",
+    "KXFED-27DEC-T1.50",
+    "KXFED-27DEC-T1.25",
+    "KXFED-27DEC-T1.00",
+    "KXFED-27DEC-T0.75",
+    "KXFED-27DEC-T0.50",
+    "KXFED-27DEC-T0.25",
+    "KXFED-27DEC-T0.00",
+    "KXFED-27OCT-T6.00",
+    "KXFED-27OCT-T5.75",
+    "KXFED-27OCT-T5.50",
+    "KXFED-27OCT-T5.25",
+    "KXFED-27OCT-T5.00",
+    "KXFED-27OCT-T4.75",
+    "KXFED-27OCT-T4.50",
+    "KXFED-27OCT-T4.25",
+    "KXFED-27OCT-T4.00",
+    "KXFED-27OCT-T3.75",
+    "KXFED-27OCT-T3.50",
+    "KXFED-27OCT-T3.25",
+    "KXFED-27OCT-T3.00",
+    "KXFED-27OCT-T2.75",
+    "KXFED-27OCT-T2.50",
+    "KXFED-27OCT-T2.25",
+    "KXFED-27OCT-T2.00",
+    "KXFED-27OCT-T1.75",
+    "KXFED-27OCT-T1.50",
+    "KXFED-27OCT-T1.25",
+    "KXFED-27OCT-T1.00",
+    "KXFED-27OCT-T0.75",
+    "KXFED-27OCT-T0.50",
+    "KXFED-27OCT-T0.25",
+    "KXFED-27OCT-T0.00",
+    "KXFED-27SEP-T6.00",
+    "KXFED-27SEP-T5.75",
+    "KXFED-27SEP-T5.50",
+    "KXFED-27SEP-T5.25",
+    "KXFED-27SEP-T5.00",
+    "KXFED-27SEP-T4.75",
+    "KXFED-27SEP-T4.50",
+    "KXFED-27SEP-T4.25",
+    "KXFED-27SEP-T4.00",
+    "KXFED-27SEP-T3.75",
+    "KXFED-27SEP-T3.50",
+    "KXFED-27SEP-T3.25",
+    "KXFED-27SEP-T3.00",
+    "KXFED-27SEP-T2.75",
+    "KXFED-27SEP-T2.50",
+    "KXFED-27SEP-T2.25",
+    "KXFED-27SEP-T2.00",
+    "KXFED-27SEP-T1.75",
+    "KXFED-27SEP-T1.50",
+    "KXFED-27SEP-T1.25",
+    "KXFED-27SEP-T1.00",
+    "KXFED-27SEP-T0.75",
+    "KXFED-27SEP-T0.50",
+    "KXFED-27SEP-T0.25",
+    "KXFED-27SEP-T0.00",
+    "KXFED-27JUL-T6.00",
+    "KXFED-27JUL-T5.75",
+    "KXFED-27JUL-T5.50",
+    "KXFED-27JUL-T5.25",
+    "KXFED-27JUL-T5.00",
+    "KXFED-27JUL-T4.75",
+    "KXFED-27JUL-T4.50",
+    "KXFED-27JUL-T4.25",
+    "KXFED-27JUL-T4.00",
+    "KXFED-27JUL-T3.75",
+    "KXFED-27JUL-T3.50",
+    "KXFED-27JUL-T3.25",
+    "KXFED-27JUL-T3.00",
+    "KXFED-27JUL-T2.75",
+    "KXFED-27JUL-T2.50",
+    "KXFED-27JUL-T2.25",
+    "KXFED-27JUL-T2.00",
+    "KXFED-27JUL-T1.75",
+    "KXFED-27JUL-T1.50",
+    "KXFED-27JUL-T1.25",
+    "KXFED-27JUL-T1.00",
+    "KXFED-27JUL-T0.75",
+    "KXFED-27JUL-T0.50",
+    "KXFED-27JUL-T0.25",
+    "KXFED-27JUL-T0.00",
+    "KXFED-27JUN-T6.00",
+    "KXFED-27JUN-T5.75",
+    "KXFED-27JUN-T5.50",
+    "KXFED-27JUN-T5.25",
+    "KXFED-27JUN-T5.00",
+    "KXFED-27JUN-T4.75",
+    "KXFED-27JUN-T4.50",
+    "KXFED-27JUN-T4.25",
+    "KXFED-27JUN-T4.00",
+    "KXFED-27JUN-T3.75",
+    "KXFED-27JUN-T3.50",
+    "KXFED-27JUN-T3.25",
+    "KXFED-27JUN-T3.00",
+    "KXFED-27JUN-T2.75",
+    "KXFED-27JUN-T2.50",
+    "KXFED-27JUN-T2.25",
+    "KXFED-27JUN-T2.00",
+    "KXFED-27JUN-T1.75",
+    "KXFED-27JUN-T1.50",
+    "KXFED-27JUN-T1.25",
+    "KXFED-27JUN-T1.00",
+    "KXFED-27JUN-T0.75",
+    "KXFED-27JUN-T0.50",
+    "KXFED-27JUN-T0.25",
+    "KXFED-27JUN-T0.00",
+    "KXFED-27APR-T4.25",
+    "KXFED-27APR-T4.00",
+    "KXFED-27APR-T3.75",
+    "KXFED-27APR-T3.50",
+    "KXFED-27APR-T3.25",
+    "KXFED-27APR-T3.00",
+    "KXFED-27APR-T2.75",
+    "KXFED-27APR-T2.50",
+    "KXFED-27APR-T2.25",
+    "KXFED-27APR-T2.00",
+    "KXFED-27APR-T1.75",
+    "KXFED-27APR-T1.50",
+    "KXFED-27APR-T1.25",
+    "KXFED-27APR-T1.00",
+    "KXFED-27APR-T0.75",
+    "KXFED-27APR-T0.50",
+    "KXFED-27APR-T0.25",
+    "KXFED-27APR-T0.00",
+    "KXFED-27MAR-T4.25",
+    "KXFED-27MAR-T4.00",
+    "KXFED-27MAR-T3.75",
+    "KXFED-27MAR-T3.50",
+    "KXFED-27MAR-T3.25",
+    "KXFED-27MAR-T3.00",
+    "KXFED-27MAR-T2.75",
+    "KXFED-27MAR-T2.50",
+    "KXFED-27MAR-T2.25",
+    "KXFED-27MAR-T2.00",
+    "KXFED-27MAR-T1.75",
+    "KXFED-27MAR-T1.50",
+    "KXFED-27MAR-T1.25",
+    "KXFED-27MAR-T1.00",
+    "KXFED-27MAR-T0.75",
+    "KXFED-27MAR-T0.50",
+    "KXFED-27MAR-T0.25",
+    "KXFED-27MAR-T0.00",
+    "KXFED-27JAN-T4.25",
+    "KXFED-27JAN-T4.00",
+    "KXFED-27JAN-T3.75",
+    "KXFED-27JAN-T3.50",
+    "KXFED-27JAN-T3.25",
+    "KXFED-27JAN-T3.00",
+    "KXFED-27JAN-T2.75",
+    "KXFED-27JAN-T2.50",
+    "KXFED-27JAN-T2.25",
+    "KXFED-27JAN-T2.00",
+    "KXFED-27JAN-T1.75",
+    "KXFED-27JAN-T1.50",
+    "KXFED-27JAN-T1.25",
+    "KXFED-27JAN-T1.00",
+    "KXFED-27JAN-T0.75",
+    "KXFED-27JAN-T0.50",
+    "KXFED-27JAN-T0.25",
+    "KXFED-27JAN-T0.00",
+    "KXFED-26DEC-T5.25",
+    "KXFED-26DEC-T5.00",
+    "KXFED-26DEC-T4.75",
+    "KXFED-26DEC-T4.50",
+    "KXFED-26DEC-T4.25",
+    "KXFED-26DEC-T4.00",
+    "KXFED-26DEC-T3.75",
+    "KXFED-26DEC-T3.50",
+    "KXFED-26DEC-T3.25",
+    "KXFED-26DEC-T3.00",
+    "KXFED-26DEC-T2.75",
+    "KXFED-26OCT-T5.25",
+    "KXFED-26OCT-T5.00",
+    "KXFED-26OCT-T4.75",
+    "KXFED-26OCT-T4.50",
+    "KXFED-26OCT-T4.25",
+    "KXFED-26OCT-T4.00",
+    "KXFED-26OCT-T3.75",
+    "KXFED-26OCT-T3.50",
+    "KXFED-26OCT-T3.25",
+    "KXFED-26OCT-T3.00",
+    "KXFED-26OCT-T2.75"
+   ],
+   "gaps": [
+    "KXFED-28JAN-T3.25",
+    "KXFED-28JAN-T3.00",
+    "KXFED-28JAN-T2.75",
+    "KXFED-28JAN-T2.50",
+    "KXFED-28JAN-T2.25",
+    "KXFED-28JAN-T1.75",
+    "KXFED-28JAN-T1.50",
+    "KXFED-28JAN-T1.25"
+   ],
+   "deselected": []
+  },
+  {
+   "event_id": "nvda_earnings_q3_xd",
+   "t0_utc": "2026-11-17",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-MIN",
+    "KXNBA-27-GSW",
+    "KXNBA-27-PHI",
+    "KXNBA-27-DAL",
+    "KXNBA-27-HOU",
+    "KXNBA-27-LAL",
+    "KXNBA-27-MIA",
+    "KXNBA-27-POR",
+    "KXSB-27-MIN",
+    "KXSB-27-CHI",
+    "KXSB-27-SF",
+    "KXSB-27-GB",
+    "KXSB-27-LAR",
+    "KXSB-27-NYG",
+    "KXSB-27-HOU",
+    "KXSB-27-ATL"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 2263763.48
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 1919366.73
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 1705357.57
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 1558329.34
+    },
+    {
+     "ticker": "KXNBA-27-SAS",
+     "series": "KXNBA",
+     "window_volume": 1514113.0
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 1253128.27
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 1249581.03
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 1093998.42
+    },
+    {
+     "ticker": "KXNBA-27-NYK",
+     "series": "KXNBA",
+     "window_volume": 777799.98
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 731961.46
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 386756.47
+    },
+    {
+     "ticker": "KXNBA-27-ORL",
+     "series": "KXNBA",
+     "window_volume": 376386.05
+    },
+    {
+     "ticker": "KXNBA-27-MEM",
+     "series": "KXNBA",
+     "window_volume": 308145.54
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 142129.23
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 99044.81
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 56270.16
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 37786.39
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 21094.84
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 19681.8
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 19108.4
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 15055.78
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 3530.51
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 5767020.73
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 5338236.37
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 5198701.49
+    },
+    {
+     "ticker": "KXSB-27-DAL",
+     "series": "KXSB",
+     "window_volume": 4953933.44
+    },
+    {
+     "ticker": "KXSB-27-BUF",
+     "series": "KXSB",
+     "window_volume": 4371507.96
+    },
+    {
+     "ticker": "KXSB-27-CIN",
+     "series": "KXSB",
+     "window_volume": 4337308.72
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 3916543.46
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 3766418.2
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 2851123.46
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 2465500.29
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2441755.52
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 2030661.13
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 1996308.58
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 1640111.13
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 1606975.79
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 1430656.48
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 648266.6
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 257879.16
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 204912.57
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 164838.39
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 70177.7
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 32329.36
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 30813.77
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 5499.63
+    }
+   ]
+  },
+  {
+   "event_id": "hormuz_tanker_mines_xd",
+   "t0_utc": "2026-11-18",
+   "cell": "unscheduled_macro",
+   "category": "crossdomain_sports_basket",
+   "series": [
+    "KXNBA",
+    "KXSB"
+   ],
+   "opts": {
+    "select": "top_volume",
+    "top_n": 8
+   },
+   "tickers": [
+    "KXNBA-27-MIN",
+    "KXNBA-27-GSW",
+    "KXNBA-27-PHI",
+    "KXNBA-27-DAL",
+    "KXNBA-27-HOU",
+    "KXNBA-27-LAL",
+    "KXNBA-27-MIA",
+    "KXNBA-27-POR",
+    "KXSB-27-MIN",
+    "KXSB-27-CHI",
+    "KXSB-27-SF",
+    "KXSB-27-GB",
+    "KXSB-27-LAR",
+    "KXSB-27-NYG",
+    "KXSB-27-HOU",
+    "KXSB-27-ATL"
+   ],
+   "gaps": [],
+   "deselected": [
+    {
+     "ticker": "KXNBA-27-BOS",
+     "series": "KXNBA",
+     "window_volume": 2262356.23
+    },
+    {
+     "ticker": "KXNBA-27-OKC",
+     "series": "KXNBA",
+     "window_volume": 1918798.17
+    },
+    {
+     "ticker": "KXNBA-27-DET",
+     "series": "KXNBA",
+     "window_volume": 1634875.6
+    },
+    {
+     "ticker": "KXNBA-27-ATL",
+     "series": "KXNBA",
+     "window_volume": 1555159.25
+    },
+    {
+     "ticker": "KXNBA-27-SAS",
+     "series": "KXNBA",
+     "window_volume": 1511234.23
+    },
+    {
+     "ticker": "KXNBA-27-CLE",
+     "series": "KXNBA",
+     "window_volume": 1251723.66
+    },
+    {
+     "ticker": "KXNBA-27-IND",
+     "series": "KXNBA",
+     "window_volume": 1199034.83
+    },
+    {
+     "ticker": "KXNBA-27-TOR",
+     "series": "KXNBA",
+     "window_volume": 1093280.65
+    },
+    {
+     "ticker": "KXNBA-27-NYK",
+     "series": "KXNBA",
+     "window_volume": 774353.98
+    },
+    {
+     "ticker": "KXNBA-27-DEN",
+     "series": "KXNBA",
+     "window_volume": 730196.01
+    },
+    {
+     "ticker": "KXNBA-27-WAS",
+     "series": "KXNBA",
+     "window_volume": 382359.79
+    },
+    {
+     "ticker": "KXNBA-27-ORL",
+     "series": "KXNBA",
+     "window_volume": 375411.92
+    },
+    {
+     "ticker": "KXNBA-27-MEM",
+     "series": "KXNBA",
+     "window_volume": 308145.54
+    },
+    {
+     "ticker": "KXNBA-27-UTA",
+     "series": "KXNBA",
+     "window_volume": 141100.52
+    },
+    {
+     "ticker": "KXNBA-27-CHI",
+     "series": "KXNBA",
+     "window_volume": 99044.81
+    },
+    {
+     "ticker": "KXNBA-27-CHA",
+     "series": "KXNBA",
+     "window_volume": 55334.98
+    },
+    {
+     "ticker": "KXNBA-27-NOP",
+     "series": "KXNBA",
+     "window_volume": 37692.88
+    },
+    {
+     "ticker": "KXNBA-27-MIL",
+     "series": "KXNBA",
+     "window_volume": 19681.8
+    },
+    {
+     "ticker": "KXNBA-27-SAC",
+     "series": "KXNBA",
+     "window_volume": 18289.27
+    },
+    {
+     "ticker": "KXNBA-27-PHX",
+     "series": "KXNBA",
+     "window_volume": 17911.38
+    },
+    {
+     "ticker": "KXNBA-27-LAC",
+     "series": "KXNBA",
+     "window_volume": 15055.78
+    },
+    {
+     "ticker": "KXNBA-27-BKN",
+     "series": "KXNBA",
+     "window_volume": 3529.58
+    },
+    {
+     "ticker": "KXSB-27-JAC",
+     "series": "KXSB",
+     "window_volume": 5622199.06
+    },
+    {
+     "ticker": "KXSB-27-PIT",
+     "series": "KXSB",
+     "window_volume": 5335466.88
+    },
+    {
+     "ticker": "KXSB-27-KC",
+     "series": "KXSB",
+     "window_volume": 5127267.55
+    },
+    {
+     "ticker": "KXSB-27-DAL",
+     "series": "KXSB",
+     "window_volume": 4909465.01
+    },
+    {
+     "ticker": "KXSB-27-CIN",
+     "series": "KXSB",
+     "window_volume": 4328920.82
+    },
+    {
+     "ticker": "KXSB-27-BUF",
+     "series": "KXSB",
+     "window_volume": 4312850.03
+    },
+    {
+     "ticker": "KXSB-27-CAR",
+     "series": "KXSB",
+     "window_volume": 3746727.52
+    },
+    {
+     "ticker": "KXSB-27-SEA",
+     "series": "KXSB",
+     "window_volume": 3629463.71
+    },
+    {
+     "ticker": "KXSB-27-DEN",
+     "series": "KXSB",
+     "window_volume": 2841779.51
+    },
+    {
+     "ticker": "KXSB-27-NE",
+     "series": "KXSB",
+     "window_volume": 2447762.36
+    },
+    {
+     "ticker": "KXSB-27-DET",
+     "series": "KXSB",
+     "window_volume": 2438390.96
+    },
+    {
+     "ticker": "KXSB-27-PHI",
+     "series": "KXSB",
+     "window_volume": 1992698.23
+    },
+    {
+     "ticker": "KXSB-27-LV",
+     "series": "KXSB",
+     "window_volume": 1965727.96
+    },
+    {
+     "ticker": "KXSB-27-BAL",
+     "series": "KXSB",
+     "window_volume": 1620532.13
+    },
+    {
+     "ticker": "KXSB-27-TB",
+     "series": "KXSB",
+     "window_volume": 1606975.79
+    },
+    {
+     "ticker": "KXSB-27-CLE",
+     "series": "KXSB",
+     "window_volume": 1193508.32
+    },
+    {
+     "ticker": "KXSB-27-LAC",
+     "series": "KXSB",
+     "window_volume": 545809.96
+    },
+    {
+     "ticker": "KXSB-27-WAS",
+     "series": "KXSB",
+     "window_volume": 255290.59
+    },
+    {
+     "ticker": "KXSB-27-NO",
+     "series": "KXSB",
+     "window_volume": 199654.67
+    },
+    {
+     "ticker": "KXSB-27-IND",
+     "series": "KXSB",
+     "window_volume": 163663.47
+    },
+    {
+     "ticker": "KXSB-27-ARI",
+     "series": "KXSB",
+     "window_volume": 68186.15
+    },
+    {
+     "ticker": "KXSB-27-MIA",
+     "series": "KXSB",
+     "window_volume": 32329.36
+    },
+    {
+     "ticker": "KXSB-27-NYJ",
+     "series": "KXSB",
+     "window_volume": 30252.67
+    },
+    {
+     "ticker": "KXSB-27-TEN",
+     "series": "KXSB",
+     "window_volume": 5339.79
+    }
+   ]
+  },
+  {
+   "event_id": "wemby_extension",
+   "t0_utc": "2026-07-10",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_extension",
+   "series": [
+    "KXNBA"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXNBA-27-WAS",
+    "KXNBA-27-UTA",
+    "KXNBA-27-TOR",
+    "KXNBA-27-SAS",
+    "KXNBA-27-SAC",
+    "KXNBA-27-POR",
+    "KXNBA-27-PHX",
+    "KXNBA-27-PHI",
+    "KXNBA-27-ORL",
+    "KXNBA-27-OKC",
+    "KXNBA-27-NYK",
+    "KXNBA-27-NOP",
+    "KXNBA-27-MIN",
+    "KXNBA-27-MIL",
+    "KXNBA-27-MIA",
+    "KXNBA-27-MEM",
+    "KXNBA-27-LAL",
+    "KXNBA-27-LAC",
+    "KXNBA-27-IND",
+    "KXNBA-27-HOU",
+    "KXNBA-27-GSW",
+    "KXNBA-27-DET",
+    "KXNBA-27-DEN",
+    "KXNBA-27-DAL",
+    "KXNBA-27-CLE",
+    "KXNBA-27-CHI",
+    "KXNBA-27-CHA",
+    "KXNBA-27-BOS",
+    "KXNBA-27-BKN",
+    "KXNBA-27-ATL",
+    "KXNBA-26-SAS",
+    "KXNBA-26-OKC",
+    "KXNBA-26-NYK",
+    "KXNBA-26-CLE"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "mccarthy_to_giants",
+   "t0_utc": "2026-09-28",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_trade",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "harrison_to_texans",
+   "t0_utc": "2026-10-10",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_trade",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "buckner_to_49ers",
+   "t0_utc": "2026-10-27",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_trade",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "simmons_to_bears",
+   "t0_utc": "2026-10-29",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_trade",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "jaguars_davis_bates",
+   "t0_utc": "2026-11-09",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_trade",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "cousins_to_vikings",
+   "t0_utc": "2026-11-10",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_trade",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "downs_to_chiefs",
+   "t0_utc": "2026-11-10",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_trade",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  },
+  {
+   "event_id": "allen_to_49ers",
+   "t0_utc": "2026-11-10",
+   "cell": "unscheduled_sports",
+   "category": "unscheduled_sports_trade",
+   "series": [
+    "KXSB"
+   ],
+   "opts": {},
+   "tickers": [
+    "KXSB-27-WAS",
+    "KXSB-27-TEN",
+    "KXSB-27-TB",
+    "KXSB-27-SF",
+    "KXSB-27-SEA",
+    "KXSB-27-PIT",
+    "KXSB-27-PHI",
+    "KXSB-27-NYJ",
+    "KXSB-27-NYG",
+    "KXSB-27-NO",
+    "KXSB-27-NE",
+    "KXSB-27-MIN",
+    "KXSB-27-MIA",
+    "KXSB-27-LV",
+    "KXSB-27-LAR",
+    "KXSB-27-LAC",
+    "KXSB-27-KC",
+    "KXSB-27-JAC",
+    "KXSB-27-IND",
+    "KXSB-27-HOU",
+    "KXSB-27-GB",
+    "KXSB-27-DET",
+    "KXSB-27-DEN",
+    "KXSB-27-DAL",
+    "KXSB-27-CLE",
+    "KXSB-27-CIN",
+    "KXSB-27-CHI",
+    "KXSB-27-CAR",
+    "KXSB-27-BUF",
+    "KXSB-27-BAL",
+    "KXSB-27-ATL",
+    "KXSB-27-ARI"
+   ],
+   "gaps": [],
+   "deselected": []
+  }
+ ],
+ "tickers": {
+  "KXCPI-26SEP-T0.9": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.8": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.7": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.6": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T-0.4": {
+   "series": "KXCPI",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T-0.3": {
+   "series": "KXCPI",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T-0.2": {
+   "series": "KXCPI",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-07-20T18:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.5": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.4": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.3": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.2": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.1": {
+   "series": "KXCPI",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T-0.1": {
+   "series": "KXCPI",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPI-26SEP-T0.0": {
+   "series": "KXCPI",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-10-14T12:29:00Z"
+  },
+  "KXCPICORE-26SEP-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 3,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 2,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXCPICORE-26SEP-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T19:50:00Z",
+   "close_time": "2026-10-14T12:25:00Z"
+  },
+  "KXFED-26OCT-T5.25": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T5.00": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T4.75": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T4.50": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T4.25": {
+   "series": "KXFED",
+   "candles": 26,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T4.00": {
+   "series": "KXFED",
+   "candles": 26,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T3.75": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T3.50": {
+   "series": "KXFED",
+   "candles": 14,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T3.25": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T3.00": {
+   "series": "KXFED",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXFED-26OCT-T2.75": {
+   "series": "KXFED",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-10-28T17:55:00Z"
+  },
+  "KXCPI-26OCT-T1.0": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.9": {
+   "series": "KXCPI",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.8": {
+   "series": "KXCPI",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.7": {
+   "series": "KXCPI",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.6": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.5": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.4": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.3": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.2": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.1": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T-0.1": {
+   "series": "KXCPI",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPI-26OCT-T0.0": {
+   "series": "KXCPI",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-11-10T13:29:00Z"
+  },
+  "KXCPICORE-26OCT-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 31,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 31,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 36,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXCPICORE-26OCT-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "finalized",
+   "open_time": "2026-06-10T20:00:00Z",
+   "close_time": "2026-11-10T13:25:00Z"
+  },
+  "KXNBA-27-WAS": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-UTA": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-TOR": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-SAS": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-SAC": {
+   "series": "KXNBA",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-POR": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-PHX": {
+   "series": "KXNBA",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-PHI": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-ORL": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-OKC": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-NYK": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-NOP": {
+   "series": "KXNBA",
+   "candles": 28,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-MIN": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-MIL": {
+   "series": "KXNBA",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-MIA": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-MEM": {
+   "series": "KXNBA",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-LAL": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-LAC": {
+   "series": "KXNBA",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-IND": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-HOU": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-GSW": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-DET": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-DEN": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-DAL": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-CLE": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-CHI": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-CHA": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-BOS": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-BKN": {
+   "series": "KXNBA",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXNBA-27-ATL": {
+   "series": "KXNBA",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-14T08:00:00Z",
+   "close_time": "2029-07-30T14:00:00Z"
+  },
+  "KXSB-27-WAS": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-TEN": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-TB": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-SF": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-SEA": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-PIT": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-PHI": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-NYJ": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-NYG": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-NO": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-NE": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-MIN": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-MIA": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-LV": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-LAR": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-LAC": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-KC": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-JAC": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-IND": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-HOU": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-GB": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-DET": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-DEN": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-DAL": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-CLE": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-CIN": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-CHI": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-CAR": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-BUF": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-BAL": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-ATL": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXSB-27-ARI": {
+   "series": "KXSB",
+   "candles": 55,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-08T20:00:00Z",
+   "close_time": "2029-02-13T23:30:00Z"
+  },
+  "KXFED-27APR-T6.00": {
+   "series": "KXFED",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T5.75": {
+   "series": "KXFED",
+   "candles": 30,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T5.50": {
+   "series": "KXFED",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T5.25": {
+   "series": "KXFED",
+   "candles": 31,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T5.00": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T4.75": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T4.50": {
+   "series": "KXFED",
+   "candles": 45,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27MAR-T6.00": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T5.75": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T5.50": {
+   "series": "KXFED",
+   "candles": 41,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T5.25": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T5.00": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T4.75": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T4.50": {
+   "series": "KXFED",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27JAN-T6.00": {
+   "series": "KXFED",
+   "candles": 21,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T5.75": {
+   "series": "KXFED",
+   "candles": 29,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T5.50": {
+   "series": "KXFED",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T5.25": {
+   "series": "KXFED",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T5.00": {
+   "series": "KXFED",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T4.75": {
+   "series": "KXFED",
+   "candles": 31,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T4.50": {
+   "series": "KXFED",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-28JAN-T6.00": {
+   "series": "KXFED",
+   "candles": 4,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T5.75": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T5.50": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T5.25": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T5.00": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T4.75": {
+   "series": "KXFED",
+   "candles": 5,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T4.50": {
+   "series": "KXFED",
+   "candles": 4,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T4.25": {
+   "series": "KXFED",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T4.00": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T3.75": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T3.50": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T2.00": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T1.00": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T0.75": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T0.50": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T0.25": {
+   "series": "KXFED",
+   "candles": 1,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-28JAN-T0.00": {
+   "series": "KXFED",
+   "candles": 2,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2028-01-26T18:55:00Z"
+  },
+  "KXFED-27DEC-T6.00": {
+   "series": "KXFED",
+   "candles": 20,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T5.75": {
+   "series": "KXFED",
+   "candles": 23,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T5.50": {
+   "series": "KXFED",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T5.25": {
+   "series": "KXFED",
+   "candles": 6,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T5.00": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T4.75": {
+   "series": "KXFED",
+   "candles": 24,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T4.50": {
+   "series": "KXFED",
+   "candles": 21,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T4.25": {
+   "series": "KXFED",
+   "candles": 45,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T4.00": {
+   "series": "KXFED",
+   "candles": 23,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T3.75": {
+   "series": "KXFED",
+   "candles": 23,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T3.50": {
+   "series": "KXFED",
+   "candles": 21,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T3.25": {
+   "series": "KXFED",
+   "candles": 15,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T3.00": {
+   "series": "KXFED",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T2.75": {
+   "series": "KXFED",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T2.50": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T2.25": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T2.00": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T1.75": {
+   "series": "KXFED",
+   "candles": 21,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T1.50": {
+   "series": "KXFED",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T1.25": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T1.00": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T0.75": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T0.50": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T0.25": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27DEC-T0.00": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-12-08T18:55:00Z"
+  },
+  "KXFED-27OCT-T6.00": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T5.75": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T5.50": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T5.25": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T5.00": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T4.75": {
+   "series": "KXFED",
+   "candles": 23,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T4.50": {
+   "series": "KXFED",
+   "candles": 22,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T4.25": {
+   "series": "KXFED",
+   "candles": 21,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T4.00": {
+   "series": "KXFED",
+   "candles": 47,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T3.75": {
+   "series": "KXFED",
+   "candles": 29,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T3.50": {
+   "series": "KXFED",
+   "candles": 31,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T3.25": {
+   "series": "KXFED",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T3.00": {
+   "series": "KXFED",
+   "candles": 6,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T2.75": {
+   "series": "KXFED",
+   "candles": 6,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T2.50": {
+   "series": "KXFED",
+   "candles": 6,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T2.25": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T2.00": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T1.75": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T1.50": {
+   "series": "KXFED",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T1.25": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T1.00": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T0.75": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T0.50": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T0.25": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27OCT-T0.00": {
+   "series": "KXFED",
+   "candles": 12,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-10-27T17:55:00Z"
+  },
+  "KXFED-27SEP-T6.00": {
+   "series": "KXFED",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T5.75": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T5.50": {
+   "series": "KXFED",
+   "candles": 11,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T5.25": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T5.00": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T4.75": {
+   "series": "KXFED",
+   "candles": 29,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T4.50": {
+   "series": "KXFED",
+   "candles": 22,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T4.25": {
+   "series": "KXFED",
+   "candles": 25,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T4.00": {
+   "series": "KXFED",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T3.75": {
+   "series": "KXFED",
+   "candles": 17,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T3.50": {
+   "series": "KXFED",
+   "candles": 23,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T3.25": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T3.00": {
+   "series": "KXFED",
+   "candles": 4,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T2.75": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T2.50": {
+   "series": "KXFED",
+   "candles": 4,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T2.25": {
+   "series": "KXFED",
+   "candles": 4,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T2.00": {
+   "series": "KXFED",
+   "candles": 4,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T1.75": {
+   "series": "KXFED",
+   "candles": 4,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T1.50": {
+   "series": "KXFED",
+   "candles": 4,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T1.25": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T1.00": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T0.75": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T0.50": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T0.25": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27SEP-T0.00": {
+   "series": "KXFED",
+   "candles": 8,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-09-15T17:55:00Z"
+  },
+  "KXFED-27JUL-T6.00": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T5.75": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T5.50": {
+   "series": "KXFED",
+   "candles": 10,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T5.25": {
+   "series": "KXFED",
+   "candles": 14,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T5.00": {
+   "series": "KXFED",
+   "candles": 15,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T4.75": {
+   "series": "KXFED",
+   "candles": 13,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T4.50": {
+   "series": "KXFED",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T4.25": {
+   "series": "KXFED",
+   "candles": 27,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T4.00": {
+   "series": "KXFED",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T3.75": {
+   "series": "KXFED",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T3.50": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T3.25": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T3.00": {
+   "series": "KXFED",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T2.75": {
+   "series": "KXFED",
+   "candles": 15,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T2.50": {
+   "series": "KXFED",
+   "candles": 14,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T2.25": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T2.00": {
+   "series": "KXFED",
+   "candles": 14,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T1.75": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T1.50": {
+   "series": "KXFED",
+   "candles": 26,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T1.25": {
+   "series": "KXFED",
+   "candles": 14,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T1.00": {
+   "series": "KXFED",
+   "candles": 14,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T0.75": {
+   "series": "KXFED",
+   "candles": 20,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T0.50": {
+   "series": "KXFED",
+   "candles": 20,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T0.25": {
+   "series": "KXFED",
+   "candles": 20,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUL-T0.00": {
+   "series": "KXFED",
+   "candles": 21,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-07-28T17:55:00Z"
+  },
+  "KXFED-27JUN-T6.00": {
+   "series": "KXFED",
+   "candles": 28,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T5.75": {
+   "series": "KXFED",
+   "candles": 28,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T5.50": {
+   "series": "KXFED",
+   "candles": 30,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T5.25": {
+   "series": "KXFED",
+   "candles": 27,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T5.00": {
+   "series": "KXFED",
+   "candles": 30,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T4.75": {
+   "series": "KXFED",
+   "candles": 29,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T4.50": {
+   "series": "KXFED",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T4.25": {
+   "series": "KXFED",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T4.00": {
+   "series": "KXFED",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T3.75": {
+   "series": "KXFED",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T3.50": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T3.25": {
+   "series": "KXFED",
+   "candles": 40,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T3.00": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T2.75": {
+   "series": "KXFED",
+   "candles": 40,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T2.50": {
+   "series": "KXFED",
+   "candles": 40,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T2.25": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T2.00": {
+   "series": "KXFED",
+   "candles": 41,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T1.75": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T1.50": {
+   "series": "KXFED",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T1.25": {
+   "series": "KXFED",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T1.00": {
+   "series": "KXFED",
+   "candles": 31,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T0.75": {
+   "series": "KXFED",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T0.50": {
+   "series": "KXFED",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T0.25": {
+   "series": "KXFED",
+   "candles": 47,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27JUN-T0.00": {
+   "series": "KXFED",
+   "candles": 49,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T15:00:00Z",
+   "close_time": "2027-06-09T17:55:00Z"
+  },
+  "KXFED-27APR-T4.25": {
+   "series": "KXFED",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T4.00": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T3.75": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T3.50": {
+   "series": "KXFED",
+   "candles": 43,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T3.25": {
+   "series": "KXFED",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T3.00": {
+   "series": "KXFED",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T2.75": {
+   "series": "KXFED",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T2.50": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T2.25": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T2.00": {
+   "series": "KXFED",
+   "candles": 30,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T1.75": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T1.50": {
+   "series": "KXFED",
+   "candles": 33,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T1.25": {
+   "series": "KXFED",
+   "candles": 43,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T1.00": {
+   "series": "KXFED",
+   "candles": 48,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T0.75": {
+   "series": "KXFED",
+   "candles": 47,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T0.50": {
+   "series": "KXFED",
+   "candles": 51,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T0.25": {
+   "series": "KXFED",
+   "candles": 48,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27APR-T0.00": {
+   "series": "KXFED",
+   "candles": 47,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-04-28T17:55:00Z"
+  },
+  "KXFED-27MAR-T4.25": {
+   "series": "KXFED",
+   "candles": 48,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T4.00": {
+   "series": "KXFED",
+   "candles": 44,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T3.75": {
+   "series": "KXFED",
+   "candles": 44,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T3.50": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T3.25": {
+   "series": "KXFED",
+   "candles": 52,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T3.00": {
+   "series": "KXFED",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T2.75": {
+   "series": "KXFED",
+   "candles": 36,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T2.50": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T2.25": {
+   "series": "KXFED",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T2.00": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T1.75": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T1.50": {
+   "series": "KXFED",
+   "candles": 34,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T1.25": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T1.00": {
+   "series": "KXFED",
+   "candles": 37,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T0.75": {
+   "series": "KXFED",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T0.50": {
+   "series": "KXFED",
+   "candles": 43,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T0.25": {
+   "series": "KXFED",
+   "candles": 35,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27MAR-T0.00": {
+   "series": "KXFED",
+   "candles": 31,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-13T14:00:00Z",
+   "close_time": "2027-03-17T17:55:00Z"
+  },
+  "KXFED-27JAN-T4.25": {
+   "series": "KXFED",
+   "candles": 44,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T4.00": {
+   "series": "KXFED",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T3.75": {
+   "series": "KXFED",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T3.50": {
+   "series": "KXFED",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T3.25": {
+   "series": "KXFED",
+   "candles": 51,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T3.00": {
+   "series": "KXFED",
+   "candles": 52,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T2.75": {
+   "series": "KXFED",
+   "candles": 48,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T2.50": {
+   "series": "KXFED",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T2.25": {
+   "series": "KXFED",
+   "candles": 23,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T2.00": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T1.75": {
+   "series": "KXFED",
+   "candles": 38,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T1.50": {
+   "series": "KXFED",
+   "candles": 44,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T1.25": {
+   "series": "KXFED",
+   "candles": 39,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T1.00": {
+   "series": "KXFED",
+   "candles": 32,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T0.75": {
+   "series": "KXFED",
+   "candles": 26,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T0.50": {
+   "series": "KXFED",
+   "candles": 29,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T0.25": {
+   "series": "KXFED",
+   "candles": 42,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-27JAN-T0.00": {
+   "series": "KXFED",
+   "candles": 36,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-10-06T14:00:00Z",
+   "close_time": "2027-01-27T18:55:00Z"
+  },
+  "KXFED-26DEC-T5.25": {
+   "series": "KXFED",
+   "candles": 23,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T5.00": {
+   "series": "KXFED",
+   "candles": 19,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T4.75": {
+   "series": "KXFED",
+   "candles": 16,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T4.50": {
+   "series": "KXFED",
+   "candles": 47,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T4.25": {
+   "series": "KXFED",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T4.00": {
+   "series": "KXFED",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T3.75": {
+   "series": "KXFED",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T3.50": {
+   "series": "KXFED",
+   "candles": 28,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T3.25": {
+   "series": "KXFED",
+   "candles": 29,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T3.00": {
+   "series": "KXFED",
+   "candles": 9,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXFED-26DEC-T2.75": {
+   "series": "KXFED",
+   "candles": 18,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2025-08-06T14:30:00Z",
+   "close_time": "2026-12-09T18:55:00Z"
+  },
+  "KXCPI-26NOV-T-0.3": {
+   "series": "KXCPI",
+   "candles": 20,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-11-05T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPI-26NOV-T-0.2": {
+   "series": "KXCPI",
+   "candles": 20,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-11-05T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.9": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.8": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.7": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.6": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.5": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.4": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.3": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.2": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.1": {
+   "series": "KXCPI",
+   "candles": 52,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T-0.1": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26DEC-T0.0": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-17T15:30:00Z",
+   "close_time": "2027-01-13T13:29:00Z"
+  },
+  "KXCPI-26NOV-T0.5": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPI-26NOV-T0.4": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPI-26NOV-T0.3": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPI-26NOV-T0.2": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPI-26NOV-T0.1": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPI-26NOV-T-0.1": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPI-26NOV-T0.0": {
+   "series": "KXCPI",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-02-20T15:00:00Z",
+   "close_time": "2026-12-10T13:29:00Z"
+  },
+  "KXCPICORE-26DEC-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 50,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 51,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26DEC-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-09-18T16:00:00Z",
+   "close_time": "2027-01-13T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T1.0": {
+   "series": "KXCPICORE",
+   "candles": 46,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.9": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.8": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.7": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.6": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.5": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.4": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.3": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.2": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.1": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXCPICORE-26NOV-T0.0": {
+   "series": "KXCPICORE",
+   "candles": 53,
+   "source": "live",
+   "discovery_source": "live",
+   "status": "active",
+   "open_time": "2026-06-11T00:15:00Z",
+   "close_time": "2026-12-10T13:25:00Z"
+  },
+  "KXNBA-26-SAS": {
+   "series": "KXNBA",
+   "candles": 20,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-06-14T03:32:24Z"
+  },
+  "KXNBA-26-OKC": {
+   "series": "KXNBA",
+   "candles": 6,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-31T02:50:41Z"
+  },
+  "KXNBA-26-NYK": {
+   "series": "KXNBA",
+   "candles": 20,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-06-14T03:32:24Z"
+  },
+  "KXNBA-26-CLE": {
+   "series": "KXNBA",
+   "candles": 1,
+   "source": "historical",
+   "discovery_source": "historical",
+   "status": "finalized",
+   "open_time": "2025-07-12T14:00:00Z",
+   "close_time": "2026-05-26T02:32:20Z"
+  }
+ }
+}

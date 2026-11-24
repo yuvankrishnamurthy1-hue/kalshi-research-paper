@@ -9,7 +9,7 @@
 """
 import csv, json, os
 
-PAPER = "/home/hatch/workspace/kalshi-paper"
+PAPER = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root (was a hard-coded sandbox path)
 HID = os.path.join(PAPER, "hidden_files")
 
 SPORTS = ("KXNBA", "KXSB", "KXMLB")
